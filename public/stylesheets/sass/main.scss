@@ -1,0 +1,9 @@
+@import '_grid_layout';
+
+.outer-block {
+  @include outer-block;
+}
+
+.inner-block {
+  @include inner-block;
+}
