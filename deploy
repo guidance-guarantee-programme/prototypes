@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+set -e
+
+CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+HEROKU_REMOTE="heroku-$CURRENT_BRANCH"
+
+if [ -z "$CURRENT_BRANCH" ]; then
+  echo "ERROR: Couldn't determine current branch."
+  exit 1
+fi
+
+if [ -z "$HEROKU_REMOTE" ]; then
+  echo "ERROR: Couldn't determine heroku remote."
+  exit 1
+fi
+
+heroku config:set \
+  GOVUK_APP_DOMAIN=gov.uk \
+  PLEK_SERVICE_STATIC_URI=assets.digital.cabinet-office.gov.uk \
+  --remote $HEROKU_REMOTE
+
+git push $HEROKU_REMOTE $CURRENT_BRANCH:master
