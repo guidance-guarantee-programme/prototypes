@@ -15,11 +15,6 @@ if [ -z "$HEROKU_REMOTE" ]; then
   exit 1
 fi
 
-heroku config:set \
-  GOVUK_APP_DOMAIN=gov.uk \
-  PLEK_SERVICE_STATIC_URI=assets.digital.cabinet-office.gov.uk \
-  --remote $HEROKU_REMOTE
-
 git push $HEROKU_REMOTE $CURRENT_BRANCH:master
 
 heroku open --remote $HEROKU_REMOTE

@@ -16,6 +16,10 @@ git checkout -b $PROTOTYPE_NAME
 git push -u origin $PROTOTYPE_NAME
 
 heroku create --remote $HEROKU_REMOTE
+heroku config:set \
+  GOVUK_APP_DOMAIN=gov.uk \
+  PLEK_SERVICE_STATIC_URI=assets.digital.cabinet-office.gov.uk \
+  --remote $HEROKU_REMOTE
 cat HEROKU-COLLABORATORS.txt | xargs -I% heroku sharing:add % --remote $HEROKU_REMOTE
 
 ./deploy
