@@ -7,7 +7,6 @@ A template for prototyping.
 
 * [Git]
 * [Ruby 2.1.2][Ruby]
-* [GOV.UK static files/resources][alphagov/static]
 
 
 ## Installation
@@ -41,7 +40,6 @@ $ foreman s
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
 
-[alphagov/static]: http://github.com/alphagov/static
 [bundler]: http://bundler.io
 [git]: http://git-scm.com
 [ruby]: http://www.ruby-lang.org/en
