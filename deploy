@@ -6,12 +6,12 @@ CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 HEROKU_REMOTE="heroku-$CURRENT_BRANCH"
 
 if [ -z "$CURRENT_BRANCH" ]; then
-  echo "ERROR: Couldn't determine current branch."
+  >&2 echo "ERROR: Couldn't determine current branch."
   exit 1
 fi
 
 if [ -z "$HEROKU_REMOTE" ]; then
-  echo "ERROR: Couldn't determine heroku remote."
+  >&2 echo "ERROR: Couldn't determine heroku remote."
   exit 1
 fi
 

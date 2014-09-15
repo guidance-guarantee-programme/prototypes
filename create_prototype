@@ -6,7 +6,7 @@ PROTOTYPE_NAME="$1"
 HEROKU_REMOTE="heroku-$PROTOTYPE_NAME"
 
 if [ -z $PROTOTYPE_NAME ]; then
-  echo "ERROR: You must specify a prototype name, e.g. $ create_prototype my-fancy-prototype"
+  >&2 echo "ERROR: You must specify a prototype name, e.g. $ create_prototype my-fancy-prototype"
   exit 1
 fi
 
