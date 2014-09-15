@@ -21,3 +21,5 @@ heroku config:set \
   --remote $HEROKU_REMOTE
 
 git push $HEROKU_REMOTE $CURRENT_BRANCH:master
+
+heroku open --remote $HEROKU_REMOTE
