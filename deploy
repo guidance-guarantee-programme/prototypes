@@ -15,6 +15,13 @@ if [ -z "$HEROKU_REMOTE" ]; then
   exit 1
 fi
 
+if [ -z "$(git remote | grep $HEROKU_REMOTE)" ]; then
+  # CURRENT_BRANCH is the name of the prototype
+  echo "Creating remote $HEROKU_REMOTE for prototype $CURRENT_BRANCH"
+  git remote add $HEROKU_REMOTE git@heroku.com:$CURRENT_BRANCH.git
+fi
+
+echo "Deploying $CURRENT_BRANCH to heroku..."
 git push $HEROKU_REMOTE $CURRENT_BRANCH:master
 
 heroku open --remote $HEROKU_REMOTE
