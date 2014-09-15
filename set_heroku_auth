@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+AUTH_USERNAME="$1"
+AUTH_PASSWORD="$2"
+
+if [ -z "$AUTH_USERNAME" ] || [ -z "$AUTH_PASSWORD" ]; then
+  >&2 echo "ERROR: You must specify a username password, e.g. $ set_heroku_auth my-username my-password"
+  exit 1
+fi
+
+HEROKU_REMOTE="heroku-$PROTOTYPE_NAME"
+heroku config:set AUTH_USERNAME="$AUTH_USERNAME" AUTH_PASSWORD="$AUTH_PASSWORD" --remote $HEROKU_REMOTE
