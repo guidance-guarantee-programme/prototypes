@@ -2,7 +2,7 @@
 
 set -e
 
-PROTOTYPE_NAME="$1"
+PROTOTYPE_NAME="ggp-$1"
 HEROKU_REMOTE="heroku-$PROTOTYPE_NAME"
 
 if [ -z $PROTOTYPE_NAME ]; then
@@ -15,7 +15,7 @@ git reset origin/master --hard
 git checkout -b $PROTOTYPE_NAME
 git push -u origin $PROTOTYPE_NAME
 
-heroku create --region eu --remote $HEROKU_REMOTE
+heroku create $PROTOTYPE_NAME --region eu --remote $HEROKU_REMOTE
 heroku config:set \
   GOVUK_APP_DOMAIN=gov.uk \
   PLEK_SERVICE_STATIC_URI=assets.digital.cabinet-office.gov.uk \
