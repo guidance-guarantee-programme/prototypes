@@ -10,8 +10,6 @@ if [ -z $PROTOTYPE_NAME ]; then
   exit 1
 fi
 
-git checkout master
-git reset origin/master --hard
 git checkout -b $PROTOTYPE_NAME
 git push -u origin $PROTOTYPE_NAME
 
