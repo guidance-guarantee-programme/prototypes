@@ -7,6 +7,7 @@ Prototypes for the Guidance Guarantee Programme.
 
 * [Git]
 * [Ruby 2.1.2][Ruby]
+* [Bundler]
 
 
 ## Installation
