@@ -1,6 +1,6 @@
-# Prototype Template
+# Prototypes
 
-A template for prototyping.
+Prototypes for the Guidance Guarantee Programme.
 
 
 ## Prerequisites
@@ -14,7 +14,7 @@ A template for prototyping.
 Clone the repository:
 
 ```sh
-$ git clone https://github.com/guidance-guarantee-programme/prototype_template.git
+$ git clone https://github.com/guidance-guarantee-programme/prototypes.git
 ```
 
 Make sure all dependencies are available to the application:
@@ -29,6 +29,12 @@ To start the application:
 
 ```sh
 $ foreman s
+```
+
+## Creating a prototype:
+
+```sh
+$ ./bin/create_prototype YYYYMMDD-goal-variant
 ```
 
 ## Contributing
