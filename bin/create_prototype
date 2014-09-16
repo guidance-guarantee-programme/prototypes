@@ -22,5 +22,5 @@ heroku config:set \
   --remote $HEROKU_REMOTE
 cat HEROKU-COLLABORATORS.txt | xargs -I% heroku sharing:add % --remote $HEROKU_REMOTE
 
-./set_heroku_auth
-./deploy
+./bin/set_heroku_auth
+./bin/deploy
