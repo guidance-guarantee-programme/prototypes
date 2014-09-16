@@ -16,6 +16,10 @@ end if production?
 use Sass::Plugin::Rack
 use Slimmer::App
 
+configure do
+  set :server, :puma
+end
+
 get '/' do
   erb :index
 end
