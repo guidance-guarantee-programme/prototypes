@@ -15,7 +15,7 @@ git reset origin/master --hard
 git checkout -b $PROTOTYPE_NAME
 git push -u origin $PROTOTYPE_NAME
 
-heroku create --remote $HEROKU_REMOTE
+heroku create --region eu --remote $HEROKU_REMOTE
 heroku config:set \
   GOVUK_APP_DOMAIN=gov.uk \
   PLEK_SERVICE_STATIC_URI=assets.digital.cabinet-office.gov.uk \
