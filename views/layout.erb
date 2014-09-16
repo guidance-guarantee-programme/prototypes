@@ -5,12 +5,26 @@
   <link rel="stylesheet" href="stylesheets/main.css">
 </head>
 <body>
-  <div id="wrapper">
-    <div class="outer-block">
-      <div class="inner-block">
-        <%= yield %>
+<div id="wrapper" class="guide">
+  <main id="content" role="main" class="group">
+    <header class="page-header group">
+      <div>
+        <h1><%= yield_content :page_title %></h1>
       </div>
+    </header>
+
+    <div class="article-container group">
+      <article role="article" class="group">
+        <div class="inner">
+          <%= yield %>
+        </div>
+      </article>
     </div>
-  </div>
+
+    <div class="meta-data group">
+      <p class="modified-date">Last updated: 16 September 2014</p>
+    </div>
+  </main>
+</div>
 </body>
 </html>

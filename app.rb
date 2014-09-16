@@ -2,6 +2,7 @@ require 'bundler'
 require 'bundler/setup'
 
 require 'sinatra'
+require 'sinatra/content_for'
 require 'sinatra/reloader' if development?
 
 require 'slimmer'
