@@ -123,11 +123,89 @@
 <div class="grid-divider"></div>
 
 
-<!--
 <div class="inner-block">
-  <h2 class="heading-large">forms</h2>
-  <div class="insert">insert</div>
+  <h2 class="heading-large">Forms</h2>
+
+  <form action="/" method="post" class="form">
+
+    <h3 class="form-title heading-xlarge">
+      Your details
+    </h3>
+
+    <!-- Full name -->
+    <div class="form-group">
+      <label class="form-label-bold" for="full-name">Full name</label>
+      <input type="text" class="form-control" id="full-name">
+    </div>
+
+    <!-- Gender -->
+    <div class="form-group">
+      <fieldset class="inline">
+        <legend class="form-label-bold">Gender</legend>
+
+        <label for="radio-inline-1" class="block-label">
+          <input id="radio-inline-1" type="radio" name="radio-inline-group" value="Male">
+          Male
+        </label>
+        <label for="radio-inline-2" class="block-label">
+          <input id="radio-inline-2" type="radio" name="radio-inline-group" value="Female">
+          Female
+        </label>
+      </fieldset>
+    </div>
+
+    <!-- National Insurance number -->
+    <div class="form-group">
+      <label class="form-label-bold" for="ni-number">
+        National Insurance number
+            <span class="form-hint">
+              It's on your National Insurance card, benefit letter, payslip or P60.
+              <br>
+              For example, 'VO 12 34 56 D'.
+            </span>
+      </label>
+      <input type="text" class="form-control" id="ni-number">
+    </div>
+
+    <!-- Date of birth -->
+    <div class="form-group">
+      <fieldset>
+        <legend class="form-label-bold">Date of birth</legend>
+
+        <div class="form-date">
+          <p class="form-hint">For example, 08 04 2014</p>
+
+          <div class="form-group form-group-day">
+            <label for="dob-day">Day</label>
+            <input type="text" class="form-control" id="dob-day">
+          </div>
+          <div class="form-group form-group-month">
+            <label for="dob-month">Month</label>
+            <input type="text" class="form-control" id="dob-month">
+          </div>
+          <div class="form-group form-group-year">
+            <label for="dob-year">Year</label>
+            <input type="text" class="form-control" id="dob-year">
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <!-- Primary buttons, secondary links -->
+    <div class="form-group">
+      <input type="submit" class="button" value="Continue">
+      <ul>
+        <li><a href="#">Skip this section for now</a></li>
+        <li><a href="/">Back</a></li>
+      </ul>
+    </div>
+
+  </form>
 </div>
+
+
+<!--
+
 
 <h2>tables</h2>
 <div class="insert">tables</div>
