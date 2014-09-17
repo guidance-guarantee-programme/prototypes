@@ -1,0 +1,15 @@
+{
+  "name": "prototypes",
+  "dependencies": {
+    "govuk_elements": "https://github.com/guidance-guarantee-programme/govuk_elements.git"
+  },
+  "version": "0.0.0",
+  "homepage": "https://github.com/guidance-guarantee-programme/prototypes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
