@@ -1,22 +1,3 @@
-@import 'colours';
-@import 'conditionals';
-@import 'css3';
-@import 'device-pixels';
-@import 'grid_layout';
-@import 'measurements';
-@import 'shims';
-@import 'typography';
-@import "design-patterns/alpha-beta";
-@import "design-patterns/buttons";
-
-
-
-
-.outer-block {
-  @include outer-block;
+.grid-demo .grid .inner-block {
+  background: #ddd;
 }
-
-.inner-block {
-  @include inner-block;
-}
-

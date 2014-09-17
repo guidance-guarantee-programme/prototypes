@@ -2,39 +2,135 @@
   GOV.UK Element
 <% end %>
 
+<div class="inner-block">
+  <h1 class="heading-xlarge">
+    <%= yield_content :page_title %>
+  </h1>
 
-<h2>typography</h2>
+  <h2 class="heading-large">typography</h2>
 
-<div class="font-xxlarge">font-xxlarge</div>
-<div class="font-xlarge">font-xlarge</div>
-<div class="font-large">font-large</div>
-<div class="font-medium">font-medium</div>
-<div class="font-small">font-small</div>
-<div class="font-xsmall">font-xsmall</div>
-<div class="bold-xxlarge ">bold-xxlarge </div>
-<div class="bold-xlarge">bold-xlarge</div>
-<div class="bold-large">bold-large</div>
-<div class="bold-medium">bold-medium</div>
-<div class="bold-small ">bold-small </div>
-<div class="bold-xsmall">bold-xsmall</div>
-<div class="heading-xlarge">heading-xlarge</div>
-<div class="heading-large">heading-large</div>
-<div class="heading-medium ">heading-medium </div>
-<div class="heading-small">heading-small</div>
-<p>This is a paragraph</p>
-<div class="lede">lede</div>
-<div class="text">text</div>
-<div class="text-secondary">text-secondary</div>
+  <div class="font-xxlarge">font-xxlarge</div>
+  <div class="font-xlarge">font-xlarge</div>
+  <div class="font-large">font-large</div>
+  <div class="font-medium">font-medium</div>
+  <div class="font-small">font-small</div>
+  <div class="font-xsmall">font-xsmall</div>
+  <div class="bold-xxlarge ">bold-xxlarge </div>
+  <div class="bold-xlarge">bold-xlarge</div>
+  <div class="bold-large">bold-large</div>
+  <div class="bold-medium">bold-medium</div>
+  <div class="bold-small ">bold-small </div>
+  <div class="bold-xsmall">bold-xsmall</div>
+  <div class="heading-xlarge">heading-xlarge</div>
+  <div class="heading-large">heading-large</div>
+  <div class="heading-medium ">heading-medium </div>
+  <div class="heading-small">heading-small</div>
+  <p>This is a paragraph</p>
+  <div class="lede">lede</div>
+  <div class="text">text</div>
+  <div class="text-secondary">text-secondary</div>
+
+  <h2 class="heading-large">layout</h2>
+</div>
+
+<div class="grid-wrapper grid-demo">
+  <div class="grid">
+    <div class="inner-block">
+      <h3 class="heading-small">Full width</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+</div>
+
+<div class="grid-wrapper grid-demo">
+  <div class="grid grid-2-3">
+    <div class="inner-block">
+      <h3 class="heading-small">Two thirds</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+  <div class="grid grid-1-3">
+    <div class="inner-block">
+      <h3 class="heading-small">One third</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+</div>
+
+<div class="grid-wrapper grid-demo">
+  <div class="grid grid-1-3">
+    <div class="inner-block">
+      <h3 class="heading-small">One third</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+  <div class="grid grid-1-3">
+    <div class="inner-block">
+      <h3 class="heading-small">One third</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+  <div class="grid grid-1-3">
+    <div class="inner-block">
+      <h3 class="heading-small">One third</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+</div>
+
+<div class="grid-wrapper grid-demo">
+  <div class="grid grid-1-2">
+    <div class="inner-block">
+      <h3 class="heading-small">One half</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+  <div class="grid grid-1-2">
+    <div class="inner-block">
+      <h3 class="heading-small">One half</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+</div>
+
+<div class="grid-wrapper grid-demo">
+  <div class="grid grid-1-4">
+    <div class="inner-block">
+      <h3 class="heading-small">One quarter</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+  <div class="grid grid-1-4">
+    <div class="inner-block">
+      <h3 class="heading-small">One quarter</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+  <div class="grid grid-1-4">
+    <div class="inner-block">
+      <h3 class="heading-small">One quarter</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+  <div class="grid grid-1-4">
+    <div class="inner-block">
+      <h3 class="heading-small">One quarter</h3>
+      <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div>
+  </div>
+</div>
+
+<div class="grid-divider"></div>
 
 
-<h2>layout</h2>
-<div class="insert">insert</div>
-
-<h2>forms</h2>
-<div class="insert">insert</div>
+<!--
+<div class="inner-block">
+  <h2 class="heading-large">forms</h2>
+  <div class="insert">insert</div>
+</div>
 
 <h2>tables</h2>
-<div class="insert">insert</div>
+<div class="insert">tables</div>
 
 <h2>buttons</h2>
 <div class="insert">buttons</div>
@@ -50,5 +146,4 @@
 
 <h2>icons</h2>
 <div class="insert">icons</div>
-
-
+-->
