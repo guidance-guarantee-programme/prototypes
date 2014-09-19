@@ -2,7 +2,7 @@
 <html>
 <head>
   <title><%= yield_content :page_title %>- GOV.UK</title>
-  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/prototypes.css">
 </head>
 <body>
 <div id="wrapper" class="guide">
@@ -13,13 +13,7 @@
       </div>
     </header>
 
-    <div class="article-container group">
-      <article role="article" class="group">
-        <div class="inner">
-          <%= yield %>
-        </div>
-      </article>
-    </div>
+    <%= yield %>
 
     <div class="meta-data group">
       <p class="modified-date">Last updated: 16 September 2014</p>
