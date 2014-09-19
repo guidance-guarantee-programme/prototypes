@@ -1,9 +1,12 @@
-@import '_grid_layout';
-
-.outer-block {
-  @include outer-block;
+.img-large {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
 }
 
-.inner-block {
-  @include inner-block;
+.img-small {
+  width: 200px;
+  height:200px;
+  float:right;
+  margin-left:5px;
 }
