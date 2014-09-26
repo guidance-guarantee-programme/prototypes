@@ -90,6 +90,18 @@ get '/check-your-request' do
   erb :check_your_request
 end
 
+post '/send-request' do
+  twilio = Twilio::REST::Client.new
+
+  name    = session[:name]
+  mobile  = session[:phone]
+  message = "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!"
+
+  twilio.account.messages.create from: '+15005550006', to: mobile, body: message
+
+  redirect to('/request-sent')
+end
+
 get '/request-sent' do
   erb :request_sent
 end
