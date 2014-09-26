@@ -74,6 +74,12 @@ get '/book-a-session' do
   erb :book_a_session
 end
 
+post '/book-a-session' do
+  session[:slots] = params[:slots]
+
+  redirect to('/check-your-request')
+end
+
 get '/check-your-request' do
   erb :check_your_request
 end
