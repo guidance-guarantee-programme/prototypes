@@ -81,6 +81,12 @@ post '/book-a-session' do
 end
 
 get '/check-your-request' do
+  @name    = session[:name]
+  @surname = session[:surname]
+  @email   = session[:email]
+  @phone   = session[:phone]
+  @slots   = session[:slots]
+
   erb :check_your_request
 end
 

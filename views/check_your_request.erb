@@ -5,13 +5,19 @@
 <article role="article" class="group">
   <div class="inner-block">
     <h2>Your details</h2>
-    <p>Name: foo</p>
-    <p>Email: foo@bah.com</p>
-    <p>Phone: 07813 123456</p>
+    <p>First name: <%= @name %></p>
+    <p>Last name: <%= @surname %></p>
+    <p>Email: <%= @email %></p>
+    <p>Phone: <%= @phone %></p>
     <p><a href="/contact-details">Change your details</a></p>
 
     <h2>Your Session</h2>
-    <p>Date: foo</p>
+    <p>You will receive a call from one of our pension specialists on:</p>
+    <ul>
+        <% @slots.reject(&:empty?).each do |slot| %>
+            <li><%= slot %></li>
+        <% end %>
+    </ul>
     <p><a href="/book-a-session">Change your session</a></p>
 
     <a href="/request-sent" class="button">Send request</a>
