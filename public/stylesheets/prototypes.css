@@ -1,13 +1,12 @@
 .DateSlider,
 .SlotPicker-input {
-  display:none;
-}
+  display: none; }
 
 input[type="text"] {
-  margin:0;
-}
+  margin: 0; }
 
 .report-a-problem-toggle-wrapper,
 .report-a-problem-content {
- text-align:left;
-}
+  text-align: left; }
+
+/*# sourceMappingURL=prototypes.css.map */

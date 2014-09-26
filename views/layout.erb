@@ -8,11 +8,11 @@
 <body>
 <div id="wrapper" class="guide">
   <main id="content" role="main" class="group">
-    <header class="page-header group">
-      <div>
-        <h1><%= yield_content :page_title %></h1>
-      </div>
-    </header>
+    <div class="inner-block text">
+      <h1 class="heading-xlarge">
+        <%= yield_content :page_title %>
+      </h1>
+    </div>
 
     <%= yield %>
 

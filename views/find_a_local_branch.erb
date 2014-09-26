@@ -2,10 +2,25 @@
   Find a local branch
 <% end %>
 
-<article role="article" class="group">
-  <div class="inner-block">
-      <div class="text">
-        <p>Enter your post code below and we will find your nearest locations for a face to face session.</p>
-      </div>
-  </div>
-</article>
+
+<div class="inner-block">
+
+  <p class="text">
+    There are 26 locations in the UK where you can have a face to face
+    session.
+    Enter your postcode to find the nearest location.
+  </p>
+
+  <form action="/local-branch-results" method="get" class="form">
+    <div class="form-group">
+      <label class="form-label-bold" for="full-name">Post code</label>
+      <input type="text" class="form-control" id="postcode" name="postcode">
+    </div>
+
+    <div class="form-group">
+      <input type="submit" class="button" value="Search">
+    </div>
+  </form>
+
+</div>
+

@@ -52,6 +52,10 @@ get '/find-a-local-branch' do
   erb :find_a_local_branch
 end
 
+get '/local-branch-results' do
+  erb :local_branch_results
+end
+
 get '/contact-details' do
   erb :contact_details
 end

@@ -1,0 +1,39 @@
+<% content_for :page_title do %>
+  Find a local branch - Results
+<% end %>
+
+
+<div class="inner-block">
+
+    <p>Your local branches are</p>
+
+    <ol class="list-number">
+      <li>
+        <strong class="bold-medium">Earlsfield</strong><br/>
+        591 Garratt Lane, London, Greater London SW18 4ST<br/>
+        Distance: 2 miles
+      </li>
+      <li>
+        <strong class="bold-medium">Tooting</strong><br/>
+        2/4 Gatton Road, Tooting, London, Greater London<br/>
+        Distance: 3 miles
+      </li>
+    </ol>
+
+
+  <p class="text">
+    Enter a postcode to search again.
+  </p>
+
+  <form action="/local-branch-results" method="get" class="form">
+    <div class="form-group">
+      <label class="form-label-bold" for="full-name">Post code</label>
+      <input type="text" class="form-control" id="postcode" name="postcode">
+    </div>
+
+    <div class="form-group">
+      <input type="submit" class="button" value="Search">
+    </div>
+  </form>
+
+</div>
