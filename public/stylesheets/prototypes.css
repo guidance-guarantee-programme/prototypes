@@ -5,4 +5,8 @@
 input[type="text"] {
   margin: 0; }
 
+.report-a-problem-toggle-wrapper,
+.report-a-problem-content {
+  text-align: left; }
+
 /*# sourceMappingURL=prototypes.css.map */
