@@ -1,7 +1,8 @@
 {
   "name": "prototypes",
   "dependencies": {
-    "govuk_elements": "https://github.com/guidance-guarantee-programme/govuk_elements.git"
+    "govuk_elements": "https://github.com/guidance-guarantee-programme/govuk_elements.git",
+    "moj_slotpicker": "https://github.com/ministryofjustice/moj_slotpicker.git"
   },
   "version": "0.0.0",
   "homepage": "https://github.com/guidance-guarantee-programme/prototypes",

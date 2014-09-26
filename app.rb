@@ -10,7 +10,7 @@ require 'sass/plugin/rack'
 require 'tilt/govspeak'
 
 Sass.load_paths << Gem.loaded_specs['govuk_frontend_toolkit'].full_gem_path + '/app/assets/stylesheets'
-Sass::Plugin.add_template_location('bower_components/govuk_elements/sass')
+Sass::Plugin.add_template_location('bower_components/govuk_elements/public/sass')
 
 Tilt.prefer Tilt::GovspeakTemplate
 
@@ -28,4 +28,12 @@ end
 
 get '/' do
   erb :index
+end
+
+get '/article' do
+  erb :article
+end
+
+get '/book-a-session' do
+  erb :book_a_session
 end
