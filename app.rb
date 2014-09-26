@@ -103,5 +103,7 @@ post '/send-request' do
 end
 
 get '/request-sent' do
+  @slots = session[:slots]
+
   erb :request_sent
 end

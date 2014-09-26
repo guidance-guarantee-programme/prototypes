@@ -4,11 +4,17 @@
 
 <article role="article" class="group">
   <div class="inner-block text">
-    <p>Your session is on 11/05/2015 at 9:50am at Earlsfield and will last upto 30 minutes</p>
+    <p>Your session is on</p>
+    <ul>
+      <% @slots.reject(&:empty?).each do |slot| %>
+          <li><%= slot %></li>
+      <% end %>
+    </ul>
+
+    <p>and will last upto 30 minutes</p>
 
     <p>Make sure that ...</p>
 
     <p>If you need to reschedule or cancel ...</p>
-
   </div>
 </article>
