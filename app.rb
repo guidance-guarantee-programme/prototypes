@@ -25,6 +25,7 @@ use Slimmer::App
 configure do
   set :markdown, layout_engine: :erb
   set :server, :puma
+  set :sessions, true
 end
 
 Twilio.configure do |config|
