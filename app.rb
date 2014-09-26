@@ -34,6 +34,30 @@ get '/article' do
   erb :article
 end
 
+get '/guidance-session' do
+  erb :guidance_session
+end
+
+get '/session-type' do
+  erb :session_type
+end
+
+get '/find-a-local-branch' do
+  erb :find_a_local_branch
+end
+
+get '/contact-details' do
+  erb :contact_details
+end
+
 get '/book-a-session' do
   erb :book_a_session
+end
+
+get '/check-your-request' do
+  erb :check_your_request
+end
+
+get '/request-sent' do
+  erb :request_sent
 end

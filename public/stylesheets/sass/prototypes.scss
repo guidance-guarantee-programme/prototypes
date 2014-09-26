@@ -1,9 +1,8 @@
-@import '_grid_layout';
-
-.outer-block {
-  @include outer-block;
+.DateSlider,
+.SlotPicker-input {
+  display:none;
 }
 
-.inner-block {
-  @include inner-block;
+input[type="text"] {
+  margin:0;
 }

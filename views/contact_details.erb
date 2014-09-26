@@ -1,0 +1,26 @@
+<% content_for :page_title do %>
+  Your details
+<% end %>
+
+<div class="inner-block">
+  <form action="/book-a-session" method="get" class="form">
+    <div class="form-group">
+      <label class="form-label-bold" for="full-name">Full name</label>
+      <input type="text" class="form-control" id="full-name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label class="form-label-bold" for="full-name">Email</label>
+      <input type="text" class="form-control" id="email" name="email">
+    </div>
+
+    <div class="form-group">
+      <label class="form-label-bold" for="full-name">Phone</label>
+      <input type="text" class="form-control" id="phone" name="phone">
+    </div>
+
+    <div class="form-group">
+      <input type="submit" class="button" value="Continue">
+    </div>
+  </form>
+</div>
