@@ -8,6 +8,7 @@ require 'sinatra/reloader' if development?
 require 'slimmer'
 require 'sass/plugin/rack'
 require 'tilt/govspeak'
+require 'twilio-ruby'
 
 Sass.load_paths << Gem.loaded_specs['govuk_frontend_toolkit'].full_gem_path + '/app/assets/stylesheets'
 Sass::Plugin.add_template_location('bower_components/govuk_elements/public/sass')
@@ -24,6 +25,11 @@ use Slimmer::App
 configure do
   set :markdown, layout_engine: :erb
   set :server, :puma
+end
+
+Twilio.configure do |config|
+  config.account_sid = ENV['TWILIO_ACCOUNT_SID']
+  config.auth_token = ENV['TWILIO_AUTH_TOKEN']
 end
 
 get '/' do
