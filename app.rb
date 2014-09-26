@@ -61,6 +61,15 @@ get '/contact-details' do
   erb :contact_details
 end
 
+post '/contact-details' do
+  session[:name]    = params[:name]
+  session[:surname] = params[:surname]
+  session[:email]   = params[:email]
+  session[:phone]   = params[:phone]
+
+  redirect to('/book-a-session')
+end
+
 get '/book-a-session' do
   erb :book_a_session
 end
