@@ -26,7 +26,7 @@
   SlotPicker.prototype = {
     
     defaults: {
-      optionLimit: 3,
+      optionLimit: 1,
       singleUnavailableMsg: true,
       selections: 'has-selections',
       bookableDates: [],
