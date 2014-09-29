@@ -77,17 +77,17 @@ end
 post '/book-a-session' do
   session[:slots] = params[:slots]
 
-  redirect to('/check-your-request')
+  redirect to('/check-your-booking')
 end
 
-get '/check-your-request' do
+get '/check-your-booking' do
   @name    = session[:name]
   @surname = session[:surname]
   @email   = session[:email]
   @phone   = session[:phone]
   @slots   = session[:slots]
 
-  erb :check_your_request
+  erb :check_your_booking
 end
 
 post '/send-request' do
@@ -99,11 +99,11 @@ post '/send-request' do
 
   twilio.account.messages.create from: '+15005550006', to: mobile, body: message
 
-  redirect to('/request-sent')
+  redirect to('/booking-confirmation')
 end
 
-get '/request-sent' do
+get '/booking-confirmation' do
   @slots = session[:slots]
 
-  erb :request_sent
+  erb :booking_confirmation
 end
