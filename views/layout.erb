@@ -17,9 +17,10 @@
     <%= yield %>
   </main>
 
+
+  <% unless @hide_session_promo %>
   <div class="related-positioning">
     <div class="related-container">
-
       <div class="related" id="related">
         <div class="inner group related-subsection">
           <%= erb :"partials/guidance_session" %>
@@ -27,6 +28,7 @@
       </div>
     </div>
   </div>
+  <% end %>
 
   <div id="footer" class="fat-footer">
     <div class="footer-wrapper">

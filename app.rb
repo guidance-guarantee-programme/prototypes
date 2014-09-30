@@ -42,6 +42,7 @@ get '/article' do
 end
 
 get '/guidance-session' do
+  @hide_session_promo = true
   erb :guidance_session
 end
 
