@@ -5,6 +5,10 @@
   display:none;
 }
 
+header.page-header div h1 {
+  padding-top:2px;
+}
+
 #wrapper {
   padding-bottom:0;
 }
@@ -14,8 +18,19 @@ input[type="text"] {
 }
 
 .report-a-problem-toggle-wrapper,
-.report-a-problem-content {
+.report-a-problem-content,
+.related-positioning {
  text-align:left;
+}
+
+
+.where-to-start {
+  padding-bottom:20px;
+
+  h2 {
+    margin-top:0;
+    padding-top:0;
+  }
 }
 
 
@@ -31,12 +46,6 @@ input[type="text"] {
 .your-options__more {
   clear:both;
 }
-
-
-.guidance-session {
-  border-top: 10px solid #005ea5;
-}
-
 
 #footer.fat-footer {
   text-align:left;
