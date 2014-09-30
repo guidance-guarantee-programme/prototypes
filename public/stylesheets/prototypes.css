@@ -1,7 +1,11 @@
 .DateSlider,
 .SlotPicker-input,
-.SlotPicker-choices {
+.SlotPicker-choices,
+.report-a-problem-toggle-wrapper {
   display: none; }
+
+#wrapper {
+  padding-bottom: 0; }
 
 input[type="text"] {
   margin: 0; }
@@ -9,5 +13,34 @@ input[type="text"] {
 .report-a-problem-toggle-wrapper,
 .report-a-problem-content {
   text-align: left; }
+
+.your-options {
+  border-top: 1px solid #bbb; }
+
+.your-options ol {
+  width: 40%;
+  float: left; }
+
+.your-options__more {
+  clear: both; }
+
+.guidance-session {
+  border-top: 10px solid #005ea5; }
+
+#footer.fat-footer {
+  text-align: left;
+  border-top: 10px solid #005ea5;
+  margin-top: 20px; }
+  #footer.fat-footer .footer-categories {
+    padding-bottom: 0; }
+
+#footer.group {
+  border-top: none; }
+
+#footer.group .footer-categories {
+  display: none; }
+
+#wrapper {
+  border-bottom: none; }
 
 /*# sourceMappingURL=prototypes.css.map */
