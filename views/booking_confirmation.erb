@@ -1,20 +1,28 @@
 <% content_for :page_title do %>
-  Booking confirmation
+  You’ve successfully booked a pension guidance session
 <% end %>
 
 <article role="article" class="group">
   <div class="inner-block text">
-    <p>Your session is on</p>
-    <ul>
-      <% @slots.reject(&:empty?).each do |slot| %>
-          <li><%= slot %></li>
-      <% end %>
+    <h2 class="heading-small">What you need to do next</h2>
+
+    <p>At least 2 weeks before your session send an email to
+      <a href="mailto:pensions-guidance@hmt.gov.uk">pensions-guidance@hmt.gov.uk</a></p>
+
+    <p>Include the following information:</p>
+    <ul class="list-bullet">
+      <li>your name, age, gender</li>
+      <li>how much money you have in your pension pot</li>
+      <li>how much other income you have, eg from work, property, investments</li>
+      <li>if you have a spouse or partner</li>
+      <li>if you have any children</li>
     </ul>
 
-    <p>and will last upto 30 minutes</p>
+    <p>This will help our experts to prepare for your call.</p>
 
-    <p>Make sure that ...</p>
+    <h2 class="heading-small">How to cancel</h2>
+    <p>Send an email with your name and the date and time of your session to:
+      <a href="mailto:cancel-pension-session@hmt.gov.uk">cancel-pension-session@hmt.gov.uk</a></p>
 
-    <p>If you need to reschedule or cancel ...</p>
   </div>
 </article>
