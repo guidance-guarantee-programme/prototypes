@@ -6,6 +6,7 @@
   multi-page
 <% end %>
 
+
 <div class="article-container group">
   <aside>
     <div class="inner">
@@ -18,33 +19,30 @@
   <article role="article" class="group">
     <div class="inner">
 
-      <header><h1>1. <%= @your_option_page_title_1 %></h1>
+      <header><h1>3. <%= @your_option_page_title_3 %></h1>
       </header>
-      <p>There are different ways you can take the money from your pension pot.</p>
 
-      <p>You can:</p>
+      <p>You can leave your pension pot invested and take money out when you need it. This is called 'income drawdown'. Your pension provider will invest the pot, for example in stocks and shares, and you tell them when you need money and how much.</p>
 
-      <ul>
-        <li>take part or all of your pension pot as cash (lump sum)</li>
-        <li>keep your pot invested while taking money from it (income drawdown)</li>
-        <li>buy a regular income (annuity)</li>
-      </ul>
-
-      <div class="application-notice info-notice">
-        <p>You can use a mixture of all 3 if you want.</p>
-      </div>
+      <p>Any money you take from your pension as <a href="#insert_url">income drawdown is taxed</a>.</p>
 
       <footer>
         <nav class="pagination" role="navigation" aria-label="Pagination">
           <ul class="group">
-            <li class="next">
-              <a href="/your-options/2" rel="next" title="Navigate to next part">
-                <span class="pagination-label">Next</span>
+            <li class="previous">
+              <a href="/your-options/2" rel="prev" title="Navigate to previous part">
+                <span class="pagination-label">Previous </span>
                 <span class="pagination-part-title"><%= @your_option_page_title_2 %></span>
+              </a></li>
+            <li class="next">
+              <a href="/your-options/4" rel="next" title="Navigate to next part">
+                <span class="pagination-label">Next</span>
+                <span class="pagination-part-title"><%= @your_option_page_title_4 %></span>
               </a></li>
           </ul>
         </nav>
       </footer>
+
       <div class="print-link">
         <a href="/after-a-death/print" rel="nofollow" target="_blank">Print
           entire guide</a></div>
@@ -61,7 +59,3 @@
 
 
 </div>
-
-
-
-

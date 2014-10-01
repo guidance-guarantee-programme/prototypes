@@ -1,0 +1,81 @@
+<% content_for :page_title do %>
+  <%= @page_title %>
+<% end %>
+
+<% content_for :page_type do %>
+  multi-page
+<% end %>
+
+
+<div class="article-container group">
+  <aside>
+    <div class="inner">
+      <a href="#" class="show-all-parts">Show all parts of this guide</a>
+      <nav role="navigation" class="page-navigation page-navigation-closed" aria-label="parts to this guide">
+        <%= erb :"your_options/nav" %>
+      </nav>
+    </div>
+  </aside>
+  <article role="article" class="group">
+    <div class="inner">
+
+      <header><h1>4. <%= @your_option_page_title_4 %></h1>
+      </header>
+
+      <p>You can use your pension pot to buy a regular income for the rest of your life. This is called an annuity. You buy it from an insurance company, for example like you would buy life insurance.</p>
+
+      <p>You hand over your pension pot to them and they guarantee you a regular income until you die, even if your pension pot runs out of money.</p>
+
+      <p>Once you've bought your annuity your can't change this decision.</p>
+
+      <p>How much money you get depends on things like:</p>
+
+      <ul>
+        <li>how much you have in your pension pot</li>
+        <li>your age and gender</li>
+        <li>interest rates</li>
+        <li>your health and lifestyle</li>
+      </ul>
+
+
+      <p>You <a href="#insert_url">pay tax on payments from your annuity</a>, just like you do on your salary.</p>
+
+      <p>You can also buy an annuity that’s only for a fixed amount of years.</p>
+
+      <p>If you want to pass your annuity payments on to your spouse or partner you'll have to buy a joint annuity. This means that payments during your lifetime will be lower.</p>
+
+
+
+      <footer>
+        <nav class="pagination" role="navigation" aria-label="Pagination">
+          <ul class="group">
+            <li class="previous">
+              <a href="/your-options/3" rel="prev" title="Navigate to previous part">
+                <span class="pagination-label">Previous </span>
+                <span class="pagination-part-title"><%= @your_option_page_title_3 %></span>
+              </a></li>
+            <li class="next">
+              <a href="/your-options/5" rel="next" title="Navigate to next part">
+                <span class="pagination-label">Next</span>
+                <span class="pagination-part-title"><%= @your_option_page_title_5 %></span>
+              </a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      <div class="print-link">
+        <a href="/after-a-death/print" rel="nofollow" target="_blank">Print
+          entire guide</a></div>
+
+    </div>
+  </article>
+
+
+  <div class="meta-data group">
+    <!-- <div class="inner"> -->
+    <p class="modified-date">Last updated: 11 September 2014</p>
+    <!-- </div> -->
+  </div>
+
+
+</div>

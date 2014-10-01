@@ -6,6 +6,7 @@
   multi-page
 <% end %>
 
+
 <div class="article-container group">
   <aside>
     <div class="inner">
@@ -18,33 +19,35 @@
   <article role="article" class="group">
     <div class="inner">
 
-      <header><h1>1. <%= @your_option_page_title_1 %></h1>
+      <header><h1>5. <%= @your_option_page_title_5 %></h1>
       </header>
-      <p>There are different ways you can take the money from your pension pot.</p>
 
-      <p>You can:</p>
+      <p>You could mix these options at different points in your retirement.</p>
 
-      <ul>
-        <li>take part or all of your pension pot as cash (lump sum)</li>
-        <li>keep your pot invested while taking money from it (income drawdown)</li>
-        <li>buy a regular income (annuity)</li>
-      </ul>
+      <div class="example">
+        <p><strong>Example</strong></p>
+        <p>Your pension pot is £60,000. You decide to take 25% as tax-free cash = £15,000.</p>
 
-      <div class="application-notice info-notice">
-        <p>You can use a mixture of all 3 if you want.</p>
+        <p>You then use £20,000 to buy an annuity. This will give you an income for the rest of your life of about £900 a year.</p>
+
+        <p>You leave £25,000 invested and take out about £5,000 a year for about 5 years.</p>
       </div>
+
+      <p>To help you decide which option best suits your circumstances you can
+        <a href="/guidance-session">set up a guidance appointment</a>.</p>
 
       <footer>
         <nav class="pagination" role="navigation" aria-label="Pagination">
           <ul class="group">
-            <li class="next">
-              <a href="/your-options/2" rel="next" title="Navigate to next part">
-                <span class="pagination-label">Next</span>
-                <span class="pagination-part-title"><%= @your_option_page_title_2 %></span>
+            <li class="previous">
+              <a href="/your-options/4" rel="prev" title="Navigate to previous part">
+                <span class="pagination-label">Previous </span>
+                <span class="pagination-part-title"><%= @your_option_page_title_4 %></span>
               </a></li>
           </ul>
         </nav>
       </footer>
+
       <div class="print-link">
         <a href="/after-a-death/print" rel="nofollow" target="_blank">Print
           entire guide</a></div>
@@ -61,7 +64,3 @@
 
 
 </div>
-
-
-
-
