@@ -34,10 +34,12 @@ Twilio.configure do |config|
 end
 
 get '/' do
+  @hide_session_promo = false
   erb :index
 end
 
 get '/article' do
+  @hide_session_promo = false
   erb :article
 end
 
@@ -47,18 +49,22 @@ get '/guidance-session' do
 end
 
 get '/session-type' do
+  @hide_session_promo = true
   erb :session_type
 end
 
 get '/find-a-local-branch' do
+  @hide_session_promo = true
   erb :find_a_local_branch
 end
 
 get '/local-branch-results' do
+  @hide_session_promo = true
   erb :local_branch_results
 end
 
 get '/contact-details' do
+  @hide_session_promo = true
   erb :contact_details
 end
 
@@ -72,6 +78,7 @@ post '/contact-details' do
 end
 
 get '/book-a-session' do
+  @hide_session_promo = true
   erb :book_a_session
 end
 
@@ -82,6 +89,7 @@ post '/book-a-session' do
 end
 
 get '/check-your-booking' do
+  @hide_session_promo = true
   @name    = session[:name]
   @surname = session[:surname]
   @email   = session[:email]
@@ -104,12 +112,14 @@ post '/send-request' do
 end
 
 get '/booking-confirmation' do
+  @hide_session_promo = true
   @slots = session[:slots]
 
   erb :booking_confirmation
 end
 
 get '/your-options/overview' do
+  @hide_session_promo = false
   erb :"your_options/overview"
 end
 
