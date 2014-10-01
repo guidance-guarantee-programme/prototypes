@@ -125,7 +125,7 @@ post '/send-request' do
   redirect to('/booking-confirmation')
 end
 
-get '/reminder-call', provides: ['xml'] do
+post '/reminder-call', provides: ['xml'] do
   name  = session[:name]
 
   builder do |xml|
