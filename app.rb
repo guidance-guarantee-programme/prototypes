@@ -103,15 +103,48 @@ get '/check-your-booking' do
 end
 
 post '/send-request' do
-  twilio = Twilio::REST::Client.new
+  name  = session[:name]
+  phone = Phonelib.parse(session[:phone])
 
-  name    = session[:name]
-  mobile  = session[:phone]
-  message = "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!"
+  if phone.valid?
+    twilio = Twilio::REST::Client.new
+    phone = phone.international.gsub(/[[:space:]]/, '')
 
-  twilio.account.messages.create from: '+15005550006', to: mobile, body: message
+    case phone.type
+      when :mobile
+        # SMS
+        sms = {
+          from: ENV['TWILIO_FROM_NUMBER'],
+          to: phone,
+          message: "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!"
+        }
+
+        twilio.account.messages.create sms
+
+      when :fixed_line
+        # Call
+        call = {
+          from: ENV['TWILIO_FROM_NUMBER'],
+          to: phone,
+          url: 'http://ggp-sprint2-endtoend.herokuapp.com/reminder-call'
+        }
+
+        twilio.account.calls.create call
+    end
+  end
 
   redirect to('/booking-confirmation')
+end
+
+get '/reminder-call', provides: ['xml'] do
+  name  = session[:name]
+
+  builder do |xml|
+    xml.instruct!
+    xml.Response do
+      xml.Say "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!"
+    end
+  end
 end
 
 get '/booking-confirmation' do
