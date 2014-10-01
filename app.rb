@@ -115,7 +115,7 @@ post '/send-request' do
         sms = {
           from: ENV['TWILIO_FROM_NUMBER'],
           to: phone.international.gsub(/[[:space:]]/, ''),
-          message: "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!"
+          body: "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!"
         }
 
         twilio.account.messages.create sms
