@@ -5,6 +5,7 @@ require 'sinatra'
 require 'sinatra/content_for'
 require 'sinatra/reloader' if development?
 
+require 'phonelib'
 require 'slimmer'
 require 'sass/plugin/rack'
 require 'tilt/govspeak'
@@ -32,6 +33,8 @@ Twilio.configure do |config|
   config.account_sid = ENV['TWILIO_ACCOUNT_SID']
   config.auth_token = ENV['TWILIO_AUTH_TOKEN']
 end
+
+Phonelib.default_country = 'GB'
 
 get '/' do
   @hide_session_promo = false

@@ -4,6 +4,7 @@ ruby '2.1.2'
 
 gem 'foreman'
 gem 'govuk_frontend_toolkit'
+gem 'phonelib'
 gem 'puma'
 gem 'sass'
 gem 'sinatra-contrib'
