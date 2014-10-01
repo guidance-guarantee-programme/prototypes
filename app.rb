@@ -121,6 +121,7 @@ end
 get '/your-options/:option' do
   @hide_session_promo = false
   @page = params[:option]
+  @page_title = "Your pension options"
   @your_option_page_title_1 = "Overview"
   @your_option_page_title_2 = "Taking cash"
   @your_option_page_title_3 = "Taking money out when you need it"

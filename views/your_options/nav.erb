@@ -1,5 +1,5 @@
 <ol>
-  <li class="active">
+  <li<% if @page == 'overview' %> class="active"<% end %>>
     <span class="part-number">1.</span>
     <% if @page == 'overview' %>
       <span>
@@ -11,7 +11,7 @@
       </a>
     <% end %>
   </li>
-  <li>
+  <li<% if @page == '2' %> class="active"<% end %>>
     <span class="part-number">2.</span>
     <% if @page == '2' %>
       <span>
@@ -23,7 +23,7 @@
       </a>
     <% end %>
   </li>
-  <li>
+  <li<% if @page == '3' %> class="active"<% end %>>
     <span class="part-number">3.</span>
     <% if @page == '3' %>
       <span>
@@ -37,7 +37,7 @@
   </li>
 </ol>
 <ol start="4">
-  <li>
+  <li<% if @page == '4' %> class="active"<% end %>>
     <span class="part-number">4.</span>
     <% if @page == '4' %>
       <span>
@@ -49,7 +49,7 @@
       </a>
     <% end %>
   </li>
-  <li>
+  <li<% if @page == '5' %> class="active"<% end %>>
     <span class="part-number">5.</span>
     <% if @page == '5' %>
       <span>
