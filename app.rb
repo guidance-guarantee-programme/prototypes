@@ -118,8 +118,8 @@ get '/booking-confirmation' do
   erb :booking_confirmation
 end
 
-get '/your-options/overview' do
+get '/your-options/:option' do
   @hide_session_promo = false
-  erb :"your_options/overview"
+  erb :"your_options/#{params[:option]}"
 end
 
