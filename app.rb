@@ -108,14 +108,13 @@ post '/send-request' do
 
   if phone.valid?
     twilio = Twilio::REST::Client.new
-    phone = phone.international.gsub(/[[:space:]]/, '')
 
     case phone.type
       when :mobile
         # SMS
         sms = {
           from: ENV['TWILIO_FROM_NUMBER'],
-          to: phone,
+          to: phone.international.gsub(/[[:space:]]/, ''),
           message: "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!"
         }
 
@@ -125,7 +124,7 @@ post '/send-request' do
         # Call
         call = {
           from: ENV['TWILIO_FROM_NUMBER'],
-          to: phone,
+          to: phone.international.gsub(/[[:space:]]/, ''),
           url: 'http://ggp-sprint2-endtoend.herokuapp.com/reminder-call'
         }
 
