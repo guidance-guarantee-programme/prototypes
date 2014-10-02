@@ -158,6 +158,16 @@ get '/your-options/:option' do
   erb :"your_options/#{params[:option]}"
 end
 
+get '/tax-on-your-pension/:option' do
+  @hide_session_promo = false
+  @page = params[:option]
+  @page_title = "Tax on your pension"
+  @page_title_1 = "What’s tax-free"
+  @page_title_2 = "What’s taxed and how much you pay"
+  @page_title_3 = "How your tax is paid "
+  erb :"tax_on_your_pension/#{params[:option]}"
+end
+
 get '/govspeak' do
   markdown :govspeak, {:layout => :layout_govspeak}
 end
