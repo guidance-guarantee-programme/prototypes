@@ -132,7 +132,8 @@ post '/send-request' do
         call = {
           from: ENV['TWILIO_FROM_NUMBER'],
           to: phone.international.gsub(/[[:space:]]/, ''),
-          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint2-endtoend.herokuapp.com/reminder-call?name=#{name}&time='#{time}'"
+          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint2-endtoend.herokuapp.com/reminder-call?name=#{name}&time='#{time}'",
+          method: 'GET'
         }
 
         twilio.account.calls.create call
