@@ -132,7 +132,7 @@ post '/send-request' do
         call = {
           from: ENV['TWILIO_FROM_NUMBER'],
           to: phone.international.gsub(/[[:space:]]/, ''),
-          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint2-endtoend.herokuapp.com/reminder-call"
+          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint2-endtoend.herokuapp.com/reminder-call?name=#{name}&time=#{time}"
         }
 
         twilio.account.calls.create call
@@ -143,9 +143,8 @@ post '/send-request' do
 end
 
 post '/reminder-call', provides: ['xml'] do
-  name  = session[:name]
-  slot = session[:sessions].first
-  time = slot.strftime('%e %B at %l%P') if slot
+  name = params[:name]
+  time = params[:time]
 
   builder do |xml|
     xml.instruct!
