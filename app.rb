@@ -121,7 +121,6 @@ post '/send-request' do
   name  = session[:name]
   phone = Phonelib.parse(session[:phone])
   slot = session[:sessions].first
-  time = slot.strftime('%e %B at %l%P') if slot
 
   if phone.valid? && time
     twilio = Twilio::REST::Client.new
@@ -132,7 +131,7 @@ post '/send-request' do
         call = {
           from: ENV['TWILIO_FROM_NUMBER'],
           to: phone.international.gsub(/[[:space:]]/, ''),
-          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint2-endtoend.herokuapp.com/reminder-call?name=#{name}&time='#{time}'",
+          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint2-endtoend.herokuapp.com/reminder-call?name=#{name}&slot='#{slot}'",
           method: 'GET'
         }
 
@@ -145,7 +144,11 @@ end
 
 post '/reminder-call', provides: ['xml'] do
   name = params[:name]
-  time = params[:time]
+
+  if params[:slot]
+    slot = DateTime.parse(params[:slot])
+    time = slot.strftime('%e %B at %l%P')
+  end
 
   builder do |xml|
     xml.instruct!
