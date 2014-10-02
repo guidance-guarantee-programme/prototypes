@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="/stylesheets/prototypes.css">
 </head>
 <body>
+
+<%= yield_content :proposition %>
+
 <div id="wrapper">
   <main id="content" role="main" class="group <%= yield_content :page_type %>">
     <header class="page-header group">
@@ -19,15 +22,15 @@
 
 
   <% unless @hide_session_promo %>
-  <div class="related-positioning">
-    <div class="related-container">
-      <div class="related" id="related">
-        <div class="inner group related-subsection">
-          <%= erb :"partials/guidance_session" %>
+    <div class="related-positioning">
+      <div class="related-container">
+        <div class="related" id="related">
+          <div class="inner group related-subsection">
+            <%= erb :"partials/guidance_session" %>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   <% end %>
 
   <div id="footer" class="fat-footer">
@@ -45,7 +48,8 @@
             <li><a href="#insert">What assets do I have?</a></li>
             <li><a href="#insert">What will I pay in tax?</a></li>
             <li><a href="#insert">How long does my money need to last?</a></li>
-            <li><a href="#insert">What happens to my pension after I die?</a></li>
+            <li><a href="#insert">What happens to my pension after I die?</a>
+            </li>
             <li><a href="#insert">What is a guidance session?</a></li>
           </ul>
         </div>
@@ -63,9 +67,6 @@
 
     </div>
   </div>
-
-
-
 </div>
 </body>
 </html>

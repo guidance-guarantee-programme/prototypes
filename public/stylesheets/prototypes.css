@@ -1,7 +1,9 @@
 .DateSlider,
 .SlotPicker-input,
 .SlotPicker-choices,
-.report-a-problem-toggle-wrapper {
+.report-a-problem-toggle-wrapper,
+#js-header-proposition,
+.with-proposition #search {
   display: none; }
 
 header.page-header div h1 {
