@@ -133,7 +133,7 @@ post '/reminder-call', provides: ['xml'] do
   builder do |xml|
     xml.instruct!
     xml.Response do
-      xml.Say "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!", voice: 'alice', language: 'en-GB'
+      xml.Say "Hi #{name}, you’re booked for a pensions guidance session on 13 October at 3pm. A pensions expert will call you on this number.", voice: 'alice', language: 'en-GB'
     end
   end
 end
