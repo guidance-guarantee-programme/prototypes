@@ -13,11 +13,7 @@
 
     <h2>Date and time of your session</h2>
     <p>One of our pension experts will phone you on:</p>
-    <ul>
-        <% @slots.reject(&:empty?).each do |slot| %>
-            <li><%= slot %></li>
-        <% end %>
-    </ul>
+    <h3><%= @sessions.first.strftime('%A, %e %B at %l%P') %></h3>
 
     <p>The number will come up as 'withheld'.</p>
 

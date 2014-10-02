@@ -101,6 +101,15 @@ get '/check-your-booking' do
   @phone   = session[:phone]
   @slots   = session[:slots]
 
+  @sessions = []
+
+  # Slots are ['2014-11-12-1000-1100', '2014-11-12-1200-1300']
+  @slots.reject(&:empty?).each do |slot|
+    session = slot.split('-').map(&:to_i)
+    time = session[3].to_s.scan(/.{2}/).map(&:to_i)
+
+    @sessions << DateTime.new(session[0], session[1], session[2], time[0], time[1])
+  end
   erb :check_your_booking
 end
 
