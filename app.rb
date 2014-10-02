@@ -142,7 +142,7 @@ post '/send-request' do
   redirect to('/booking-confirmation')
 end
 
-post '/reminder-call', provides: ['xml'] do
+get '/reminder-call', provides: ['xml'] do
   name = params[:name]
 
   if params[:slot]
