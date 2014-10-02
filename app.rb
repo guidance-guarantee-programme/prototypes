@@ -110,6 +110,9 @@ get '/check-your-booking' do
 
     @sessions << DateTime.new(session[0], session[1], session[2], time[0], time[1])
   end
+
+  @number  = Phonelib.parse(ENV['TWILIO_FROM_NUMBER']).national
+
   erb :check_your_booking
 end
 

@@ -15,7 +15,7 @@
     <p>One of our pension experts will phone you on:</p>
     <h3><%= @sessions.first.strftime('%A, %e %B at %l%P') %></h3>
 
-    <p>The number will come up as 'withheld'.</p>
+    <p>The number will come up as <%= @number %>.</p>
 
     <p><a href="/book-a-session">Change your session</a></p>
 
