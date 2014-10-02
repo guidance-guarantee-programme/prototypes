@@ -1,0 +1,151 @@
+<% content_for :page_title do %>
+  <%= @page_title %>
+<% end %>
+
+<% content_for :page_type do %>
+  multi-page
+<% end %>
+
+
+<div class="article-container group">
+  <aside>
+    <div class="inner">
+      <a href="#" class="show-all-parts">Show all parts of this guide</a>
+      <nav role="navigation" class="page-navigation page-navigation-closed" aria-label="parts to this guide">
+        <%= erb :"tax_on_your_pension/nav" %>
+      </nav>
+    </div>
+  </aside>
+  <article role="article" class="group">
+    <div class="inner">
+
+      <header>
+        <h1>2. <%= @page_title_2 %></h1>
+      </header>
+
+      <div id="govspeak">
+        <h2 id="what-you-pay-tax-on">What you pay tax on</h2>
+
+        <p>You pay tax on all of the following pension income:</p>
+
+        <ul>
+          <li>cash payments above your tax-free lump sum of 25%, eg when you take your whole pot</li>
+          <li>any money you take while you leave your pension pot invested (income drawdown payments)</li>
+          <li>payments you get from arranging a regular income (annuity)</li>
+          <li>payments from the State Pension</li>
+        </ul>
+
+        <p>You also pay tax on income from working, investments etc:</p>
+
+        <ul>
+          <li>anything you earn if you carry on working (even if part-time)</li>
+          <li>any other income, eg money from investments, property, savings</li>
+          <li>any benefits that you need to pay tax on (eg Carer’s Allowance, Jobseeker’s Allowance)</li>
+        </ul>
+
+        <div class="application-notice info-notice">
+          <p>If you leave your pension pot untouched and don’t take any money out, you don’t pay tax on it.</p>
+        </div>
+
+        <h2 id="how-much-tax-you-pay">How much tax you pay</h2>
+
+        <p>Your Income Tax for the year depends on your tax rate.</p>
+
+        <p>These are the rates for the tax year 2014 to 2015:</p>
+
+        <table>
+          <tbody>
+          <tr>
+            <td>Tax rate</td>
+            <td>Income after your Personal Allowance</td>
+          </tr>
+          <tr>
+            <td>20%</td>
+            <td>£0 to £31,865</td>
+          </tr>
+          <tr>
+            <td>40%</td>
+            <td>£31,866 to £150,000</td>
+          </tr>
+          <tr>
+            <td>45%</td>
+            <td>over £150,000</td>
+          </tr>
+          </tbody>
+        </table>
+
+        <p>To figure out how much tax you’ll pay do the following:</p>
+
+        <ol class="steps">
+          <li>
+            <p>Take off the tax-free lump sum if you’re taking it.</p>
+          </li>
+          <li>
+            <p>Add up all your pension and other income (see ‘What you pay tax on’).</p>
+          </li>
+          <li>
+            <p>Take off your tax-free Personal Allowance (£10,000 if you were born after 5 April 1948).</p>
+          </li>
+          <li>
+            <p>Check the tax rate that applies to your remaining income.</p>
+          </li>
+        </ol>
+
+        <div class="example">
+          <p><strong>Example:</strong></p>
+
+          <p>You have a pension pot of £60,000.</p>
+
+          <h3 id="take-off-the-tax-free-lump-sum">Take off the tax-free lump sum</h3>
+          <p>25% are tax free = £15,000</p>
+
+          <h3 id="add-up-your-income">Add up your income</h3>
+          <p>From the remaining £45,000 you take £6,000 a year.
+            You work part-time and make £7,000 a year.
+            Your total taxable income is £13,000.</p>
+
+          <h3 id="take-off-the-personal-allowance">Take off the Personal Allowance</h3>
+          <p>Take off the Personal Allowance of £10,000.
+            This leaves £3,000 which you have to pay tax on.</p>
+
+          <h3 id="check-your-tax-rate">Check your tax rate</h3>
+          <p>The tax rate for £3,000 is 20%.</p>
+
+          <p>You’ll have to pay £600 tax for the year on your pension.</p>
+        </div>
+
+      </div>
+
+      <footer>
+        <nav class="pagination" role="navigation" aria-label="Pagination">
+          <ul class="group">
+            <li class="previous">
+              <a href="1" rel="prev" title="Navigate to previous part">
+                <span class="pagination-label">Previous </span>
+                <span class="pagination-part-title"><%= @page_title_1 %></span>
+              </a></li>
+            <li class="next">
+              <a href="3" rel="next" title="Navigate to next part">
+                <span class="pagination-label">Next</span>
+                <span class="pagination-part-title"><%= @page_title_3 %></span>
+              </a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      <div class="print-link">
+        <a href="/after-a-death/print" rel="nofollow" target="_blank">Print
+          entire guide</a></div>
+
+    </div>
+  </article>
+
+
+  <div class="meta-data group">
+    <!-- <div class="inner"> -->
+    <p class="modified-date">Last updated: 11 September 2014</p>
+    <!-- </div> -->
+  </div>
+
+
+</div>

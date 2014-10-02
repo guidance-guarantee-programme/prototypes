@@ -11,6 +11,8 @@ require 'sass/plugin/rack'
 require 'tilt/govspeak'
 require 'twilio-ruby'
 
+
+
 Sass.load_paths << Gem.loaded_specs['govuk_frontend_toolkit'].full_gem_path + '/app/assets/stylesheets'
 Sass::Plugin.add_template_location('bower_components/govuk_elements/public/sass')
 
@@ -141,7 +143,7 @@ post '/reminder-call', provides: ['xml'] do
   builder do |xml|
     xml.instruct!
     xml.Response do
-      xml.Say "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!", voice: 'alice', language: 'en-GB'
+      xml.Say "Hi #{name}, you’re booked for a pensions guidance session on 13 October at 3pm. A pensions expert will call you on this number.", voice: 'alice', language: 'en-GB'
     end
   end
 end
@@ -166,6 +168,19 @@ get '/your-options/:option' do
   erb :"your_options/#{params[:option]}"
 end
 
+get '/tax-on-your-pension/:option' do
+  @hide_session_promo = false
+  @page = params[:option]
+  @page_title = "Tax on your pension"
+  @page_title_1 = "What’s tax-free"
+  @page_title_2 = "What’s taxed and how much you pay"
+  @page_title_3 = "How your tax is paid "
+  erb :"tax_on_your_pension/#{params[:option]}"
+end
+
+get '/govspeak' do
+  markdown :govspeak, {:layout => :layout_govspeak}
+end
 
 
 
