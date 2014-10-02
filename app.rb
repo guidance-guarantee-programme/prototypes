@@ -105,13 +105,14 @@ get '/check-your-booking' do
 
   # Slots are ['2014-11-12-1000-1100', '2014-11-12-1200-1300']
   @slots.reject(&:empty?).each do |slot|
-    session = slot.split('-').map(&:to_i)
-    time = session[3].to_s.scan(/.{2}/).map(&:to_i)
+    slot = slot.split('-').map(&:to_i)
+    time = slot[3].to_s.scan(/.{2}/).map(&:to_i)
 
-    @sessions << DateTime.new(session[0], session[1], session[2], time[0], time[1])
+    @sessions << DateTime.new(slot[0], slot[1], slot[2], time[0], time[1])
   end
 
   @number  = Phonelib.parse(ENV['TWILIO_FROM_NUMBER']).national
+  session[:sessions] = @sessions
 
   erb :check_your_booking
 end
@@ -119,8 +120,10 @@ end
 post '/send-request' do
   name  = session[:name]
   phone = Phonelib.parse(session[:phone])
+  slot = session[:sessions].first
+  time = slot.strftime('%e %B at %l%P') if slot
 
-  if phone.valid?
+  if phone.valid? && time
     twilio = Twilio::REST::Client.new
 
     case phone.type
@@ -129,7 +132,7 @@ post '/send-request' do
         sms = {
           from: ENV['TWILIO_FROM_NUMBER'],
           to: phone.international.gsub(/[[:space:]]/, ''),
-          body: "Hi #{name}, your pension guidance session is on ... Keep calm. Read the guidance. Buy a smart electric bike. Enjoy your weekend!"
+          body: "Hi #{name}, you’re booked for a pensions guidance session on #{time}. A pensions expert will call you on this number."
         }
 
         twilio.account.messages.create sms
@@ -151,11 +154,13 @@ end
 
 post '/reminder-call', provides: ['xml'] do
   name  = session[:name]
+  slot = session[:sessions].first
+  time = slot.strftime('%e %B at %l%P') if slot
 
   builder do |xml|
     xml.instruct!
     xml.Response do
-      xml.Say "Hi #{name}, you’re booked for a pensions guidance session on 13 October at 3pm. A pensions expert will call you on this number.", voice: 'alice', language: 'en-GB'
+      xml.Say "Hi #{name}, you’re booked for a pensions guidance session on #{time}. A pensions expert will call you on this number.", voice: 'alice', language: 'en-GB'
     end
   end
 end
