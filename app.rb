@@ -120,9 +120,9 @@ end
 post '/send-request' do
   name  = session[:name]
   phone = Phonelib.parse(session[:phone])
-  slot = session[:sessions].first
+  slot = session[:sessions].first if session[:sessions]
 
-  if phone.valid? && time
+  if phone.valid? && slot
     twilio = Twilio::REST::Client.new
 
     case phone.type
