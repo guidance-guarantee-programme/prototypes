@@ -62,4 +62,18 @@ input[type="text"] {
 #wrapper {
   border-bottom: none; }
 
+.divider {
+  position: relative;
+  margin: 1em 0;
+  padding-top: 1em;
+  border-top: 1px dashed #bfc1c3; }
+  .divider h2 {
+    margin-top: 0; }
+
+.divider--last {
+  border-bottom: 1px dashed #bfc1c3; }
+
+.edit-link {
+  margin-top: 0; }
+
 /*# sourceMappingURL=prototypes.css.map */
