@@ -21,9 +21,11 @@ There are 2 main types of private pension:
 
 ##How much you get
 For most pensions based on how much has been paid into your pot, what you get when you retire depends on:
+
 - the amount you’ve paid in
 - how well the pension fund’s investments have done
 - your age when you start getting the pension
+
 For pensions based on your salary when you retire, how much you get depends on:
 
 - the number of years you’ve been in the pension
