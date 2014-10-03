@@ -101,3 +101,26 @@ input[type="text"] {
 .edit-link {
   margin-top:0;
 }
+
+.session-ticket {
+  position:relative;
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+}
+
+.session-ticket__highlight {
+  background: #f7fbfd;
+  border:1px solid #d8e9f4;
+  padding:4px;
+  display:inline-block;
+}
+
+.session-ticket__reference {
+  position:absolute;
+  top:0;
+  right:0;
+  border-left: 2px solid #f0f0f0;
+  border-bottom: 2px solid #f0f0f0;
+  display:inline-block;
+  padding: 5px 10px;
+}
