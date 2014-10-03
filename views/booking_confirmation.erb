@@ -24,16 +24,16 @@
           <div class="inner-block">
 
             <h3 class="heading-small">Date</h3>
-            <div class="session-ticket__highlight">INSERT_DATE</div>
+            <div class="session-ticket__highlight"><%= @sessions.first.strftime('%e %B %Y') %></div>
 
             <h3 class="heading-small">Time</h3>
-            <div class="session-ticket__highlight">INSERT_TIME</div>
+            <div class="session-ticket__highlight"><%= @sessions.first.strftime('%l%P') %></div>
 
             <h3 class="heading-small">Session lasts</h3>
-            <div class="session-ticket__highlight">INSERT_DURATION</div>
+            <div class="session-ticket__highlight">45 mins</div>
 
             <h3 class="heading-small">We'll call you on</h3>
-            <div class="session-ticket__highlight">INSERT_TEL</div>
+            <div class="session-ticket__highlight"><%= @phone %></div>
 
             <h3 class="heading-small">If you do not answer the call</h3>
             <p>We won't call you back. You'll need to book another session.</p>
