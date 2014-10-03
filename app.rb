@@ -121,7 +121,18 @@ post '/send-request' do
     twilio = Twilio::REST::Client.new
 
     case phone.type
-      when :mobile, :fixed_line
+      when :mobile
+        # SMS
+        time = slot.strftime('%e %B at %l%P')
+        sms = {
+          from: ENV['TWILIO_FROM_NUMBER'],
+          to: phone.international.gsub(/[[:space:]]/, ''),
+          body: "Hi #{name}, you’re booked for a pensions guidance session on #{time}. A pensions expert will call you on this number."
+        }
+
+        twilio.account.messages.create sms
+
+      when :fixed_line
         # Call
         call = {
           from: ENV['TWILIO_FROM_NUMBER'],
