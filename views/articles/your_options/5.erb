@@ -12,31 +12,36 @@
     <div class="inner">
       <a href="#" class="show-all-parts">Show all parts of this guide</a>
       <nav role="navigation" class="page-navigation page-navigation-closed" aria-label="parts to this guide">
-        <%= erb :"your_options/nav" %>
+        <%= erb :"articles/your_options/nav" %>
       </nav>
     </div>
   </aside>
   <article role="article" class="group">
     <div class="inner">
 
-      <header><h1>3. <%= @your_option_page_title_3 %></h1>
+      <header><h1>5. <%= @your_option_page_title_5 %></h1>
       </header>
 
-      <p>You can leave your pension pot invested and take money out when you need it. This is called 'income drawdown'. Your pension provider will invest the pot, for example in stocks and shares, and you tell them when you need money and how much.</p>
+      <p>You could mix these options at different points in your retirement.</p>
 
-      <p>Any money you take from your pension as <a href="#insert_url">income drawdown is taxed</a>.</p>
+      <div class="example">
+        <p><strong>Example</strong></p>
+        <p>Your pension pot is £60,000. You decide to take 25% as tax-free cash = £15,000.</p>
+
+        <p>You then use £20,000 to buy an annuity. This will give you an income for the rest of your life of about £900 a year.</p>
+
+        <p>You leave £25,000 invested and take out about £5,000 a year for about 5 years.</p>
+      </div>
+
+      <p>To help you decide which option best suits your circumstances you can
+        <a href="/guidance-session">set up a guidance appointment</a>.</p>
 
       <footer>
         <nav class="pagination" role="navigation" aria-label="Pagination">
           <ul class="group">
             <li class="previous">
-              <a href="/your-options/2" rel="prev" title="Navigate to previous part">
+              <a href="/your-options/4" rel="prev" title="Navigate to previous part">
                 <span class="pagination-label">Previous </span>
-                <span class="pagination-part-title"><%= @your_option_page_title_2 %></span>
-              </a></li>
-            <li class="next">
-              <a href="/your-options/4" rel="next" title="Navigate to next part">
-                <span class="pagination-label">Next</span>
                 <span class="pagination-part-title"><%= @your_option_page_title_4 %></span>
               </a></li>
           </ul>

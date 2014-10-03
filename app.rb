@@ -177,7 +177,7 @@ end
 
 get '/how-pensions-work' do
   @hide_session_promo = false
-  erb :how_pensions_work
+  erb :'articles/how_pensions_work'
 end
 
 get '/your-options/:option' do
@@ -190,7 +190,7 @@ get '/your-options/:option' do
   @your_option_page_title_4 = "Buying a regular income"
   @your_option_page_title_5 = "Mixing your options"
 
-  erb :"your_options/#{params[:option]}"
+  erb :"articles/your_options/#{params[:option]}"
 end
 
 get '/tax-on-your-pension/:option' do
@@ -200,7 +200,7 @@ get '/tax-on-your-pension/:option' do
   @page_title_1 = "What’s tax-free"
   @page_title_2 = "What’s taxed and how much you pay"
   @page_title_3 = "How your tax is paid "
-  erb :"tax_on_your_pension/#{params[:option]}"
+  erb :"articles/tax_on_your_pension/#{params[:option]}"
 end
 
 

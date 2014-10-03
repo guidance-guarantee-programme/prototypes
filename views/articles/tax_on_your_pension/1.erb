@@ -6,43 +6,40 @@
   multi-page
 <% end %>
 
-
 <div class="article-container group">
   <aside>
     <div class="inner">
       <a href="#" class="show-all-parts">Show all parts of this guide</a>
       <nav role="navigation" class="page-navigation page-navigation-closed" aria-label="parts to this guide">
-        <%= erb :"your_options/nav" %>
+        <%= erb :"articles/tax_on_your_pension/nav" %>
       </nav>
     </div>
   </aside>
   <article role="article" class="group">
     <div class="inner">
 
-      <header><h1>5. <%= @your_option_page_title_5 %></h1>
+      <header>
+        <h1>1. <%= @page_title_1 %></h1>
       </header>
 
-      <p>You could mix these options at different points in your retirement.</p>
+      <div id="govspeak">
+        <p>You can take up to 25% of your pension pot in cash as a tax-free lump sum. Most pension scheme offers this.</p>
 
-      <div class="example">
-        <p><strong>Example</strong></p>
-        <p>Your pension pot is £60,000. You decide to take 25% as tax-free cash = £15,000.</p>
+        <p>After that you pay Income Tax on income that’s above your tax-free Personal Allowance. This is currently £10,000 for anyone born after 5 April 1948 and with an income under £100,000.</p>
 
-        <p>You then use £20,000 to buy an annuity. This will give you an income for the rest of your life of about £900 a year.</p>
+        <p>If you were born before then or your income is higher you get a different <a href="www.gov.uk/income-tax-rates/personal-allowances">Personal Allowance</a>.</p>
 
-        <p>You leave £25,000 invested and take out about £5,000 a year for about 5 years.</p>
+        <p>If you’re blind you might also get <a href="www.gov.uk/blind-persons-allowance">Blind Person’s Allowance</a></p>
+
       </div>
-
-      <p>To help you decide which option best suits your circumstances you can
-        <a href="/guidance-session">set up a guidance appointment</a>.</p>
 
       <footer>
         <nav class="pagination" role="navigation" aria-label="Pagination">
           <ul class="group">
-            <li class="previous">
-              <a href="/your-options/4" rel="prev" title="Navigate to previous part">
-                <span class="pagination-label">Previous </span>
-                <span class="pagination-part-title"><%= @your_option_page_title_4 %></span>
+            <li class="next">
+              <a href="2" rel="next" title="Navigate to next part">
+                <span class="pagination-label">Next</span>
+                <span class="pagination-part-title"><%= @page_title_2 %></span>
               </a></li>
           </ul>
         </nav>

@@ -6,57 +6,44 @@
   multi-page
 <% end %>
 
+
 <div class="article-container group">
   <aside>
     <div class="inner">
       <a href="#" class="show-all-parts">Show all parts of this guide</a>
       <nav role="navigation" class="page-navigation page-navigation-closed" aria-label="parts to this guide">
-        <%= erb :"your_options/nav" %>
+        <%= erb :"articles/your_options/nav" %>
       </nav>
     </div>
   </aside>
   <article role="article" class="group">
     <div class="inner">
 
-      <header><h1>1. <%= @your_option_page_title_1 %></h1>
+      <header><h1>2. <%= @your_option_page_title_2 %></h1>
       </header>
-      <p>You can decide how to take the money from your pension pot when you retire.
-        It doesn’t matter if your pot comes from a private pension that you set up yourself,
-        a workplace pension you paid into, or both.</p>
+      <p>You can take 25% of your pension pot as a tax-free lump sum. You have to be at least 55 to do this.</p>
 
-      <p>To decide how you want your pension to be paid you should think about the following:</p>
+      <p>Once you've taken a lump sum you can't change this decision. You should think about what you’ll use the cash for and make sure you’ll have enough money for the coming years of your retirement.</p>
 
-      <ol class="steps">
-        <li>How much do I have in my pot?</li>
-        <li>How much will I need in retirement?</li>
-        <li>How can I best use my money?</li>
-      </ol>
-
-      <p>There are different ways you can take the money from your pension pot.</p>
-
-      <p>You can:</p>
-
-      <ul>
-        <li>take part or all of your pension pot as cash (lump sum)</li>
-        <li>keep your pot invested while taking money from it (income drawdown)</li>
-        <li>buy a regular income (annuity)</li>
-      </ul>
-
-      <div class="application-notice info-notice">
-        <p>You can use a mixture of all 3 if you want.</p>
-      </div>
+      <p>If you take your whole pension pot as cash you might have to pay higher tax, depending on how much other income you have.</p>
 
       <footer>
         <nav class="pagination" role="navigation" aria-label="Pagination">
           <ul class="group">
+            <li class="previous">
+              <a href="/your-options/overview" rel="prev" title="Navigate to previous part">
+                <span class="pagination-label">Previous </span>
+                <span class="pagination-part-title"><%= @your_option_page_title_1 %></span>
+              </a></li>
             <li class="next">
-              <a href="/your-options/2" rel="next" title="Navigate to next part">
+              <a href="/your-options/3" rel="next" title="Navigate to next part">
                 <span class="pagination-label">Next</span>
                 <span class="pagination-part-title"><%= @your_option_page_title_2 %></span>
               </a></li>
           </ul>
         </nav>
       </footer>
+
       <div class="print-link">
         <a href="/after-a-death/print" rel="nofollow" target="_blank">Print
           entire guide</a></div>
@@ -73,7 +60,3 @@
 
 
 </div>
-
-
-
-
