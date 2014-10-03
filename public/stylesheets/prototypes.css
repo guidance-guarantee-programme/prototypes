@@ -2,7 +2,6 @@
 .SlotPicker-input,
 .SlotPicker-choices,
 .report-a-problem-toggle-wrapper,
-#js-header-proposition,
 .with-proposition #search {
   display: none; }
 
@@ -27,7 +26,8 @@ input[type="text"] {
 
 .report-a-problem-toggle-wrapper,
 .report-a-problem-content,
-.related-positioning {
+.related-positioning,
+#govspeak {
   text-align: left; }
 
 .where-to-start {

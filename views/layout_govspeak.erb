@@ -7,11 +7,15 @@
 </head>
 <body>
 <div id="wrapper">
-
-  <div id="govspeak">
-    <%= yield %>
-  </div>
-
+  <main id="content" role="main" class="group <%= yield_content :page_type %>">
+    <div class="inner-block">
+      <article role="article" class="group">
+        <div id="govspeak">
+          <%= yield %>
+        </div>
+      </article>
+    </div>
+  </main>
 </div>
 </body>
 </html>
