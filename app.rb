@@ -43,11 +43,6 @@ get '/' do
   erb :index
 end
 
-get '/article' do
-  @hide_session_promo = false
-  erb :article
-end
-
 get '/guidance-session' do
   @hide_session_promo = true
   erb :guidance_session
@@ -165,6 +160,15 @@ get '/booking-confirmation' do
   erb :booking_confirmation
 end
 
+get '/govspeak' do
+  markdown :govspeak, {:layout => :layout_govspeak}
+end
+
+get '/where-to-start' do
+  @hide_session_promo = false
+  erb :where_to_start
+end
+
 get '/your-options/:option' do
   @hide_session_promo = false
   @page = params[:option]
@@ -187,10 +191,5 @@ get '/tax-on-your-pension/:option' do
   @page_title_3 = "How your tax is paid "
   erb :"tax_on_your_pension/#{params[:option]}"
 end
-
-get '/govspeak' do
-  markdown :govspeak, {:layout => :layout_govspeak}
-end
-
 
 
