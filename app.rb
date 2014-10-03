@@ -175,9 +175,9 @@ get '/govspeak' do
   markdown :govspeak, {:layout => :layout_govspeak}
 end
 
-get '/where-to-start' do
+get '/how-pensions-work' do
   @hide_session_promo = false
-  erb :where_to_start
+  erb :how_pensions_work
 end
 
 get '/your-options/:option' do
