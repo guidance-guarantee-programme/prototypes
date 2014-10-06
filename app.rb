@@ -202,7 +202,7 @@ end
 get '/tax-on-your-pension/:option' do
   @hide_session_promo = false
   @page = params[:option]
-  @page_title = "Tax on your pension"
+  @page_title = "Income Tax and your pension"
   @page_title_1 = "What’s tax-free"
   @page_title_2 = "What’s taxed and how much you pay"
   @page_title_3 = "How your tax is paid "

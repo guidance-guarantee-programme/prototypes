@@ -20,6 +20,9 @@ header.page-header div.strapline {
   border-left: 10px solid #bfc1c3;
   margin-bottom: 1em; }
 
+.indent {
+  padding-left: 20px; }
+
 .example strong {
   font-weight: bold; }
 
