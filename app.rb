@@ -172,6 +172,7 @@ end
 get '/booking-confirmation' do
   @hide_session_promo = true
   @phone    = session[:phone]
+  @email    = session[:email]
   @sessions = session[:sessions] || []
 
   erb :booking_confirmation

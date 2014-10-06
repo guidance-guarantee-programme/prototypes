@@ -23,6 +23,10 @@ header.page-header div.strapline {
 .indent {
   padding-left: 20px; }
 
+.info-label {
+  display: inline-block;
+  width: 10em; }
+
 .example strong {
   font-weight: bold; }
 
@@ -91,8 +95,8 @@ input[type="text"] {
   padding-bottom: 40px; }
 
 .session-ticket__highlight {
-  background: #f7fbfd;
-  border: 1px solid #d8e9f4;
+  background: #e7f2f8;
+  border: 1px solid #c5e3f5;
   padding: 4px;
   display: inline-block; }
 
@@ -116,5 +120,9 @@ input[type="text"] {
 
 .session-ticket_time {
   margin-right: 15px; }
+
+.session-intro .print-link {
+  float: right;
+  margin-top: 0; }
 
 /*# sourceMappingURL=prototypes.css.map */
