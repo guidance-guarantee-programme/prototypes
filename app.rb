@@ -65,6 +65,11 @@ end
 
 get '/contact-details' do
   @hide_session_promo = true
+  @name    = session[:name]
+  @surname = session[:surname]
+  @email   = session[:email]
+  @phone   = session[:phone]
+
   erb :contact_details
 end
 
