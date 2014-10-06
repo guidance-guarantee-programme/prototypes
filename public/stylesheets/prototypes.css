@@ -126,4 +126,15 @@ input[type="text"] {
   float: right;
   margin-top: 0; }
 
+.pension-tool {
+  margin-top: 40px;
+  overflow: auto; }
+  .pension-tool form {
+    background: #dee0e2;
+    padding: 10px 20px 0 20px; }
+  .pension-tool input {
+    margin-right: 10px; }
+  .pension-tool button {
+    padding: 0.3em 0.6em 0.2em 0.6em; }
+
 /*# sourceMappingURL=prototypes.css.map */
