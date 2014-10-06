@@ -9,63 +9,105 @@
 <article role="article" class="group">
 
 
-  <div class="session-ticket">
-    <div class="inner-block">
+  <div class="inner-block">
+    <div class="session-ticket">
+      <div class="inner-block">
+        <h2 class="heading-medium">Your pension guidance session</h2>
 
-      <h2 class="heading-medium">Your pension guidance session</h2>
+        <div class="session-ticket__reference">
+          <h3 class="heading-small">Reference</h3>
 
-      <div class="session-ticket__reference">
-        <h3 class="heading-small">Reference</h3>
-        <div>PG1234</div>
-      </div>
+          <div class="bold-medium">PG1234</div>
+        </div>
 
-      <div class="grid-wrapper grid-demo">
-        <div class="grid grid-1-2">
-          <div class="inner-block">
+        <div class="grid-wrapper grid-demo">
+          <div class="grid grid-1-2">
+            <div class="inner-block">
 
-            <h3 class="heading-small">Date</h3>
-            <div class="session-ticket__highlight"><%= @sessions.first.strftime('%e %B %Y') %></div>
+              <h3 class="heading-small">Date</h3>
 
-            <h3 class="heading-small">Time</h3>
-            <div class="session-ticket__highlight"><%= @sessions.first.strftime('%l%P') %></div>
+              <div class="session-ticket__highlight bold-large">
+                <%= @sessions.first.strftime('%e %B %Y') %>
+              </div>
 
-            <h3 class="heading-small">Session lasts</h3>
-            <div class="session-ticket__highlight">45 mins</div>
 
-            <h3 class="heading-small">We'll call you on</h3>
-            <div class="session-ticket__highlight"><%= @phone %></div>
+              <div class="session-ticket_time-duration-wrapper">
 
-            <h3 class="heading-small">If you do not answer the call</h3>
-            <p>We won't call you back. You'll need to book another session.</p>
+                <div class="session-ticket_time">
+                  <h3 class="heading-small">Time</h3>
 
+                  <div class="session-ticket__highlight bold-large">
+                    <%= @sessions.first.strftime('%l%P') %>
+                  </div>
+                </div>
+
+                <div class="session-ticket_duration">
+                  <h3 class="heading-small">Session lasts</h3>
+
+                  <div class="session-ticket__highlight bold-large">30 mins
+                  </div>
+                </div>
+              </div>
+
+
+              <h3 class="heading-small">We'll call you on</h3>
+
+              <div class="session-ticket__highlight bold-large">
+                <%= @phone %>
+              </div>
+
+            </div>
+          </div>
+          <div class="grid grid-1-2">
+            <div class="inner-block">
+              <h3 class="heading-small">What you need to do next</h3>
+
+              <p>At least 2 weeks before your session send an email to
+                <a href="mailto:pensions-guidance@hmt.gov.uk">pensions-guidance@hmt.gov.uk</a>
+              </p>
+
+              <p>Include the following information:</p>
+              <ul class="list-bullet">
+                <li>your name, age, gender</li>
+                <li>how much money you have in your pension pot</li>
+                <li>how much other income you have, eg from work, property,
+                  investments
+                </li>
+                <li>if you have a spouse or partner</li>
+                <li>if you have any children</li>
+              </ul>
+
+              <p>This will help our experts to prepare for your call.</p>
+
+            </div>
           </div>
         </div>
-        <div class="grid grid-1-2">
-          <div class="inner-block">
-            <h3 class="heading-small">What you need to do next</h3>
 
-            <p>At least 2 weeks before your session send an email to
-              <a href="mailto:pensions-guidance@hmt.gov.uk">pensions-guidance@hmt.gov.uk</a></p>
+        <div class="grid-wrapper grid-demo">
+          <div class="grid grid-1-2">
+            <div class="inner-block">
+              <h3 class="heading-small">If you do not answer the call</h3>
 
-            <p>Include the following information:</p>
-            <ul class="list-bullet">
-              <li>your name, age, gender</li>
-              <li>how much money you have in your pension pot</li>
-              <li>how much other income you have, eg from work, property, investments</li>
-              <li>if you have a spouse or partner</li>
-              <li>if you have any children</li>
-            </ul>
+              <p>We won't call you back. You'll need to book another
+                session.</p>
 
-            <p>This will help our experts to prepare for your call.</p>
+            </div>
+          </div>
+          <div class="grid grid-1-2">
+            <div class="inner-block">
+              <h3 class="heading-small">How to cancel</h3>
 
-            <h3 class="heading-small">How to cancel</h3>
-            <p>Send an email with your name and the date and time of your session to:
-              <a href="mailto:cancel-pension-session@hmt.gov.uk">cancel-pension-session@hmt.gov.uk</a></p>
+              <p>Send an email with your name and the date and time of your
+                session to:
+                <a href="mailto:cancel-pension-session@hmt.gov.uk">cancel-pension-session@hmt.gov.uk</a>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-  </div>
 
+
+      </div>
+    </div>
 
 
   </div>

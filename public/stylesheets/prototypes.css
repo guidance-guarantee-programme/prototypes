@@ -79,7 +79,8 @@ input[type="text"] {
 .session-ticket {
   position: relative;
   border: 2px solid #f0f0f0;
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding-bottom: 40px; }
 
 .session-ticket__highlight {
   background: #f7fbfd;
@@ -94,6 +95,18 @@ input[type="text"] {
   border-left: 2px solid #f0f0f0;
   border-bottom: 2px solid #f0f0f0;
   display: inline-block;
-  padding: 5px 10px; }
+  padding: 0px 20px 10px 20px; }
+
+.session-ticket_time-duration-wrapper {
+  overflow: auto;
+  zoom: 1; }
+
+.session-ticket_time,
+.session-ticket_duration {
+  display: inline-block;
+  float: left; }
+
+.session-ticket_time {
+  margin-right: 15px; }
 
 /*# sourceMappingURL=prototypes.css.map */
