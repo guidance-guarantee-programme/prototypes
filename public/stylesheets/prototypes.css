@@ -27,6 +27,9 @@ header.page-header div.strapline {
   display: inline-block;
   width: 10em; }
 
+.info-data {
+  font-weight: bold; }
+
 .example strong {
   font-weight: bold; }
 
