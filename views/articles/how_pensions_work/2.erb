@@ -1,0 +1,68 @@
+<% content_for :page_title do %>
+  <%= @page_title %>
+<% end %>
+
+<% content_for :page_type do %>
+  multi-page
+<% end %>
+
+
+<div class="article-container group">
+  <aside>
+    <div class="inner">
+      <a href="#" class="show-all-parts">Show all parts of this guide</a>
+      <nav role="navigation" class="page-navigation page-navigation-closed" aria-label="parts to this guide">
+        <%= erb :"articles/how_pensions_work/nav" %>
+      </nav>
+    </div>
+  </aside>
+  <article role="article" class="group">
+    <div class="inner">
+
+      <header>
+        <h1>2. <%= @page_title_2 %></h1>
+      </header>
+
+      <div id="govspeak">
+        <p>The pension you get from the government is called the State Pension. You get it when you reach <a href="https://www.gov.uk//calculate-state-pension">State Pension age</a>.</p>
+
+        <p>The most you can currently get from the basic State Pension is £113.10 per week.</p>
+
+        <p>You don’t normally get it  automatically - you have to <a href="https://www.gov.uk//state-pension/how-to-claim">claim the State Pension</a>.</p>
+
+        <p>If you reach State Pension age on or after 6 April 2016 you’ll get the <a href="https://www.gov.uk//new-state-pension">new State Pension</a>.</p>
+      </div>
+
+      <footer>
+        <nav class="pagination" role="navigation" aria-label="Pagination">
+          <ul class="group">
+            <li class="previous">
+              <a href="1" rel="prev" title="Navigate to previous part">
+                <span class="pagination-label">Previous </span>
+                <span class="pagination-part-title"><%= @page_title_1 %></span>
+              </a></li>
+            <li class="next">
+              <a href="3" rel="next" title="Navigate to next part">
+                <span class="pagination-label">Next</span>
+                <span class="pagination-part-title"><%= @page_title_3 %></span>
+              </a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      <div class="print-link">
+        <a href="/after-a-death/print" rel="nofollow" target="_blank">Print
+          entire guide</a></div>
+
+    </div>
+  </article>
+
+
+  <div class="meta-data group">
+    <!-- <div class="inner"> -->
+    <p class="modified-date">Last updated: 11 September 2014</p>
+    <!-- </div> -->
+  </div>
+
+
+</div>

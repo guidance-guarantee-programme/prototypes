@@ -181,11 +181,6 @@ get '/govspeak' do
   markdown :govspeak, {:layout => :layout_govspeak}
 end
 
-get '/how-pensions-work' do
-  @hide_session_promo = false
-  erb :'articles/how_pensions_work'
-end
-
 get '/how-much-in-your-pot' do
   @hide_session_promo = false
   erb :'articles/how_much_in_pot'
@@ -212,6 +207,19 @@ get '/tax-on-your-pension/:option' do
   @page_title_2 = "What’s taxed and how much you pay"
   @page_title_3 = "How your tax is paid "
   erb :"articles/tax_on_your_pension/#{params[:option]}"
+end
+
+get '/how-pensions-work/:option' do
+  @hide_session_promo = false
+  @folder = 'how_pensions_work'
+  @page = params[:option]
+  @page_title = "How pensions work"
+  @page_title_1 = "Overview"
+  @page_title_2 = "Pensions from the government"
+  @page_title_3 = "Private pension types"
+  @page_title_4 = "How much you get"
+  @page_title_5 = "Shopping around"
+  erb :"articles/#{@folder}/#{params[:option]}"
 end
 
 

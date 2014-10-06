@@ -1,0 +1,62 @@
+<% content_for :page_title do %>
+  <%= @page_title %>
+<% end %>
+
+<% content_for :page_type do %>
+  multi-page
+<% end %>
+
+<div class="article-container group">
+  <aside>
+    <div class="inner">
+      <a href="#" class="show-all-parts">Show all parts of this guide</a>
+      <nav role="navigation" class="page-navigation page-navigation-closed" aria-label="parts to this guide">
+        <%= erb :"articles/#{@folder}/nav" %>
+      </nav>
+    </div>
+  </aside>
+  <article role="article" class="group">
+    <div class="inner">
+
+      <header>
+        <h1>1. <%= @page_title_1 %></h1>
+      </header>
+
+      <div id="govspeak">
+        <p>A pension is a way to save money while you’re working to give you an income later in your life when you’ve retired. You can get a pension from private schemes you pay into and the government. The money you receive from your pension is known as retirement income.</p>
+
+        <p>You can begin to take money from your pension when you retire and
+          <a href="/your-options/overview">you have to choose how you take it</a>.
+          This is the stage at which you have to make a decision about how you want to receive your retirement income.</p>
+
+        <p>You don’t have to fully retire to take money from your pension. You can normally do this from the age of 55.</p>
+      </div>
+
+      <footer>
+        <nav class="pagination" role="navigation" aria-label="Pagination">
+          <ul class="group">
+            <li class="next">
+              <a href="2" rel="next" title="Navigate to next part">
+                <span class="pagination-label">Next</span>
+                <span class="pagination-part-title"><%= @page_title_2 %></span>
+              </a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      <div class="print-link">
+        <a href="/after-a-death/print" rel="nofollow" target="_blank">Print
+          entire guide</a></div>
+
+    </div>
+  </article>
+
+
+  <div class="meta-data group">
+    <!-- <div class="inner"> -->
+    <p class="modified-date">Last updated: 11 September 2014</p>
+    <!-- </div> -->
+  </div>
+
+
+</div>
