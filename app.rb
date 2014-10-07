@@ -217,7 +217,7 @@ get '/understanding-pensions/:option' do
   @page_title = "Understanding pensions"
   @page_title_1 = "Overview"
   @page_title_2 = "Pensions from the government"
-  @page_title_3 = "Private pension types"
+  @page_title_3 = "Pension types"
   @page_title_4 = "How much you get"
   @page_title_5 = "Shopping around"
   erb :"articles/#{@folder}/#{params[:option]}"
