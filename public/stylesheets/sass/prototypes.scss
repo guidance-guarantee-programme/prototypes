@@ -1,9 +1,4 @@
-@import '_grid_layout';
-
-.outer-block {
-  @include outer-block;
-}
-
-.inner-block {
-  @include inner-block;
+article h1 {
+  font-size: 48px;
+  margin-top:0;
 }

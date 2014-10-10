@@ -27,5 +27,5 @@ configure do
 end
 
 get '/' do
-  erb :index
+  markdown :index
 end
