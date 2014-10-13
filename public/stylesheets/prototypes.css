@@ -2,4 +2,13 @@ article h1 {
   font-size: 48px;
   margin-top: 0; }
 
+#whitehall-wrapper .html-publications-show .publication-header {
+  background: #c03024;
+}
+
+#whitehall-wrapper .cabinet-office-brand-colour .organisation-logo {
+  border-color: #c03024;
+}
+
+
 /*# sourceMappingURL=prototypes.css.map */

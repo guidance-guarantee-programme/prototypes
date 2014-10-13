@@ -1,1 +1,3231 @@
-@-ms-viewport{width:device-width}@-o-viewport{width:device-width}@font-face{font-family:GDS-Logo;src:local("HelveticaNeue"),local("Helvetica Neue"),local("Arial"),local("Helvetica")}@-ms-viewport{width:device-width}@-o-viewport{width:device-width}#whitehall-wrapper .govspeak .contact:after,#whitehall-wrapper .html-publications-show:after,#whitehall-wrapper .html-publications-show .publication-external:after,#whitehall-wrapper .html-publications-show .publication-header:after,#whitehall-wrapper .whitehall-content:after{content:".";display:block;height:0;clear:both;visibility:hidden}div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark{border:none;margin:0;padding:0}h1,h2,h3,h4,h5,h6,p,blockquote,pre,small,strike,strong,sub,sup,tt,var,b,u,i,center,input,textarea,table,caption,tbody,tfoot,thead,tr,th,td{font-size:inherit;font-family:inherit;line-height:inherit;font-weight:normal}#whitehall-wrapper .govspeak h2:first-child,#whitehall-wrapper .govspeak h3:first-child,#whitehall-wrapper .govspeak h4:first-child,#whitehall-wrapper .govspeak p:first-child{margin-top:0}#whitehall-wrapper .govspeak h2{font-family:"nta",Arial,sans-serif;font-size:27px;line-height:1.1111111111;font-weight:400;text-transform:none;padding-top:2px;padding-bottom:3px;font-weight:bold;margin-top:15px}@media (max-width: 640px){#whitehall-wrapper .govspeak h2{font-size:19px;line-height:1.31579;padding-top:7px;padding-bottom:3px}}@media (min-width: 769px){#whitehall-wrapper .govspeak h2{margin-top:45px}}#whitehall-wrapper .govspeak h3{font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;padding-top:7px;padding-bottom:3px;font-weight:bold;margin-top:35px}@media (max-width: 640px){#whitehall-wrapper .govspeak h3{font-size:13px;line-height:1.53846;padding-top:6px;padding-bottom:4px}}#whitehall-wrapper .govspeak h4{font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;padding-top:7px;padding-bottom:3px;font-weight:bold;margin-top:35px}@media (max-width: 640px){#whitehall-wrapper .govspeak h4{font-size:13px;line-height:1.53846;padding-top:6px;padding-bottom:4px}}#whitehall-wrapper .govspeak p{font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;padding-top:7px;padding-bottom:3px;margin:5px 0}@media (max-width: 640px){#whitehall-wrapper .govspeak p{font-size:13px;line-height:1.53846;padding-top:6px;padding-bottom:4px}}@media (min-width: 641px){#whitehall-wrapper .govspeak p{margin:10px 0}}#whitehall-wrapper .govspeak h4,#whitehall-wrapper .govspeak h5,#whitehall-wrapper .govspeak h6{font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;padding-top:7px;padding-bottom:3px;font-weight:bold}@media (max-width: 640px){#whitehall-wrapper .govspeak h4,#whitehall-wrapper .govspeak h5,#whitehall-wrapper .govspeak h6{font-size:13px;line-height:1.53846;padding-top:6px;padding-bottom:4px}}#whitehall-wrapper .govspeak h4+p,#whitehall-wrapper .govspeak h5+p,#whitehall-wrapper .govspeak h6+p{margin-top:0}#whitehall-wrapper .govspeak .hosted-externally h2{font-family:"nta",Arial,sans-serif;font-size:27px;line-height:1.11111;font-weight:400;text-transform:none;font-weight:bold;padding-top:2px}@media (max-width: 640px){#whitehall-wrapper .govspeak .hosted-externally h2{font-size:18px;line-height:1.11111}}#whitehall-wrapper .govspeak .hosted-externally h2 a{text-decoration:none}#whitehall-wrapper .govspeak .hosted-externally h2 a:hover{text-decoration:underline}#whitehall-wrapper .govspeak .hosted-externally .url{font-family:"nta",Arial,sans-serif;font-size:14px;line-height:1.42857;font-weight:400;text-transform:none;word-wrap:break-word;color:#6f777b}@media (max-width: 640px){#whitehall-wrapper .govspeak .hosted-externally .url{font-size:12px;line-height:1.25}}#whitehall-wrapper .govspeak a{text-decoration:underline}#whitehall-wrapper .govspeak ol{list-style:decimal;list-style-position:outside;font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;padding-top:7px;padding-bottom:3px;margin:5px 0 5px 20px}@media (max-width: 640px){#whitehall-wrapper .govspeak ol{font-size:13px;line-height:1.53846;padding-top:6px;padding-bottom:4px}}@media (min-width: 641px){#whitehall-wrapper .govspeak ol{margin:10px 0 10px 20px}}#whitehall-wrapper .govspeak ol ul,#whitehall-wrapper .govspeak ol ol{margin:0 0 0 20px;padding:0}#whitehall-wrapper .govspeak ol.legislative-list{list-style:none;margin-left:0}#whitehall-wrapper .govspeak ol.legislative-list ol{list-style:none}#whitehall-wrapper .govspeak ul{list-style:disc;list-style-position:outside;font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;padding-top:7px;padding-bottom:3px;margin:5px 0 5px 20px}@media (max-width: 640px){#whitehall-wrapper .govspeak ul{font-size:13px;line-height:1.53846;padding-top:6px;padding-bottom:4px}}@media (min-width: 641px){#whitehall-wrapper .govspeak ul{margin:10px 0 10px 20px}}#whitehall-wrapper .govspeak ul ul,#whitehall-wrapper .govspeak ul ol{margin:0 0 0 20px;padding:0}#whitehall-wrapper .govspeak em,#whitehall-wrapper .govspeak i{font-style:normal;font-weight:inherit}#whitehall-wrapper .govspeak li p{margin:0;padding:0}#whitehall-wrapper .govspeak li p+p,#whitehall-wrapper .govspeak li p+ul,#whitehall-wrapper .govspeak li p+ol,#whitehall-wrapper .govspeak li ul+p,#whitehall-wrapper .govspeak li ul+ol,#whitehall-wrapper .govspeak li ol+p,#whitehall-wrapper .govspeak li ol+ul{margin-top:10px}#whitehall-wrapper .govspeak abbr{cursor:help}#whitehall-wrapper .govspeak blockquote{padding:0 0 0 20px;margin:0;border:0}#whitehall-wrapper .govspeak blockquote p{padding-left:15px}@media (min-width: 641px){#whitehall-wrapper .govspeak blockquote p{padding-left:30px}}#whitehall-wrapper .govspeak blockquote p:before{content:"\201C";float:left;clear:both;margin-left:-15px}#whitehall-wrapper .govspeak blockquote p.last-child:after{content:"\201D"}@media (min-width: 769px){#whitehall-wrapper .govspeak blockquote{margin:0 0 0 -30px}}#whitehall-wrapper .govspeak hr{margin-top:29px;border-top:1px solid #ccc;margin-bottom:30px}#whitehall-wrapper .govspeak figure{width:100%;clear:both;overflow:hidden;padding:10px 0 0}#whitehall-wrapper .govspeak figure img{display:inline;text-align:center;width:auto;height:auto;max-width:100%}#whitehall-wrapper .govspeak figure figcaption{font-family:"nta",Arial,sans-serif;font-size:14px;line-height:1.4285714286;font-weight:400;text-transform:none;padding-top:6px;padding-bottom:4px}@media (max-width: 640px){#whitehall-wrapper .govspeak figure figcaption{font-size:12px;line-height:1.25;padding-top:4px;padding-bottom:1px}}#whitehall-wrapper .govspeak sup{font-size:0.8em;line-height:0.7em;vertical-align:top}#whitehall-wrapper .govspeak .information-block,#whitehall-wrapper .govspeak .call-to-action{margin:30px 0;background:#dee0e2 none no-repeat 98% 20px;padding:10px 60px 10px 15px;position:relative}#whitehall-wrapper .govspeak .information-block p,#whitehall-wrapper .govspeak .call-to-action p{margin:0;padding:0}@media (min-width: 769px){#whitehall-wrapper .govspeak .information-block ol,#whitehall-wrapper .govspeak .call-to-action ol{list-style-position:outside}}#whitehall-wrapper .govspeak .information-block:after{content:"info";text-indent:-9999px;background-color:#2e3191;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/icon-information-transparent-9245ab5b727b2dd26ba67823bf853ea2.png);background-position:center;height:30px;width:30px;position:absolute;overflow:hidden;top:20px;right:20px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}#whitehall-wrapper .govspeak table{border-collapse:collapse;border-spacing:0;margin:30px 0;width:100%;font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;padding-top:7px;padding-bottom:3px}@media (max-width: 640px){#whitehall-wrapper .govspeak table{font-size:13px;line-height:1.53846;padding-top:6px;padding-bottom:4px}}#whitehall-wrapper .govspeak table caption{text-align:left;font-weight:300;margin-bottom:0.5em;font-size:1.16em;padding-left:1em}#whitehall-wrapper .govspeak table th,#whitehall-wrapper .govspeak table td{vertical-align:top;line-height:1.3em;padding:0.7em 0.5em 0.7em 1em}#whitehall-wrapper .govspeak table tr:nth-child(even) td{background-color:#fff}#whitehall-wrapper .govspeak table td{background:#fafafa;border:dotted 1px #bbb}#whitehall-wrapper .govspeak table th{line-height:1.25em;text-align:left;color:#0b0c0c;font-weight:normal;background-color:#e1e8e8;border:solid 1px #bbb}#whitehall-wrapper .govspeak table td small{font-size:1em}#whitehall-wrapper .govspeak .fraction sup,#whitehall-wrapper .govspeak .fraction sub{font-family:"nta",Arial,sans-serif;font-size:14px;line-height:1.42857;font-weight:400;text-transform:none}@media (max-width: 640px){#whitehall-wrapper .govspeak .fraction sup,#whitehall-wrapper .govspeak .fraction sub{font-size:12px;line-height:1.25}}#whitehall-wrapper .govspeak .fraction img{display:inline-block;width:auto;margin:0 0 -5px 0}#whitehall-wrapper .govspeak .address,#whitehall-wrapper .govspeak .contact{border-left:1px solid #bfc1c3;padding-left:15px}#whitehall-wrapper .govspeak .contact{margin-bottom:30px;position:relative}#whitehall-wrapper .govspeak .contact .content{float:none;width:100%}#whitehall-wrapper .govspeak .contact .content h3{font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;font-weight:bold;margin-bottom:5px}@media (max-width: 640px){#whitehall-wrapper .govspeak .contact .content h3{font-size:16px;line-height:1.25}}@media (min-width: 641px){#whitehall-wrapper .govspeak .contact .content .adr,#whitehall-wrapper .govspeak .contact .content .email-url-number,#whitehall-wrapper .govspeak .contact .content .comments{width:50%;float:left}}#whitehall-wrapper .govspeak .contact .content .email-url-number p{margin:0}#whitehall-wrapper .govspeak .contact .content .email-url-number p .email{word-wrap:break-word}#whitehall-wrapper .govspeak .contact .content .email-url-number span{display:block}#whitehall-wrapper .govspeak .contact .content .comments{font-family:"nta",Arial,sans-serif;font-size:16px;line-height:1.25;font-weight:300;text-transform:none}@media (max-width: 640px){#whitehall-wrapper .govspeak .contact .content .comments{font-size:14px;line-height:1.14286}}#whitehall-wrapper .govspeak .footnotes{border-top:1px solid #bfc1c3;margin-top:30px;padding-top:10px}#whitehall-wrapper .govspeak .footnotes ol{margin-top:0px !important;padding-top:0}#whitehall-wrapper .govspeak .footnotes ol li p{margin:10px 0 !important}#whitehall-wrapper .organisations-box{background:#dee0e2}#whitehall-wrapper .organisations-box .organisations-box-inner{padding:15px}#whitehall-wrapper .organisations-box h3{font-family:"nta",Arial,sans-serif;font-size:14px;line-height:1.4285714286;font-weight:400;text-transform:none;padding-top:6px;padding-bottom:4px;border-bottom:1px solid #bfc1c3}@media (max-width: 640px){#whitehall-wrapper .organisations-box h3{font-size:12px;line-height:1.25;padding-top:4px;padding-bottom:1px}}#whitehall-wrapper .organisations-box p{padding-bottom:15px}#whitehall-wrapper .organisations-box ol{overflow:hidden;margin:0 -10px 10px}#whitehall-wrapper .organisations-box ol li{font-family:"nta",Arial,sans-serif;font-size:16px;line-height:1.25;font-weight:400;text-transform:none;padding-top:5px;padding-bottom:5px;display:block}@media (max-width: 640px){#whitehall-wrapper .organisations-box ol li{font-size:13px;line-height:1.53846;padding-top:6px;padding-bottom:4px}}@media (min-width: 769px){#whitehall-wrapper .organisations-box ol li{width:33.33333%;float:left}}#whitehall-wrapper .organisations-box ol li:nth-child(3n+1){clear:left}#whitehall-wrapper .organisations-box ol li a{display:block;padding:0 10px}#whitehall-wrapper .organisations-icon-list{position:relative;z-index:9}#whitehall-wrapper .organisations-icon-list .show-other-content{padding:0;color:#005ea5}#whitehall-wrapper .organisations-icon-list .show-other-content:hover,#whitehall-wrapper .organisations-icon-list .show-other-content:focus{text-decoration:underline;outline:none;cursor:pointer}#whitehall-wrapper .organisations-icon-list .show-other-content:after{display:inline-block;font-size:8px;height:10px;padding-left:5px;vertical-align:middle;content:" \25BC"}#whitehall-wrapper .organisations-icon-list.open .show-other-content:after{content:" \25B2"}#whitehall-wrapper .organisations-icon-list .organisation{overflow:hidden;list-style:none;padding-bottom:10px}@media (min-width: 641px){#whitehall-wrapper .organisations-icon-list .organisations-box{position:absolute;width:200%;right:0;z-index:10}}@media (min-width: 641px){#whitehall-wrapper .organisations-icon-list .organisations-box ol li{width:100%}}#whitehall-wrapper .multiple-orgs .organisation{position:relative;top:1px;margin-left:7px;padding-bottom:6px}#whitehall-wrapper .organisation-logo{font-family:Helvetica, Arial;font-weight:400;display:block;position:relative;background-repeat:no-repeat;font-size:13px;line-height:15px;padding:3px 0 2px 0;text-decoration:none}#whitehall-wrapper .organisation-logo:link,#whitehall-wrapper .organisation-logo:visited{color:#0b0c0c}#whitehall-wrapper .organisation-logo a,#whitehall-wrapper .organisation-logo span{color:#0b0c0c}#whitehall-wrapper a.organisation-logo:hover,#whitehall-wrapper a.organisation-logo:focus{text-decoration:underline}#whitehall-wrapper .attorney-generals-office-brand-colour .organisation-logo{border-color:#9f1888}#whitehall-wrapper .cabinet-office-brand-colour .organisation-logo{border-color:#005abb}#whitehall-wrapper .civil-service-brand-colour .organisation-logo{border-color:#af292e}#whitehall-wrapper .department-for-business-innovation-skills-brand-colour .organisation-logo{border-color:#003479}#whitehall-wrapper .department-for-communities-and-local-government-brand-colour .organisation-logo{border-color:#00857e}#whitehall-wrapper .department-for-culture-media-sport-brand-colour .organisation-logo{border-color:#d40072}#whitehall-wrapper .department-for-education-brand-colour .organisation-logo{border-color:#003a69}#whitehall-wrapper .department-for-environment-food-rural-affairs-brand-colour .organisation-logo{border-color:#898700}#whitehall-wrapper .department-for-international-development-brand-colour .organisation-logo{border-color:#002878}#whitehall-wrapper .department-for-transport-brand-colour .organisation-logo{border-color:#006c56}#whitehall-wrapper .department-for-work-pensions-brand-colour .organisation-logo{border-color:#00beb7}#whitehall-wrapper .department-of-energy-climate-change-brand-colour .organisation-logo{border-color:#009ddb}#whitehall-wrapper .department-of-health-brand-colour .organisation-logo{border-color:#00ad93}#whitehall-wrapper .foreign-commonwealth-office-brand-colour .organisation-logo{border-color:#003e74}#whitehall-wrapper .hm-government-brand-colour .organisation-logo{border-color:#0076c0}#whitehall-wrapper .hm-revenue-customs-brand-colour .organisation-logo{border-color:#009390}#whitehall-wrapper .hm-treasury-brand-colour .organisation-logo{border-color:#af292e}#whitehall-wrapper .home-office-brand-colour .organisation-logo{border-color:#9325b2}#whitehall-wrapper .ministry-of-defence-brand-colour .organisation-logo{border-color:#4d2942}#whitehall-wrapper .ministry-of-justice-brand-colour .organisation-logo{border-color:#231f20}#whitehall-wrapper .northern-ireland-office-brand-colour .organisation-logo{border-color:#002663}#whitehall-wrapper .office-of-the-advocate-general-for-scotland-brand-colour .organisation-logo{border-color:#002663}#whitehall-wrapper .office-of-the-leader-of-the-house-of-lords-brand-colour .organisation-logo{border-color:#9c132e}#whitehall-wrapper .scotland-office-brand-colour .organisation-logo{border-color:#002663}#whitehall-wrapper .the-office-of-the-leader-of-the-house-of-commons-brand-colour .organisation-logo{border-color:#317023}#whitehall-wrapper .uk-export-finance-brand-colour .organisation-logo{border-color:#005747}#whitehall-wrapper .uk-trade-investment-brand-colour .organisation-logo{border-color:#c80651}#whitehall-wrapper .wales-office-brand-colour .organisation-logo{border-color:#a33038}#whitehall-wrapper .organisation-logo-identity,#whitehall-wrapper .organisation-logo-single-identity,#whitehall-wrapper .organisation-logo-stacked-single-identity,#whitehall-wrapper .organisation-logo-bis,#whitehall-wrapper .organisation-logo-stacked-bis,#whitehall-wrapper .organisation-logo-so,#whitehall-wrapper .organisation-logo-stacked-so,#whitehall-wrapper .organisation-logo-ho,#whitehall-wrapper .organisation-logo-stacked-ho,#whitehall-wrapper .organisation-logo-mod,#whitehall-wrapper .organisation-logo-stacked-mod,#whitehall-wrapper .organisation-logo-wales,#whitehall-wrapper .organisation-logo-stacked-wales,#whitehall-wrapper .organisation-logo-coastguard,#whitehall-wrapper .organisation-logo-stacked-coastguard,#whitehall-wrapper .organisation-logo-portcullis,#whitehall-wrapper .organisation-logo-stacked-portcullis,#whitehall-wrapper .organisation-logo-ukho,#whitehall-wrapper .organisation-logo-stacked-ukho,#whitehall-wrapper .organisation-logo-hmrc,#whitehall-wrapper .organisation-logo-stacked-hmrc,#whitehall-wrapper .organisation-logo-ukaea,#whitehall-wrapper .organisation-logo-stacked-ukaea{border-left:2px solid}#whitehall-wrapper img.organisation-logo-custom{max-width:90%;width:auto}#whitehall-wrapper .organisation-logo-single-identity{padding:3px 0 2px 35px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px-ff51bae73255332e49fd9390e039c37a.png);background-position:5px center;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-single-identity{padding:20px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px-ff51bae73255332e49fd9390e039c37a.png);background-position:5px top;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-single-identity span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-single-identity,#whitehall-wrapper .organisation-logo-stacked-single-identity{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px_x2-84f252bc78de1b6bdca860d1860d2fb4.png)}}#whitehall-wrapper .organisation-logo-bis{padding:3px 0 2px 30px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_13px-5163d02686b4a53180953e9bfff973a7.png);background-position:5px center;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-bis{padding:20px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_13px-5163d02686b4a53180953e9bfff973a7.png);background-position:5px top;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-bis span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-bis,#whitehall-wrapper .organisation-logo-stacked-bis{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_13px_x2-ffda2fc986e6e576d98457be6241b28f.png)}}#whitehall-wrapper .organisation-logo-so{padding:3px 0 2px 35px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_13px-2f681f8dab01f10af507863858140d8f.png);background-position:5px center;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-so{padding:20px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_13px-2f681f8dab01f10af507863858140d8f.png);background-position:5px top;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-so span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-so,#whitehall-wrapper .organisation-logo-stacked-so{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_13px_x2-2e8327eac0800f350a995052e9c738de.png)}}#whitehall-wrapper .organisation-logo-ho{padding:5px 0 5px 24px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_13px-b6c35fe92b71fca8290dc9a65f03d66c.png);background-position:5px center;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-ho{padding:25px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_13px-b6c35fe92b71fca8290dc9a65f03d66c.png);background-position:5px top;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-ho span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ho,#whitehall-wrapper .organisation-logo-stacked-ho{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_13px_x2-40d7bcdd5fdb91391da151147c4060c9.png)}}#whitehall-wrapper .organisation-logo-mod{padding:5px 0 5px 30px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_13px-06291e7431c239d79a18e32d55ced4ab.png);background-position:5px center;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-mod{padding:25px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_13px-06291e7431c239d79a18e32d55ced4ab.png);background-position:5px top;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-mod span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-mod,#whitehall-wrapper .organisation-logo-stacked-mod{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_13px_x2-ce87ac6c3f846d843110de86eb248e98.png)}}#whitehall-wrapper .organisation-logo-wales{padding:5px 0 5px 26px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_13px-f5a66c4487b83d9603d2a4f9b3a15976.png);background-position:5px center;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-wales{padding:25px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_13px-f5a66c4487b83d9603d2a4f9b3a15976.png);background-position:5px top;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-wales span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-wales,#whitehall-wrapper .organisation-logo-stacked-wales{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_13px_x2-f0b449b83bcd7b2b70dbcc594326935d.png)}}#whitehall-wrapper .organisation-logo-coastguard{padding:5px 0 5px 26px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_13px-49bee7e64ab88dfb3663ab7c09b59d85.png);background-position:5px center;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-coastguard{padding:25px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_13px-49bee7e64ab88dfb3663ab7c09b59d85.png);background-position:5px top;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-coastguard span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-coastguard,#whitehall-wrapper .organisation-logo-stacked-coastguard{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_13px_x2-6de2c7196b6aa36d5b4e69e06f3c5ff8.png)}}#whitehall-wrapper .organisation-logo-portcullis{padding:3px 0 2px 26px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_13px-862ebeb004d69c823b2d382cc1dbfef4.png);background-position:5px center;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-portcullis{padding:25px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_13px-862ebeb004d69c823b2d382cc1dbfef4.png);background-position:5px top;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-portcullis span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-portcullis,#whitehall-wrapper .organisation-logo-stacked-portcullis{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_13px_x2-6dacca8104ef752e106c3f8468ca157b.png)}}#whitehall-wrapper .organisation-logo-ukho{padding:5px 0 5px 30px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_13px-4c11dd1151a2c2430cbb88f34d47013f.png);background-position:5px center;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-ukho{padding:25px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_13px-4c11dd1151a2c2430cbb88f34d47013f.png);background-position:5px top;background-size:auto 25px}#whitehall-wrapper .organisation-logo-stacked-ukho span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ukho,#whitehall-wrapper .organisation-logo-stacked-ukho{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_13px_x2-3be6aed383c065946d2d9b17172d2dd8.png)}}#whitehall-wrapper .organisation-logo-eo{padding:3px 0 2px 35px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px-ff51bae73255332e49fd9390e039c37a.png);background-position:5px center;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-eo{padding:20px 0 0 1px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px-ff51bae73255332e49fd9390e039c37a.png);background-position:0 top;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-eo span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-eo,#whitehall-wrapper .organisation-logo-stacked-eo{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px_x2-84f252bc78de1b6bdca860d1860d2fb4.png)}}#whitehall-wrapper .organisation-logo-hmrc{padding:3px 0 2px 30px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_13px-2d3cf5de42d18d2b65eef61fac0e658d.png);background-position:5px center;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-hmrc{padding:20px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_13px-2d3cf5de42d18d2b65eef61fac0e658d.png);background-position:5px top;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-hmrc span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-hmrc,#whitehall-wrapper .organisation-logo-stacked-hmrc{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_13px_x2-9e43405b9d766f40b1243585af83d573.png)}}#whitehall-wrapper .organisation-logo-ukaea{padding:3px 0 2px 30px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_13px-217c57565d6590be1da4cb5f7b35a02a.png);background-position:5px center;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-ukaea{padding:20px 0 0 6px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_13px-217c57565d6590be1da4cb5f7b35a02a.png);background-position:5px top;background-size:auto 20px}#whitehall-wrapper .organisation-logo-stacked-ukaea span{display:block;position:relative;top:3px}@media all and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ukaea,#whitehall-wrapper .organisation-logo-stacked-ukaea{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_13px_x2-fc09c31fed7a4b196613435df47dfb99.png)}}#whitehall-wrapper .organisation-logo-custom{border-left:none}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-no-identity-medium,#whitehall-wrapper .organisation-logo-identity-medium,#whitehall-wrapper .organisation-logo-single-identity-medium,#whitehall-wrapper .organisation-logo-stacked-single-identity-medium,#whitehall-wrapper .organisation-logo-bis-medium,#whitehall-wrapper .organisation-logo-stacked-bis-medium,#whitehall-wrapper .organisation-logo-so-medium,#whitehall-wrapper .organisation-logo-stacked-so-medium,#whitehall-wrapper .organisation-logo-ho-medium,#whitehall-wrapper .organisation-logo-stacked-ho-medium,#whitehall-wrapper .organisation-logo-mod-medium,#whitehall-wrapper .organisation-logo-stacked-mod-medium,#whitehall-wrapper .organisation-logo-wales-medium,#whitehall-wrapper .organisation-logo-stacked-wales-medium,#whitehall-wrapper .organisation-logo-coastguard-medium,#whitehall-wrapper .organisation-logo-stacked-coastguard-medium,#whitehall-wrapper .organisation-logo-portcullis-medium,#whitehall-wrapper .organisation-logo-stacked-portcullis-medium,#whitehall-wrapper .organisation-logo-ukho-medium,#whitehall-wrapper .organisation-logo-stacked-ukho-medium,#whitehall-wrapper .organisation-logo-hmrc-medium,#whitehall-wrapper .organisation-logo-stacked-hmrc-medium,#whitehall-wrapper .organisation-logo-ukaea-medium,#whitehall-wrapper .organisation-logo-stacked-ukaea-medium,#whitehall-wrapper .organisation-logo-custom-medium,#whitehall-wrapper .organisation-logo-eo-medium,#whitehall-wrapper .organisation-logo-stacked-eo-medium{font-size:18px;line-height:20px;padding:3px 0 2px 0}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-identity-medium,#whitehall-wrapper .organisation-logo-single-identity-medium,#whitehall-wrapper .organisation-logo-stacked-single-identity-medium,#whitehall-wrapper .organisation-logo-bis-medium,#whitehall-wrapper .organisation-logo-stacked-bis-medium,#whitehall-wrapper .organisation-logo-so-medium,#whitehall-wrapper .organisation-logo-stacked-so-medium,#whitehall-wrapper .organisation-logo-ho-medium,#whitehall-wrapper .organisation-logo-stacked-ho-medium,#whitehall-wrapper .organisation-logo-mod-medium,#whitehall-wrapper .organisation-logo-stacked-mod-medium,#whitehall-wrapper .organisation-logo-wales-medium,#whitehall-wrapper .organisation-logo-stacked-wales-medium,#whitehall-wrapper .organisation-logo-coastguard-medium,#whitehall-wrapper .organisation-logo-stacked-coastguard-medium,#whitehall-wrapper .organisation-logo-portcullis-medium,#whitehall-wrapper .organisation-logo-stacked-portcullis-medium,#whitehall-wrapper .organisation-logo-ukho-medium,#whitehall-wrapper .organisation-logo-stacked-ukho-medium,#whitehall-wrapper .organisation-logo-hmrc-medium,#whitehall-wrapper .organisation-logo-stacked-hmrc-medium,#whitehall-wrapper .organisation-logo-ukaea-medium,#whitehall-wrapper .organisation-logo-stacked-ukaea-medium,#whitehall-wrapper .organisation-logo-custom-medium{border-left:2px solid}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-single-identity-medium{padding:3px 0 2px 44px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px-0d15a5b24181c00d5a39e015b2e894e3.png);background-position:6px center;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-single-identity-medium{padding:25px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px-0d15a5b24181c00d5a39e015b2e894e3.png);background-position:6px top;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-single-identity-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-single-identity-medium,#whitehall-wrapper .organisation-logo-stacked-single-identity-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px_x2-cb179227fd59d45caa667218e3b8309c.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-bis-medium{padding:3px 0 2px 38px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_18px-e0ad84b8f02a467177eed65775fc9ffa.png);background-position:6px center;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-bis-medium{padding:25px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_18px-e0ad84b8f02a467177eed65775fc9ffa.png);background-position:6px top;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-bis-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-bis-medium,#whitehall-wrapper .organisation-logo-stacked-bis-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_18px_x2-85fdb392929d74f2d12f6ea3f74971c0.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-so-medium{padding:3px 0 2px 45px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_18px-ce7f42fe4500648a97aa4e412046af1d.png);background-position:6px center;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-so-medium{padding:25px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_18px-ce7f42fe4500648a97aa4e412046af1d.png);background-position:6px top;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-so-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-so-medium,#whitehall-wrapper .organisation-logo-stacked-so-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_18px_x2-e80164fa8d7543557381b1462b369e0d.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-ho-medium{padding:8px 0 7px 32px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_18px-6607634d62bea5b5bd6c57de6ab9d7d0.png);background-position:6px center;background-size:auto 35px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ho-medium{padding:35px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_18px-6607634d62bea5b5bd6c57de6ab9d7d0.png);background-position:6px top;background-size:auto 35px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ho-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ho-medium,#whitehall-wrapper .organisation-logo-stacked-ho-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_18px_x2-a7d11a3aba0f51a46425c42b214f8cd0.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-mod-medium{padding:8px 0 7px 36px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_18px-71986a131077516e35c161dc567d773a.png);background-position:6px center;background-size:auto 35px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-mod-medium{padding:35px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_18px-71986a131077516e35c161dc567d773a.png);background-position:6px top;background-size:auto 35px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-mod-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-mod-medium,#whitehall-wrapper .organisation-logo-stacked-mod-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_18px_x2-6414683862940ffdfd2f900bc8827b62.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-wales-medium{padding:8px 0 7px 35px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_18px-c8437b500a2936bf29650d432aa17749.png);background-position:6px center;background-size:auto 35px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-wales-medium{padding:35px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_18px-c8437b500a2936bf29650d432aa17749.png);background-position:6px top;background-size:auto 35px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-wales-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-wales-medium,#whitehall-wrapper .organisation-logo-stacked-wales-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_18px_x2-de01c4f34be3f17e10a3be6bafa6eb80.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-coastguard-medium{padding:8px 0 7px 35px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_18px-075591d84d96717e7f9031c37dee91e2.png);background-position:6px center;background-size:auto 35px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-coastguard-medium{padding:35px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_18px-075591d84d96717e7f9031c37dee91e2.png);background-position:6px top;background-size:auto 35px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-coastguard-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-coastguard-medium,#whitehall-wrapper .organisation-logo-stacked-coastguard-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_18px_x2-86db969225e46a7b591cb1cfe5d513ce.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-portcullis-medium{padding:3px 0 2px 34px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_18px-b19dd7280cbceb29edda3a0f33e26ffb.png);background-position:6px center;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-portcullis-medium{padding:25px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_18px-b19dd7280cbceb29edda3a0f33e26ffb.png);background-position:6px top;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-portcullis-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-portcullis-medium,#whitehall-wrapper .organisation-logo-stacked-portcullis-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_18px_x2-8b5afc0fe52e894a2f3d5a7e75bf5858.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-ukho-medium{padding:3px 0 2px 38px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_18px-cc1435984102a9cff77e8efd73f26b7e.png);background-position:6px center;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ukho-medium{padding:25px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_18px-cc1435984102a9cff77e8efd73f26b7e.png);background-position:6px top;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ukho-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ukho-medium,#whitehall-wrapper .organisation-logo-stacked-ukho-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_18px_x2-b73c49aafcf076614eb76ef570175e71.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-eo-medium{padding:3px 0 2px 44px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px-0d15a5b24181c00d5a39e015b2e894e3.png);background-position:6px center;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-eo-medium{padding:25px 0 0 1px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px-0d15a5b24181c00d5a39e015b2e894e3.png);background-position:0 top;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-eo-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-eo-medium,#whitehall-wrapper .organisation-logo-stacked-eo-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px_x2-cb179227fd59d45caa667218e3b8309c.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-hmrc-medium{padding:3px 0 2px 38px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_18px-c4dee9f35dafd7769b8a694a774b49af.png);background-position:6px center;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-hmrc-medium{padding:25px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_18px-c4dee9f35dafd7769b8a694a774b49af.png);background-position:6px top;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-hmrc-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-hmrc-medium,#whitehall-wrapper .organisation-logo-stacked-hmrc-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_18px_x2-f2dd37b9359acb524fd15b237bd50621.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-ukaea-medium{padding:3px 0 2px 38px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_18px-831c69819819a172fbafcc06e676bda6.png);background-position:6px center;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ukaea-medium{padding:25px 0 0 7px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_18px-831c69819819a172fbafcc06e676bda6.png);background-position:6px top;background-size:auto 25px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ukaea-medium span{display:block;position:relative;top:3px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ukaea-medium,#whitehall-wrapper .organisation-logo-stacked-ukaea-medium{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_18px_x2-1ece58e4ba5b20399b9269af8573b970.png)}}#whitehall-wrapper .organisation-logo-custom-medium{border-left:none}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-no-identity-large,#whitehall-wrapper .organisation-logo-identity-large,#whitehall-wrapper .organisation-logo-single-identity-large,#whitehall-wrapper .organisation-logo-stacked-single-identity-large,#whitehall-wrapper .organisation-logo-bis-large,#whitehall-wrapper .organisation-logo-stacked-bis-large,#whitehall-wrapper .organisation-logo-so-large,#whitehall-wrapper .organisation-logo-stacked-so-large,#whitehall-wrapper .organisation-logo-ho-large,#whitehall-wrapper .organisation-logo-stacked-ho-large,#whitehall-wrapper .organisation-logo-mod-large,#whitehall-wrapper .organisation-logo-stacked-mod-large,#whitehall-wrapper .organisation-logo-wales-large,#whitehall-wrapper .organisation-logo-stacked-wales-large,#whitehall-wrapper .organisation-logo-coastguard-large,#whitehall-wrapper .organisation-logo-stacked-coastguard-large,#whitehall-wrapper .organisation-logo-portcullis-large,#whitehall-wrapper .organisation-logo-stacked-portcullis-large,#whitehall-wrapper .organisation-logo-ukho-large,#whitehall-wrapper .organisation-logo-stacked-ukho-large,#whitehall-wrapper .organisation-logo-hmrc-large,#whitehall-wrapper .organisation-logo-stacked-hmrc-large,#whitehall-wrapper .organisation-logo-ukaea-large,#whitehall-wrapper .organisation-logo-stacked-ukaea-large,#whitehall-wrapper .organisation-logo-eo-large,#whitehall-wrapper .organisation-logo-stacked-eo-large,#whitehall-wrapper .organisation-logo-stacked-no-identity-large{font-size:27px;line-height:30px;padding:5px 0 5px 0}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-identity-large,#whitehall-wrapper .organisation-logo-single-identity-large,#whitehall-wrapper .organisation-logo-stacked-single-identity-large,#whitehall-wrapper .organisation-logo-bis-large,#whitehall-wrapper .organisation-logo-stacked-bis-large,#whitehall-wrapper .organisation-logo-so-large,#whitehall-wrapper .organisation-logo-stacked-so-large,#whitehall-wrapper .organisation-logo-ho-large,#whitehall-wrapper .organisation-logo-stacked-ho-large,#whitehall-wrapper .organisation-logo-mod-large,#whitehall-wrapper .organisation-logo-stacked-mod-large,#whitehall-wrapper .organisation-logo-wales-large,#whitehall-wrapper .organisation-logo-stacked-wales-large,#whitehall-wrapper .organisation-logo-coastguard-large,#whitehall-wrapper .organisation-logo-stacked-coastguard-large,#whitehall-wrapper .organisation-logo-portcullis-large,#whitehall-wrapper .organisation-logo-stacked-portcullis-large,#whitehall-wrapper .organisation-logo-ukho-large,#whitehall-wrapper .organisation-logo-stacked-ukho-large,#whitehall-wrapper .organisation-logo-hmrc-large,#whitehall-wrapper .organisation-logo-stacked-hmrc-large,#whitehall-wrapper .organisation-logo-ukaea-large,#whitehall-wrapper .organisation-logo-stacked-ukaea-large{border-left:3px solid}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-single-identity-large{padding:5px 0 5px 65px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px-84f252bc78de1b6bdca860d1860d2fb4.png);background-position:9px center;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-single-identity-large{padding:40px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px-84f252bc78de1b6bdca860d1860d2fb4.png);background-position:9px top;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-single-identity-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-single-identity-large,#whitehall-wrapper .organisation-logo-stacked-single-identity-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px_x2-123bf2593f000621d75a747943e02778.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-bis-large{padding:5px 0 5px 56px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_27px-90542747143cc834fbad22288926451d.png);background-position:9px center;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-bis-large{padding:40px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_27px-90542747143cc834fbad22288926451d.png);background-position:9px top;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-bis-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-bis-large,#whitehall-wrapper .organisation-logo-stacked-bis-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_27px_x2-9dff21035fbbf5a3fb49f206a6814309.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-so-large{padding:5px 0 5px 67px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_27px-902c97ad8830ac5eaac14ac2de4d4d10.png);background-position:9px center;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-so-large{padding:40px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_27px-902c97ad8830ac5eaac14ac2de4d4d10.png);background-position:9px top;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-so-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-so-large,#whitehall-wrapper .organisation-logo-stacked-so-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_27px_x2-a9b52ab4ba394e47c0762b6dab22dfcd.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-ho-large{padding:10px 0 10px 46px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_27px-40d7bcdd5fdb91391da151147c4060c9.png);background-position:9px center;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ho-large{padding:50px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_27px-40d7bcdd5fdb91391da151147c4060c9.png);background-position:9px top;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ho-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ho-large,#whitehall-wrapper .organisation-logo-stacked-ho-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_27px_x2-882fddf959906677870dffdee5a8da1a.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-mod-large{padding:10px 0 10px 53px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_27px-5a552fb4be34ce7c3dfa17177d29f08e.png);background-position:9px center;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-mod-large{padding:50px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_27px-5a552fb4be34ce7c3dfa17177d29f08e.png);background-position:9px top;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-mod-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-mod-large,#whitehall-wrapper .organisation-logo-stacked-mod-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_27px_x2-e0dc30d135443978f8f53f1de2db82d6.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-wales-large{padding:10px 0 10px 51px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_27px-96e1595b72187b3c6b73472e6c64d0a6.png);background-position:9px center;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-wales-large{padding:50px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_27px-96e1595b72187b3c6b73472e6c64d0a6.png);background-position:9px top;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-wales-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-wales-large,#whitehall-wrapper .organisation-logo-stacked-wales-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_27px_x2-2ce7cf5fff58e6163149c2b14f41c83a.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-coastguard-large{padding:10px 0 10px 51px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_27px-66dc42d3318ea8932be715e6223307c6.png);background-position:9px center;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-coastguard-large{padding:50px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_27px-66dc42d3318ea8932be715e6223307c6.png);background-position:9px top;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-coastguard-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-coastguard-large,#whitehall-wrapper .organisation-logo-stacked-coastguard-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_27px_x2-87f6cb4c26d2a3894e4009a8e07ba677.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-portcullis-large{padding:5px 0 5px 52px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_27px-dc26af2449a262d43fea2f674017051f.png);background-position:9px center;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-portcullis-large{padding:40px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_27px-dc26af2449a262d43fea2f674017051f.png);background-position:9px top;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-portcullis-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-portcullis-large,#whitehall-wrapper .organisation-logo-stacked-portcullis-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_27px_x2-d131bc2e9074438766ed5e9c341f164a.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-ukho-large{padding:10px 0 10px 53px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_27px-b8b780915df55ce30c7259afb620ed0e.png);background-position:9px center;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ukho-large{padding:50px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_27px-b8b780915df55ce30c7259afb620ed0e.png);background-position:9px top;background-size:auto 50px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ukho-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ukho-large,#whitehall-wrapper .organisation-logo-stacked-ukho-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_27px_x2-dd7894dcc2ded380a7cee9107e07fb56.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-eo-large{padding:5px 0 5px 65px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px-84f252bc78de1b6bdca860d1860d2fb4.png);background-position:9px center;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-eo-large{padding:40px 0 0 1px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px-84f252bc78de1b6bdca860d1860d2fb4.png);background-position:0 top;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-eo-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-eo-large,#whitehall-wrapper .organisation-logo-stacked-eo-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px_x2-123bf2593f000621d75a747943e02778.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-hmrc-large{padding:5px 0 5px 56px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_27px-cd5cfbd7c6dc06dd1ab1ca2c5c060514.png);background-position:9px center;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-hmrc-large{padding:40px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_27px-cd5cfbd7c6dc06dd1ab1ca2c5c060514.png);background-position:9px top;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-hmrc-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-hmrc-large,#whitehall-wrapper .organisation-logo-stacked-hmrc-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_27px_x2-b6028f15174b8803d334a46bdc5e61b7.png)}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-ukaea-large{padding:5px 0 5px 56px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_27px-40418c16ad9c568aca5bf843d1b6d90b.png);background-position:9px center;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ukaea-large{padding:40px 0 0 10px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_27px-40418c16ad9c568aca5bf843d1b6d90b.png);background-position:9px top;background-size:auto 40px}}@media (min-width: 641px){#whitehall-wrapper .organisation-logo-stacked-ukaea-large span{display:block;position:relative;top:5px}}@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2){#whitehall-wrapper .organisation-logo-ukaea-large,#whitehall-wrapper .organisation-logo-stacked-ukaea-large{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_27px_x2-905d4d603b8616ee912b0808953b1759.png)}}#whitehall-wrapper .player-container{display:block;overflow:hidden;margin:30px 0}#whitehall-wrapper .player-container.player-wide{min-width:580px}#whitehall-wrapper .player-container span{display:block;margin:0;padding:0}#whitehall-wrapper .player-container .video{position:relative;z-index:3000}#whitehall-wrapper .player-container .video iframe{display:block}#whitehall-wrapper .player-container .logo{display:none}#whitehall-wrapper .player-container .control-bar{position:relative;width:100%;height:60px;border-bottom:1px solid #bfc1c3}#whitehall-wrapper .player-container .control-bar button{background:transparent;border:none;padding:0;cursor:pointer}#whitehall-wrapper .player-container .control-bar button:focus,#whitehall-wrapper .player-container .control-bar a:focus{background-color:orange;outline:none}#whitehall-wrapper .player-container .control-bar .player-controls .play,#whitehall-wrapper .player-container .control-bar .player-controls .pause{position:absolute;bottom:0;left:0;width:40px;height:40px;overflow:hidden;text-indent:-5000%;background-repeat:no-repeat;background-position:center left}#whitehall-wrapper .player-container .control-bar .player-controls .play{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-play-dd52074278c49a17bf44f57037d6dd20.png)}#whitehall-wrapper .player-container .control-bar .player-controls .pause{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-pause-1d50967e465f08df8f025dd963759d2b.png)}#whitehall-wrapper .player-container .control-bar .player-controls .rewind,#whitehall-wrapper .player-container .control-bar .player-controls .forward{position:absolute;top:0;z-index:30;height:20px;width:40px;overflow:hidden;text-indent:-5000%;background-repeat:no-repeat;background-position:center left}#whitehall-wrapper .player-container .control-bar .player-controls .rewind{left:0;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-rewind-cc1ff4a5b461965512ff9427b6a054bc.png)}#whitehall-wrapper .player-container .control-bar .player-controls .forward{left:100%;margin-left:-40px;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-forward-3c52a8ef7213b2b282075bfe1a425989.png)}#whitehall-wrapper .player-container .control-bar .volume-controls{position:absolute;bottom:0;right:0;height:40px;width:180px;overflow:visible}#whitehall-wrapper .player-container .control-bar .volume-controls .mute{position:absolute;bottom:0;left:120px;height:40px;width:50px;padding-top:1px;font-size:14px;line-height:40px;text-align:center}#whitehall-wrapper .player-container .control-bar .volume-controls .muted{color:#2b8cc4}#whitehall-wrapper .player-container .control-bar .volume-controls .muted::after{content:"d"}#whitehall-wrapper .player-container .control-bar .volume-controls .muted ~ *{opacity:0.333}#whitehall-wrapper .player-container .control-bar .volume-controls .vol-down,#whitehall-wrapper .player-container .control-bar .volume-controls .vol-up{position:absolute;bottom:0;height:40px;width:60px;padding-top:2px;font-size:24px;line-height:40px;text-align:center;z-index:10}#whitehall-wrapper .player-container .control-bar .volume-controls .vol-down:hover,#whitehall-wrapper .player-container .control-bar .volume-controls .vol-down:focus,#whitehall-wrapper .player-container .control-bar .volume-controls .vol-up:hover,#whitehall-wrapper .player-container .control-bar .volume-controls .vol-up:focus{color:#2b8cc4}#whitehall-wrapper .player-container .control-bar .volume-controls .vol-down{text-align:left;padding-left:10px;left:0}#whitehall-wrapper .player-container .control-bar .volume-controls .vol-up{text-align:right;padding-right:10px;left:60px}#whitehall-wrapper .player-container .control-bar .volume-controls .vol-display{position:absolute;bottom:0;left:20px;height:40px;width:0;padding-left:35px;overflow:visible;font-size:14px;font-weight:bold;line-height:40px;background-repeat:no-repeat;background-position:center left;background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-volume-3a5ab56de8c3d926456e0d3dc9c4875a.png)}#whitehall-wrapper .player-container .control-bar .volume-controls .muted ~ .vol-display{text-decoration:line-through}#whitehall-wrapper .player-container .control-bar .current-time{position:absolute;bottom:0;left:50px;height:40px;font-size:14px;line-height:40px;font-weight:bold}#whitehall-wrapper .player-container .control-bar .duration-time{display:none;position:absolute;bottom:0;right:10px;height:40px;line-height:40px;font-size:16px;font-weight:bold}#whitehall-wrapper .player-container .control-bar .ui-slider{position:absolute;top:0;right:0;width:100%;height:20px;overflow:hidden;background:#bfc1c3}#whitehall-wrapper .player-container .control-bar .ui-slider .progress-bar{position:absolute;top:0;left:0;height:100%;padding-bottom:1px;background:#2b8cc4}#whitehall-wrapper .player-container .control-bar .ui-slider .ui-slider-handle{position:absolute;top:0;height:100%;padding-bottom:1px;width:20px;color:rgba(0,0,0,0.5);z-index:10}#whitehall-wrapper .player-container .ui-helper-hidden-accessible{position:absolute;left:-5000%}#whitehall-wrapper .govspeak .mc-chart{font-size:16px;display:table;width:100%;border-spacing:0 5px;border:1px solid #fff;padding:16px 0;position:relative;margin-bottom:16px}#whitehall-wrapper .govspeak .mc-chart .mc-caption{display:table-caption;font-size:16px;text-align:center;caption-side:top;margin:16px 0}#whitehall-wrapper .govspeak .mc-chart .mc-thead{background-color:#fff;display:table-header-group;padding:5px;border:1px solid #fff}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-th{display:none}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-header{display:block;margin-bottom:5px;margin-left:100%;padding-left:5px;border-left:16px solid;text-align:left;font-weight:normal;width:100%}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-header:last-child{margin-bottom:0}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-1{border-left-color:#2b8cc4}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-2{border-left-color:#28a197}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-3{border-left-color:#006435}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-4{border-left-color:#85994b}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-5{border-left-color:#ffbf47}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-6{border-left-color:#f47738}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-7{border-left-color:#b10e1e}#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-8{border-left-color:#df3034}#whitehall-wrapper .govspeak .mc-chart.right-key .mc-thead,#whitehall-wrapper .govspeak .mc-chart.left-key .mc-thead{position:absolute;top:100px}#whitehall-wrapper .govspeak .mc-chart.right-key .mc-thead .mc-key-header,#whitehall-wrapper .govspeak .mc-chart.left-key .mc-thead .mc-key-header{margin-left:0}#whitehall-wrapper .govspeak .mc-chart.right-key .mc-thead{right:26px}#whitehall-wrapper .govspeak .mc-chart.left-key .mc-thead{left:26px}#whitehall-wrapper .govspeak .mc-chart.no-key .mc-thead{display:none}#whitehall-wrapper .govspeak .mc-chart .mc-tbody{display:table-row-group}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr{display:table-row}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-cell,#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-key-cell{padding-right:5px;margin-right:1px;box-sizing:border-box;border:0 solid}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-cell{display:block;text-align:left;padding:8px 0;margin-bottom:1px;color:#fff;text-indent:8px}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-1{background-color:#2b8cc4}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-2{background-color:#28a197}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-3{background-color:#006435}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-4{background-color:#85994b}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-5{background-color:#ffbf47}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-6{background-color:#f47738}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-7{background-color:#b10e1e}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-8{background-color:#df3034}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-negative{text-align:right;padding-right:8px}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-value-overflow{text-indent:-99999px !important}#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-key-cell{width:40%;text-indent:26px;text-align:right;display:table-cell;vertical-align:middle}#whitehall-wrapper .govspeak .mc-chart.mc-stacked .mc-stacked-header{display:none}#whitehall-wrapper .govspeak .mc-chart.mc-stacked .mc-th:nth-last-child(2){margin-bottom:0}#whitehall-wrapper .govspeak .mc-chart.mc-stacked .mc-stacked-total{padding:8px 0;background-color:transparent !important;color:#0b0c0c;display:inline-block;text-indent:5px}#whitehall-wrapper .govspeak .mc-chart.mc-stacked .mc-tbody .mc-bar-cell{display:inline-block}#whitehall-wrapper .govspeak .mc-chart.compact .mc-td.mc-bar-cell{font-size:12px;text-indent:2px;padding:0}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-1{background-color:#2b8cc4}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-1{border-left-color:#2b8cc4}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-2{background-color:#28a197}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-2{border-left-color:#28a197}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-3{background-color:#006435}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-3{border-left-color:#006435}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-4{background-color:#85994b}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-4{border-left-color:#85994b}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-5{background-color:#ffbf47}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-5{border-left-color:#ffbf47}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-6{background-color:#f47738}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-6{border-left-color:#f47738}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-7{background-color:#b10e1e}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-7{border-left-color:#b10e1e}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-8{background-color:#df3034}#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-8{border-left-color:#df3034}#whitehall-wrapper .govspeak .mc-chart .mc-td,#whitehall-wrapper .govspeak .mc-chart .mc-th{padding:0;padding-right:5px;margin-right:1px;border:0 solid}#whitehall-wrapper .govspeak .mc-chart .mc-td.mc-bar-cell,#whitehall-wrapper .govspeak .mc-chart .mc-th.mc-bar-cell{display:block;background-color:#ebebeb;text-align:left;padding:8px 0;margin-bottom:1px;color:#fff;text-indent:4px}#whitehall-wrapper .govspeak .mc-chart .mc-bar-outdented span{color:#111}#whitehall-wrapper .govspeak .mc-chart caption{caption-side:top}#whitehall-wrapper .govspeak .mc-chart .mc-td.mc-key-cell{width:40%;text-indent:26px;text-align:right;display:table-cell;vertical-align:middle}#whitehall-wrapper .govspeak .mc-chart.mc-outdented .mc-tbody .mc-tr .mc-bar-cell{color:#111}#whitehall-wrapper .govspeak .mc-chart.mc-outdented .mc-tbody .mc-tr .mc-bar-negative{text-align:left}#whitehall-wrapper .govspeak .mc-chart.mc-negative .mc-td.mc-key-cell{padding-right:25px}#whitehall-wrapper .govspeak .mc-outdented .mc-bar-cell.mc-bar-negative{text-align:left}#whitehall-wrapper .govspeak .mc-chart.mc-negative .mc-td.mc-key-cell{padding-right:25px}#whitehall-wrapper .govspeak .mc-toggle-link{display:block;margin-top:30px}#whitehall-wrapper .govspeak .visually-hidden,#whitehall-wrapper .govspeak .visually-hidden caption{position:absolute !important;clip:rect(1px 1px 1px 1px);clip:rect(1px, 1px, 1px, 1px);padding:0 !important;border:0 !important;height:1px !important;width:1px !important;overflow:hidden}#whitehall-wrapper .attachments-preview .csv-preview{border:5px solid #dee0e2;margin:30px 0 30px}#whitehall-wrapper .attachments-preview .csv-preview-inner{border:1px solid #bfc1c3;padding:10px 24px;overflow:auto}#whitehall-wrapper .attachments-preview table{width:100%;border-collapse:collapse;border-spacing:0}#whitehall-wrapper .attachments-preview table th,#whitehall-wrapper .attachments-preview table td{font-family:"nta",Arial,sans-serif;font-size:16px;line-height:1.25;font-weight:300;text-transform:none;background-color:transparent;vertical-align:top;text-align:left;padding:10px 20px 10px 0;border-bottom:1px solid #bfc1c3;border-width:0 0 1px 0}@media (max-width: 640px){#whitehall-wrapper .attachments-preview table th,#whitehall-wrapper .attachments-preview table td{font-size:14px;line-height:1.14286}}#whitehall-wrapper .attachments-preview table tr:last-child td{border-bottom:none}#whitehall-wrapper .attachments-preview table th{font-weight:bold}#whitehall-wrapper .attachments-preview .truncated-message{margin:30px 0}#whitehall-wrapper .attachments-preview .preview-error{margin:30px 0 60px}#whitehall-wrapper .attachments-preview .other-organisations{font-family:"nta",Arial,sans-serif;font-size:16px;line-height:1.25;font-weight:300;text-transform:none;margin:15px 0}@media (max-width: 640px){#whitehall-wrapper .attachments-preview .other-organisations{font-size:14px;line-height:1.14286}}@media (min-width: 641px){#whitehall-wrapper .attachments-preview .other-organisations{margin-bottom:0;width:50%}}#whitehall-wrapper .attachments-preview .other-organisations .show-other-content{text-decoration:none}#whitehall-wrapper .html-publications-show{padding:15px 15px 90px}@media (min-width: 641px){#whitehall-wrapper .html-publications-show{padding:30px 30px 90px}}#whitehall-wrapper .html-publications-show .publication-external{margin:0 0 20px;position:relative}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-external .organisations{width:25%;float:left}}#whitehall-wrapper .html-publications-show .publication-external .organisations .content{margin-bottom:15px}#whitehall-wrapper .html-publications-show .publication-external .return{color:#0b0c0c}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-external .return{width:75%;float:left}#whitehall-wrapper .html-publications-show .publication-external .return p{position:absolute;bottom:2px;right:0}}#whitehall-wrapper .html-publications-show .publication-header{background:#2b8cc4;padding:10px 15px;margin:0 -15px}#whitehall-wrapper .html-publications-show .publication-header a,#whitehall-wrapper .html-publications-show .publication-header a:visited,#whitehall-wrapper .html-publications-show .publication-header a:hover{color:#fff;text-decoration:underline}#whitehall-wrapper .html-publications-show .publication-header a[rel="external"]:after,#whitehall-wrapper .html-publications-show .publication-header a:visited[rel="external"]:after,#whitehall-wrapper .html-publications-show .publication-header a:hover[rel="external"]:after{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/external-link-white-12x12-12c5a2eb0b88e0858856b8aca8abe4aa.png);background-repeat:no-repeat}@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx){#whitehall-wrapper .html-publications-show .publication-header a[rel="external"]:after,#whitehall-wrapper .html-publications-show .publication-header a:visited[rel="external"]:after,#whitehall-wrapper .html-publications-show .publication-header a:hover[rel="external"]:after{background-image:url(https://assets.digital.cabinet-office.gov.uk/government/assets/external-link-white-24x24-897a714f41fbf2bb16188ff78cef0616.png);background-size:12px 400px}}#whitehall-wrapper .html-publications-show .publication-header a:active{color:#2e8aca}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-header{padding:0 30px;margin:0}}#whitehall-wrapper .html-publications-show .publication-header .headings{overflow:hidden}#whitehall-wrapper .html-publications-show .publication-header .headings h1{font-family:"nta",Arial,sans-serif;font-size:48px;line-height:1.04167;font-weight:400;text-transform:none;font-weight:bold;margin:5px 0 15px;color:#fff}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-header .headings h1{font-size:32px;line-height:1.09375}}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-header .headings h1{margin-bottom:60px}}#whitehall-wrapper .html-publications-show .publication-header .headings .document-type{font-family:"nta",Arial,sans-serif;font-size:27px;line-height:1.11111;font-weight:400;text-transform:none;display:block;margin:20px 0 0}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-header .headings .document-type{font-size:18px;line-height:1.11111}}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-header .headings .document-type{margin:75px 0 10px}}#whitehall-wrapper .html-publications-show .publication-header .headings p{margin:15px 0 20px;color:#fff}#whitehall-wrapper .html-publications-show .publication-header strong{font-weight:bold}#whitehall-wrapper .html-publications-show .in-page-navigation{color:#fff;margin:0 0 40px;width:70%}#whitehall-wrapper .html-publications-show .in-page-navigation h2{font-weight:bold}#whitehall-wrapper .html-publications-show .in-page-navigation ol{padding-left:30px}#whitehall-wrapper .html-publications-show .in-page-navigation ol li{list-style:decimal;font-weight:bold}#whitehall-wrapper .html-publications-show .in-page-navigation ol.unnumbered{padding-left:0}#whitehall-wrapper .html-publications-show .in-page-navigation ol.unnumbered li{list-style:none}#whitehall-wrapper .html-publications-show .in-page-navigation a{color:#fff;text-decoration:none;font-weight:normal}#whitehall-wrapper .html-publications-show .in-page-navigation a:hover,#whitehall-wrapper .html-publications-show .in-page-navigation a:focus,#whitehall-wrapper .html-publications-show .in-page-navigation a:active{text-decoration:underline}#whitehall-wrapper .html-publications-show .publication-content{position:relative;z-index:2}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak{width:75%;float:right}}#whitehall-wrapper .html-publications-show .publication-content .govspeak h2{font-family:"nta",Arial,sans-serif;font-size:36px;line-height:1.11111;font-weight:400;text-transform:none;margin:15px 0 10px}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak h2{font-size:24px;line-height:1.04167}}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak h2{margin:60px 0 15px}}#whitehall-wrapper .html-publications-show .publication-content .govspeak h2 .number{background:#fff;padding-right:10px;font-weight:bold}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak h2 .number{font-family:"nta",Arial,sans-serif;font-size:80px;line-height:1;font-weight:400;text-transform:none;font-weight:bold;position:absolute;margin:-30px 0 0 -25%;width:22%;padding:35px 0 30px 3%}}@media (min-width: 641px) and (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak h2 .number{font-size:53px;line-height:1.03774}}#whitehall-wrapper .html-publications-show .publication-content .govspeak h3{z-index:5;position:relative;font-family:"nta",Arial,sans-serif;font-size:27px;line-height:1.11111;font-weight:400;text-transform:none}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak h3{font-size:18px;line-height:1.11111}}#whitehall-wrapper .html-publications-show .publication-content .govspeak h3 .number{background:#fff;color:#6f777b;padding-right:10px}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak h3 .number{padding-right:0;display:inline-block;width:75px;margin-left:-75px}}#whitehall-wrapper .html-publications-show .publication-content .govspeak h2,#whitehall-wrapper .html-publications-show .publication-content .govspeak h3{font-weight:bold;color:black;margin-top:30px}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak h2,#whitehall-wrapper .html-publications-show .publication-content .govspeak h3{margin-top:80px}}#whitehall-wrapper .html-publications-show .publication-content .govspeak h4,#whitehall-wrapper .html-publications-show .publication-content .govspeak h5,#whitehall-wrapper .html-publications-show .publication-content .govspeak h6{font-weight:bold;color:black;margin-top:30px}#whitehall-wrapper .html-publications-show .publication-content .govspeak h4+p,#whitehall-wrapper .html-publications-show .publication-content .govspeak h4+ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak h4+ol,#whitehall-wrapper .html-publications-show .publication-content .govspeak h5+p,#whitehall-wrapper .html-publications-show .publication-content .govspeak h5+ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak h5+ol,#whitehall-wrapper .html-publications-show .publication-content .govspeak h6+p,#whitehall-wrapper .html-publications-show .publication-content .govspeak h6+ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak h6+ol{margin-top:0}#whitehall-wrapper .html-publications-show .publication-content .govspeak p,#whitehall-wrapper .html-publications-show .publication-content .govspeak ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol{line-height:1.4736842105;margin:10px 0}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak p,#whitehall-wrapper .html-publications-show .publication-content .govspeak ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol{margin:20px 0}}#whitehall-wrapper .html-publications-show .publication-content .govspeak p a,#whitehall-wrapper .html-publications-show .publication-content .govspeak ul a,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol a{text-decoration:underline}#whitehall-wrapper .html-publications-show .publication-content .govspeak p b,#whitehall-wrapper .html-publications-show .publication-content .govspeak p strong,#whitehall-wrapper .html-publications-show .publication-content .govspeak p i,#whitehall-wrapper .html-publications-show .publication-content .govspeak p em,#whitehall-wrapper .html-publications-show .publication-content .govspeak ul b,#whitehall-wrapper .html-publications-show .publication-content .govspeak ul strong,#whitehall-wrapper .html-publications-show .publication-content .govspeak ul i,#whitehall-wrapper .html-publications-show .publication-content .govspeak ul em,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol b,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol strong,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol i,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol em{font-style:normal}#whitehall-wrapper .html-publications-show .publication-content .govspeak figcaption{font-family:"nta",Arial,sans-serif;font-size:16px;line-height:1.25;font-weight:300;text-transform:none;font-weight:bold;margin:0 0 10px}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak figcaption{font-size:14px;line-height:1.14286}}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak figcaption{margin:0 0 20px}}#whitehall-wrapper .html-publications-show .publication-content .govspeak ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol{margin-left:1.3em}#whitehall-wrapper .html-publications-show .publication-content .govspeak ul li ol,#whitehall-wrapper .html-publications-show .publication-content .govspeak ul li ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol li ol,#whitehall-wrapper .html-publications-show .publication-content .govspeak ol li ul{margin:0 20px}#whitehall-wrapper .html-publications-show .publication-content .govspeak ol{list-style-type:decimal}#whitehall-wrapper .html-publications-show .publication-content .govspeak ol.legislative-list{list-style:none;margin-left:0}#whitehall-wrapper .html-publications-show .publication-content .govspeak ol.legislative-list ol{list-style:none}#whitehall-wrapper .html-publications-show .publication-content .govspeak table,#whitehall-wrapper .html-publications-show .publication-content .govspeak img{margin:15px 0;width:100%;height:auto}#whitehall-wrapper .html-publications-show .publication-content .govspeak table{border-collapse:collapse;border-spacing:0;margin-bottom:60px}#whitehall-wrapper .html-publications-show .publication-content .govspeak table th,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td{font-family:"nta",Arial,sans-serif;font-size:14px;line-height:1.42857;font-weight:400;text-transform:none;background-color:transparent;vertical-align:top;text-align:left;padding:10px 20px 10px 0;border-bottom:1px solid #bfc1c3;border-width:0 0 1px 0}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak table th,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td{font-size:12px;line-height:1.25}}#whitehall-wrapper .html-publications-show .publication-content .govspeak table th{font-weight:bold}#whitehall-wrapper .html-publications-show .publication-content .govspeak table td p,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td ol{margin:0}#whitehall-wrapper .html-publications-show .publication-content .govspeak table td p+p,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td p+ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td p+ol,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td ul+p,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td ul+ol,#whitehall-wrapper .html-publications-show .publication-content .govspeak table td ol+p{margin-top:10px}#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact{background:#dee0e2;margin:30px -15px;padding:10px 15px;position:relative}#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact h4{font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;font-weight:bold;margin:10px 0 0}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact h4{font-size:16px;line-height:1.25}}#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact p{font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;padding-top:2px;padding-bottom:8px;margin:0}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact p{font-size:16px;line-height:1.25}}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact p{padding-top:0;padding-bottom:5px}}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .adr,#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .email-url-number,#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .comments{width:50%;float:left}}#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .email-url-number p{margin:0}#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .email-url-number span{display:block}#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .comments{font-family:"nta",Arial,sans-serif;font-size:16px;line-height:1.25;font-weight:300;text-transform:none}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .comments{font-size:14px;line-height:1.14286}}#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action{margin:30px 0 30px;background:#dee0e2 none no-repeat 98% 20px;padding:10px 60px 10px 15px;position:relative}#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action h4{margin-top:0}#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action p{margin:0;padding:0}#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action ul,#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action ol{margin-left:20px;list-style-position:outside}#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action h3{padding:5px 0;margin-top:0px}#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action h3 .number{background:none}@media (min-width: 641px){#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action h3 .number{width:90px;margin-left:-90px}}#whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction sup,#whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction sub{font-family:"nta",Arial,sans-serif;font-size:14px;line-height:1.42857;font-weight:400;text-transform:none}@media (max-width: 640px){#whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction sup,#whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction sub{font-size:12px;line-height:1.25}}#whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction img{display:inline-block;width:auto;margin:0 0 -5px 0}#whitehall-wrapper .html-publications-show .back-to-content{position:fixed;bottom:15px}#whitehall-wrapper .html-publications-show .back-to-content a{display:block}#whitehall-wrapper .html-publications-show .back-to-content a:before{content:"\2191 "}#whitehall-wrapper .html-publications-show .js-back-to-content-stop{clear:both}#whitehall-wrapper .html-publications-show p.report-a-problem-toggle a{font-family:"nta",Arial,sans-serif;font-size:16px;line-height:1.25;font-weight:300;text-transform:none;color:#6f777b;text-decoration:underline}@media (max-width: 640px){#whitehall-wrapper .html-publications-show p.report-a-problem-toggle a{font-size:14px;line-height:1.14286}}#whitehall-wrapper .html-publications-show .report-a-problem-container{margin-left:0}.html-publication{font-family:"nta",Arial,sans-serif;font-size:19px;line-height:1.31579;font-weight:400;text-transform:none;color:#292929;-webkit-font-smoothing:antialiased}@media (max-width: 640px){.html-publication{font-size:16px;line-height:1.25}}#whitehall-wrapper{position:relative;margin:0 auto;padding-top:0}#whitehall-wrapper .whitehall-content{position:relative;margin:0 auto;width:auto;max-width:1020px}#footer{font-family:"nta",Arial,sans-serif;font-size:16px;line-height:1.25;font-weight:300;text-transform:none}@media (max-width: 640px){#footer{font-size:14px;line-height:1.14286}}#footer .footer-meta{border-top:0;margin-top:0;padding-top:0}
+@-ms-viewport {
+  width: device-width
+}
+
+@-o-viewport {
+  width: device-width
+}
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica")
+}
+
+@-ms-viewport {
+  width: device-width
+}
+
+@-o-viewport {
+  width: device-width
+}
+
+#whitehall-wrapper .govspeak .contact:after, #whitehall-wrapper .html-publications-show:after, #whitehall-wrapper .html-publications-show .publication-external:after, #whitehall-wrapper .html-publications-show .publication-header:after, #whitehall-wrapper .whitehall-content:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark {
+  border: none;
+  margin: 0;
+  padding: 0
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, small, strike, strong, sub, sup, tt, var, b, u, i, center, input, textarea, table, caption, tbody, tfoot, thead, tr, th, td {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-weight: normal
+}
+
+#whitehall-wrapper .govspeak h2:first-child, #whitehall-wrapper .govspeak h3:first-child, #whitehall-wrapper .govspeak h4:first-child, #whitehall-wrapper .govspeak p:first-child {
+  margin-top: 0
+}
+
+#whitehall-wrapper .govspeak h2 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 27px;
+  line-height: 1.1111111111;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  font-weight: bold;
+  margin-top: 15px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak h2 {
+    font-size: 19px;
+    line-height: 1.31579;
+    padding-top: 7px;
+    padding-bottom: 3px
+  }
+}
+
+@media (min-width: 769px) {
+  #whitehall-wrapper .govspeak h2 {
+    margin-top: 45px
+  }
+}
+
+#whitehall-wrapper .govspeak h3 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  font-weight: bold;
+  margin-top: 35px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak h3 {
+    font-size: 13px;
+    line-height: 1.53846;
+    padding-top: 6px;
+    padding-bottom: 4px
+  }
+}
+
+#whitehall-wrapper .govspeak h4 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  font-weight: bold;
+  margin-top: 35px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak h4 {
+    font-size: 13px;
+    line-height: 1.53846;
+    padding-top: 6px;
+    padding-bottom: 4px
+  }
+}
+
+#whitehall-wrapper .govspeak p {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  margin: 5px 0
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak p {
+    font-size: 13px;
+    line-height: 1.53846;
+    padding-top: 6px;
+    padding-bottom: 4px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .govspeak p {
+    margin: 10px 0
+  }
+}
+
+#whitehall-wrapper .govspeak h4, #whitehall-wrapper .govspeak h5, #whitehall-wrapper .govspeak h6 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  font-weight: bold
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak h4, #whitehall-wrapper .govspeak h5, #whitehall-wrapper .govspeak h6 {
+    font-size: 13px;
+    line-height: 1.53846;
+    padding-top: 6px;
+    padding-bottom: 4px
+  }
+}
+
+#whitehall-wrapper .govspeak h4 + p, #whitehall-wrapper .govspeak h5 + p, #whitehall-wrapper .govspeak h6 + p {
+  margin-top: 0
+}
+
+#whitehall-wrapper .govspeak .hosted-externally h2 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 27px;
+  line-height: 1.11111;
+  font-weight: 400;
+  text-transform: none;
+  font-weight: bold;
+  padding-top: 2px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak .hosted-externally h2 {
+    font-size: 18px;
+    line-height: 1.11111
+  }
+}
+
+#whitehall-wrapper .govspeak .hosted-externally h2 a {
+  text-decoration: none
+}
+
+#whitehall-wrapper .govspeak .hosted-externally h2 a:hover {
+  text-decoration: underline
+}
+
+#whitehall-wrapper .govspeak .hosted-externally .url {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 400;
+  text-transform: none;
+  word-wrap: break-word;
+  color: #6f777b
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak .hosted-externally .url {
+    font-size: 12px;
+    line-height: 1.25
+  }
+}
+
+#whitehall-wrapper .govspeak a {
+  text-decoration: underline
+}
+
+#whitehall-wrapper .govspeak ol {
+  list-style: decimal;
+  list-style-position: outside;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  margin: 5px 0 5px 20px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak ol {
+    font-size: 13px;
+    line-height: 1.53846;
+    padding-top: 6px;
+    padding-bottom: 4px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .govspeak ol {
+    margin: 10px 0 10px 20px
+  }
+}
+
+#whitehall-wrapper .govspeak ol ul, #whitehall-wrapper .govspeak ol ol {
+  margin: 0 0 0 20px;
+  padding: 0
+}
+
+#whitehall-wrapper .govspeak ol.legislative-list {
+  list-style: none;
+  margin-left: 0
+}
+
+#whitehall-wrapper .govspeak ol.legislative-list ol {
+  list-style: none
+}
+
+#whitehall-wrapper .govspeak ul {
+  list-style: disc;
+  list-style-position: outside;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  margin: 5px 0 5px 20px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak ul {
+    font-size: 13px;
+    line-height: 1.53846;
+    padding-top: 6px;
+    padding-bottom: 4px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .govspeak ul {
+    margin: 10px 0 10px 20px
+  }
+}
+
+#whitehall-wrapper .govspeak ul ul, #whitehall-wrapper .govspeak ul ol {
+  margin: 0 0 0 20px;
+  padding: 0
+}
+
+#whitehall-wrapper .govspeak em, #whitehall-wrapper .govspeak i {
+  font-style: normal;
+  font-weight: inherit
+}
+
+#whitehall-wrapper .govspeak li p {
+  margin: 0;
+  padding: 0
+}
+
+#whitehall-wrapper .govspeak li p + p, #whitehall-wrapper .govspeak li p + ul, #whitehall-wrapper .govspeak li p + ol, #whitehall-wrapper .govspeak li ul + p, #whitehall-wrapper .govspeak li ul + ol, #whitehall-wrapper .govspeak li ol + p, #whitehall-wrapper .govspeak li ol + ul {
+  margin-top: 10px
+}
+
+#whitehall-wrapper .govspeak abbr {
+  cursor: help
+}
+
+#whitehall-wrapper .govspeak blockquote {
+  padding: 0 0 0 20px;
+  margin: 0;
+  border: 0
+}
+
+#whitehall-wrapper .govspeak blockquote p {
+  padding-left: 15px
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .govspeak blockquote p {
+    padding-left: 30px
+  }
+}
+
+#whitehall-wrapper .govspeak blockquote p:before {
+  content: "\201C";
+  float: left;
+  clear: both;
+  margin-left: -15px
+}
+
+#whitehall-wrapper .govspeak blockquote p.last-child:after {
+  content: "\201D"
+}
+
+@media (min-width: 769px) {
+  #whitehall-wrapper .govspeak blockquote {
+    margin: 0 0 0 -30px
+  }
+}
+
+#whitehall-wrapper .govspeak hr {
+  margin-top: 29px;
+  border-top: 1px solid #ccc;
+  margin-bottom: 30px
+}
+
+#whitehall-wrapper .govspeak figure {
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+  padding: 10px 0 0
+}
+
+#whitehall-wrapper .govspeak figure img {
+  display: inline;
+  text-align: center;
+  width: auto;
+  height: auto;
+  max-width: 100%
+}
+
+#whitehall-wrapper .govspeak figure figcaption {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285714286;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 6px;
+  padding-bottom: 4px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak figure figcaption {
+    font-size: 12px;
+    line-height: 1.25;
+    padding-top: 4px;
+    padding-bottom: 1px
+  }
+}
+
+#whitehall-wrapper .govspeak sup {
+  font-size: 0.8em;
+  line-height: 0.7em;
+  vertical-align: top
+}
+
+#whitehall-wrapper .govspeak .information-block, #whitehall-wrapper .govspeak .call-to-action {
+  margin: 30px 0;
+  background: #dee0e2 none no-repeat 98% 20px;
+  padding: 10px 60px 10px 15px;
+  position: relative
+}
+
+#whitehall-wrapper .govspeak .information-block p, #whitehall-wrapper .govspeak .call-to-action p {
+  margin: 0;
+  padding: 0
+}
+
+@media (min-width: 769px) {
+  #whitehall-wrapper .govspeak .information-block ol, #whitehall-wrapper .govspeak .call-to-action ol {
+    list-style-position: outside
+  }
+}
+
+#whitehall-wrapper .govspeak .information-block:after {
+  content: "info";
+  text-indent: -9999px;
+  background-color: #2e3191;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/icon-information-transparent-9245ab5b727b2dd26ba67823bf853ea2.png);
+  background-position: center;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 20px;
+  right: 20px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px
+}
+
+#whitehall-wrapper .govspeak table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 30px 0;
+  width: 100%;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 7px;
+  padding-bottom: 3px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak table {
+    font-size: 13px;
+    line-height: 1.53846;
+    padding-top: 6px;
+    padding-bottom: 4px
+  }
+}
+
+#whitehall-wrapper .govspeak table caption {
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  font-size: 1.16em;
+  padding-left: 1em
+}
+
+#whitehall-wrapper .govspeak table th, #whitehall-wrapper .govspeak table td {
+  vertical-align: top;
+  line-height: 1.3em;
+  padding: 0.7em 0.5em 0.7em 1em
+}
+
+#whitehall-wrapper .govspeak table tr:nth-child(even) td {
+  background-color: #fff
+}
+
+#whitehall-wrapper .govspeak table td {
+  background: #fafafa;
+  border: dotted 1px #bbb
+}
+
+#whitehall-wrapper .govspeak table th {
+  line-height: 1.25em;
+  text-align: left;
+  color: #0b0c0c;
+  font-weight: normal;
+  background-color: #e1e8e8;
+  border: solid 1px #bbb
+}
+
+#whitehall-wrapper .govspeak table td small {
+  font-size: 1em
+}
+
+#whitehall-wrapper .govspeak .fraction sup, #whitehall-wrapper .govspeak .fraction sub {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 400;
+  text-transform: none
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak .fraction sup, #whitehall-wrapper .govspeak .fraction sub {
+    font-size: 12px;
+    line-height: 1.25
+  }
+}
+
+#whitehall-wrapper .govspeak .fraction img {
+  display: inline-block;
+  width: auto;
+  margin: 0 0 -5px 0
+}
+
+#whitehall-wrapper .govspeak .address, #whitehall-wrapper .govspeak .contact {
+  border-left: 1px solid #bfc1c3;
+  padding-left: 15px
+}
+
+#whitehall-wrapper .govspeak .contact {
+  margin-bottom: 30px;
+  position: relative
+}
+
+#whitehall-wrapper .govspeak .contact .content {
+  float: none;
+  width: 100%
+}
+
+#whitehall-wrapper .govspeak .contact .content h3 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  font-weight: bold;
+  margin-bottom: 5px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak .contact .content h3 {
+    font-size: 16px;
+    line-height: 1.25
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .govspeak .contact .content .adr, #whitehall-wrapper .govspeak .contact .content .email-url-number, #whitehall-wrapper .govspeak .contact .content .comments {
+    width: 50%;
+    float: left
+  }
+}
+
+#whitehall-wrapper .govspeak .contact .content .email-url-number p {
+  margin: 0
+}
+
+#whitehall-wrapper .govspeak .contact .content .email-url-number p .email {
+  word-wrap: break-word
+}
+
+#whitehall-wrapper .govspeak .contact .content .email-url-number span {
+  display: block
+}
+
+#whitehall-wrapper .govspeak .contact .content .comments {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: none
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .govspeak .contact .content .comments {
+    font-size: 14px;
+    line-height: 1.14286
+  }
+}
+
+#whitehall-wrapper .govspeak .footnotes {
+  border-top: 1px solid #bfc1c3;
+  margin-top: 30px;
+  padding-top: 10px
+}
+
+#whitehall-wrapper .govspeak .footnotes ol {
+  margin-top: 0px !important;
+  padding-top: 0
+}
+
+#whitehall-wrapper .govspeak .footnotes ol li p {
+  margin: 10px 0 !important
+}
+
+#whitehall-wrapper .organisations-box {
+  background: #dee0e2
+}
+
+#whitehall-wrapper .organisations-box .organisations-box-inner {
+  padding: 15px
+}
+
+#whitehall-wrapper .organisations-box h3 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285714286;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #bfc1c3
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .organisations-box h3 {
+    font-size: 12px;
+    line-height: 1.25;
+    padding-top: 4px;
+    padding-bottom: 1px
+  }
+}
+
+#whitehall-wrapper .organisations-box p {
+  padding-bottom: 15px
+}
+
+#whitehall-wrapper .organisations-box ol {
+  overflow: hidden;
+  margin: 0 -10px 10px
+}
+
+#whitehall-wrapper .organisations-box ol li {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .organisations-box ol li {
+    font-size: 13px;
+    line-height: 1.53846;
+    padding-top: 6px;
+    padding-bottom: 4px
+  }
+}
+
+@media (min-width: 769px) {
+  #whitehall-wrapper .organisations-box ol li {
+    width: 33.33333%;
+    float: left
+  }
+}
+
+#whitehall-wrapper .organisations-box ol li:nth-child(3n+1) {
+  clear: left
+}
+
+#whitehall-wrapper .organisations-box ol li a {
+  display: block;
+  padding: 0 10px
+}
+
+#whitehall-wrapper .organisations-icon-list {
+  position: relative;
+  z-index: 9
+}
+
+#whitehall-wrapper .organisations-icon-list .show-other-content {
+  padding: 0;
+  color: #005ea5
+}
+
+#whitehall-wrapper .organisations-icon-list .show-other-content:hover, #whitehall-wrapper .organisations-icon-list .show-other-content:focus {
+  text-decoration: underline;
+  outline: none;
+  cursor: pointer
+}
+
+#whitehall-wrapper .organisations-icon-list .show-other-content:after {
+  display: inline-block;
+  font-size: 8px;
+  height: 10px;
+  padding-left: 5px;
+  vertical-align: middle;
+  content: " \25BC"
+}
+
+#whitehall-wrapper .organisations-icon-list.open .show-other-content:after {
+  content: " \25B2"
+}
+
+#whitehall-wrapper .organisations-icon-list .organisation {
+  overflow: hidden;
+  list-style: none;
+  padding-bottom: 10px
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisations-icon-list .organisations-box {
+    position: absolute;
+    width: 200%;
+    right: 0;
+    z-index: 10
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisations-icon-list .organisations-box ol li {
+    width: 100%
+  }
+}
+
+#whitehall-wrapper .multiple-orgs .organisation {
+  position: relative;
+  top: 1px;
+  margin-left: 7px;
+  padding-bottom: 6px
+}
+
+#whitehall-wrapper .organisation-logo {
+  font-family: Helvetica, Arial;
+  font-weight: 400;
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 3px 0 2px 0;
+  text-decoration: none
+}
+
+#whitehall-wrapper .organisation-logo:link, #whitehall-wrapper .organisation-logo:visited {
+  color: #0b0c0c
+}
+
+#whitehall-wrapper .organisation-logo a, #whitehall-wrapper .organisation-logo span {
+  color: #0b0c0c
+}
+
+#whitehall-wrapper a.organisation-logo:hover, #whitehall-wrapper a.organisation-logo:focus {
+  text-decoration: underline
+}
+
+#whitehall-wrapper .attorney-generals-office-brand-colour .organisation-logo {
+  border-color: #9f1888
+}
+
+#whitehall-wrapper .cabinet-office-brand-colour .organisation-logo {
+  border-color: #005abb
+}
+
+#whitehall-wrapper .civil-service-brand-colour .organisation-logo {
+  border-color: #af292e
+}
+
+#whitehall-wrapper .department-for-business-innovation-skills-brand-colour .organisation-logo {
+  border-color: #003479
+}
+
+#whitehall-wrapper .department-for-communities-and-local-government-brand-colour .organisation-logo {
+  border-color: #00857e
+}
+
+#whitehall-wrapper .department-for-culture-media-sport-brand-colour .organisation-logo {
+  border-color: #d40072
+}
+
+#whitehall-wrapper .department-for-education-brand-colour .organisation-logo {
+  border-color: #003a69
+}
+
+#whitehall-wrapper .department-for-environment-food-rural-affairs-brand-colour .organisation-logo {
+  border-color: #898700
+}
+
+#whitehall-wrapper .department-for-international-development-brand-colour .organisation-logo {
+  border-color: #002878
+}
+
+#whitehall-wrapper .department-for-transport-brand-colour .organisation-logo {
+  border-color: #006c56
+}
+
+#whitehall-wrapper .department-for-work-pensions-brand-colour .organisation-logo {
+  border-color: #00beb7
+}
+
+#whitehall-wrapper .department-of-energy-climate-change-brand-colour .organisation-logo {
+  border-color: #009ddb
+}
+
+#whitehall-wrapper .department-of-health-brand-colour .organisation-logo {
+  border-color: #00ad93
+}
+
+#whitehall-wrapper .foreign-commonwealth-office-brand-colour .organisation-logo {
+  border-color: #003e74
+}
+
+#whitehall-wrapper .hm-government-brand-colour .organisation-logo {
+  border-color: #0076c0
+}
+
+#whitehall-wrapper .hm-revenue-customs-brand-colour .organisation-logo {
+  border-color: #009390
+}
+
+#whitehall-wrapper .hm-treasury-brand-colour .organisation-logo {
+  border-color: #af292e
+}
+
+#whitehall-wrapper .home-office-brand-colour .organisation-logo {
+  border-color: #9325b2
+}
+
+#whitehall-wrapper .ministry-of-defence-brand-colour .organisation-logo {
+  border-color: #4d2942
+}
+
+#whitehall-wrapper .ministry-of-justice-brand-colour .organisation-logo {
+  border-color: #231f20
+}
+
+#whitehall-wrapper .northern-ireland-office-brand-colour .organisation-logo {
+  border-color: #002663
+}
+
+#whitehall-wrapper .office-of-the-advocate-general-for-scotland-brand-colour .organisation-logo {
+  border-color: #002663
+}
+
+#whitehall-wrapper .office-of-the-leader-of-the-house-of-lords-brand-colour .organisation-logo {
+  border-color: #9c132e
+}
+
+#whitehall-wrapper .scotland-office-brand-colour .organisation-logo {
+  border-color: #002663
+}
+
+#whitehall-wrapper .the-office-of-the-leader-of-the-house-of-commons-brand-colour .organisation-logo {
+  border-color: #317023
+}
+
+#whitehall-wrapper .uk-export-finance-brand-colour .organisation-logo {
+  border-color: #005747
+}
+
+#whitehall-wrapper .uk-trade-investment-brand-colour .organisation-logo {
+  border-color: #c80651
+}
+
+#whitehall-wrapper .wales-office-brand-colour .organisation-logo {
+  border-color: #a33038
+}
+
+#whitehall-wrapper .organisation-logo-identity, #whitehall-wrapper .organisation-logo-single-identity, #whitehall-wrapper .organisation-logo-stacked-single-identity, #whitehall-wrapper .organisation-logo-bis, #whitehall-wrapper .organisation-logo-stacked-bis, #whitehall-wrapper .organisation-logo-so, #whitehall-wrapper .organisation-logo-stacked-so, #whitehall-wrapper .organisation-logo-ho, #whitehall-wrapper .organisation-logo-stacked-ho, #whitehall-wrapper .organisation-logo-mod, #whitehall-wrapper .organisation-logo-stacked-mod, #whitehall-wrapper .organisation-logo-wales, #whitehall-wrapper .organisation-logo-stacked-wales, #whitehall-wrapper .organisation-logo-coastguard, #whitehall-wrapper .organisation-logo-stacked-coastguard, #whitehall-wrapper .organisation-logo-portcullis, #whitehall-wrapper .organisation-logo-stacked-portcullis, #whitehall-wrapper .organisation-logo-ukho, #whitehall-wrapper .organisation-logo-stacked-ukho, #whitehall-wrapper .organisation-logo-hmrc, #whitehall-wrapper .organisation-logo-stacked-hmrc, #whitehall-wrapper .organisation-logo-ukaea, #whitehall-wrapper .organisation-logo-stacked-ukaea {
+  border-left: 2px solid
+}
+
+#whitehall-wrapper img.organisation-logo-custom {
+  max-width: 90%;
+  width: auto
+}
+
+#whitehall-wrapper .organisation-logo-single-identity {
+  padding: 3px 0 2px 35px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px-ff51bae73255332e49fd9390e039c37a.png);
+  background-position: 5px center;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-single-identity {
+  padding: 20px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px-ff51bae73255332e49fd9390e039c37a.png);
+  background-position: 5px top;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-single-identity span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-single-identity, #whitehall-wrapper .organisation-logo-stacked-single-identity {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px_x2-84f252bc78de1b6bdca860d1860d2fb4.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-bis {
+  padding: 3px 0 2px 30px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_13px-5163d02686b4a53180953e9bfff973a7.png);
+  background-position: 5px center;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-bis {
+  padding: 20px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_13px-5163d02686b4a53180953e9bfff973a7.png);
+  background-position: 5px top;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-bis span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-bis, #whitehall-wrapper .organisation-logo-stacked-bis {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_13px_x2-ffda2fc986e6e576d98457be6241b28f.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-so {
+  padding: 3px 0 2px 35px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_13px-2f681f8dab01f10af507863858140d8f.png);
+  background-position: 5px center;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-so {
+  padding: 20px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_13px-2f681f8dab01f10af507863858140d8f.png);
+  background-position: 5px top;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-so span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-so, #whitehall-wrapper .organisation-logo-stacked-so {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_13px_x2-2e8327eac0800f350a995052e9c738de.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-ho {
+  padding: 5px 0 5px 24px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_13px-b6c35fe92b71fca8290dc9a65f03d66c.png);
+  background-position: 5px center;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-ho {
+  padding: 25px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_13px-b6c35fe92b71fca8290dc9a65f03d66c.png);
+  background-position: 5px top;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-ho span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ho, #whitehall-wrapper .organisation-logo-stacked-ho {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_13px_x2-40d7bcdd5fdb91391da151147c4060c9.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-mod {
+  padding: 5px 0 5px 30px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_13px-06291e7431c239d79a18e32d55ced4ab.png);
+  background-position: 5px center;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-mod {
+  padding: 25px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_13px-06291e7431c239d79a18e32d55ced4ab.png);
+  background-position: 5px top;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-mod span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-mod, #whitehall-wrapper .organisation-logo-stacked-mod {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_13px_x2-ce87ac6c3f846d843110de86eb248e98.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-wales {
+  padding: 5px 0 5px 26px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_13px-f5a66c4487b83d9603d2a4f9b3a15976.png);
+  background-position: 5px center;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-wales {
+  padding: 25px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_13px-f5a66c4487b83d9603d2a4f9b3a15976.png);
+  background-position: 5px top;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-wales span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-wales, #whitehall-wrapper .organisation-logo-stacked-wales {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_13px_x2-f0b449b83bcd7b2b70dbcc594326935d.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-coastguard {
+  padding: 5px 0 5px 26px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_13px-49bee7e64ab88dfb3663ab7c09b59d85.png);
+  background-position: 5px center;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-coastguard {
+  padding: 25px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_13px-49bee7e64ab88dfb3663ab7c09b59d85.png);
+  background-position: 5px top;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-coastguard span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-coastguard, #whitehall-wrapper .organisation-logo-stacked-coastguard {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_13px_x2-6de2c7196b6aa36d5b4e69e06f3c5ff8.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-portcullis {
+  padding: 3px 0 2px 26px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_13px-862ebeb004d69c823b2d382cc1dbfef4.png);
+  background-position: 5px center;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-portcullis {
+  padding: 25px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_13px-862ebeb004d69c823b2d382cc1dbfef4.png);
+  background-position: 5px top;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-portcullis span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-portcullis, #whitehall-wrapper .organisation-logo-stacked-portcullis {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_13px_x2-6dacca8104ef752e106c3f8468ca157b.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-ukho {
+  padding: 5px 0 5px 30px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_13px-4c11dd1151a2c2430cbb88f34d47013f.png);
+  background-position: 5px center;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-ukho {
+  padding: 25px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_13px-4c11dd1151a2c2430cbb88f34d47013f.png);
+  background-position: 5px top;
+  background-size: auto 25px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-ukho span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ukho, #whitehall-wrapper .organisation-logo-stacked-ukho {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_13px_x2-3be6aed383c065946d2d9b17172d2dd8.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-eo {
+  padding: 3px 0 2px 35px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px-ff51bae73255332e49fd9390e039c37a.png);
+  background-position: 5px center;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-eo {
+  padding: 20px 0 0 1px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px-ff51bae73255332e49fd9390e039c37a.png);
+  background-position: 0 top;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-eo span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-eo, #whitehall-wrapper .organisation-logo-stacked-eo {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_13px_x2-84f252bc78de1b6bdca860d1860d2fb4.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-hmrc {
+  padding: 3px 0 2px 30px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_13px-2d3cf5de42d18d2b65eef61fac0e658d.png);
+  background-position: 5px center;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-hmrc {
+  padding: 20px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_13px-2d3cf5de42d18d2b65eef61fac0e658d.png);
+  background-position: 5px top;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-hmrc span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-hmrc, #whitehall-wrapper .organisation-logo-stacked-hmrc {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_13px_x2-9e43405b9d766f40b1243585af83d573.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-ukaea {
+  padding: 3px 0 2px 30px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_13px-217c57565d6590be1da4cb5f7b35a02a.png);
+  background-position: 5px center;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-ukaea {
+  padding: 20px 0 0 6px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_13px-217c57565d6590be1da4cb5f7b35a02a.png);
+  background-position: 5px top;
+  background-size: auto 20px
+}
+
+#whitehall-wrapper .organisation-logo-stacked-ukaea span {
+  display: block;
+  position: relative;
+  top: 3px
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ukaea, #whitehall-wrapper .organisation-logo-stacked-ukaea {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_13px_x2-fc09c31fed7a4b196613435df47dfb99.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-custom {
+  border-left: none
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-no-identity-medium, #whitehall-wrapper .organisation-logo-identity-medium, #whitehall-wrapper .organisation-logo-single-identity-medium, #whitehall-wrapper .organisation-logo-stacked-single-identity-medium, #whitehall-wrapper .organisation-logo-bis-medium, #whitehall-wrapper .organisation-logo-stacked-bis-medium, #whitehall-wrapper .organisation-logo-so-medium, #whitehall-wrapper .organisation-logo-stacked-so-medium, #whitehall-wrapper .organisation-logo-ho-medium, #whitehall-wrapper .organisation-logo-stacked-ho-medium, #whitehall-wrapper .organisation-logo-mod-medium, #whitehall-wrapper .organisation-logo-stacked-mod-medium, #whitehall-wrapper .organisation-logo-wales-medium, #whitehall-wrapper .organisation-logo-stacked-wales-medium, #whitehall-wrapper .organisation-logo-coastguard-medium, #whitehall-wrapper .organisation-logo-stacked-coastguard-medium, #whitehall-wrapper .organisation-logo-portcullis-medium, #whitehall-wrapper .organisation-logo-stacked-portcullis-medium, #whitehall-wrapper .organisation-logo-ukho-medium, #whitehall-wrapper .organisation-logo-stacked-ukho-medium, #whitehall-wrapper .organisation-logo-hmrc-medium, #whitehall-wrapper .organisation-logo-stacked-hmrc-medium, #whitehall-wrapper .organisation-logo-ukaea-medium, #whitehall-wrapper .organisation-logo-stacked-ukaea-medium, #whitehall-wrapper .organisation-logo-custom-medium, #whitehall-wrapper .organisation-logo-eo-medium, #whitehall-wrapper .organisation-logo-stacked-eo-medium {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 3px 0 2px 0
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-identity-medium, #whitehall-wrapper .organisation-logo-single-identity-medium, #whitehall-wrapper .organisation-logo-stacked-single-identity-medium, #whitehall-wrapper .organisation-logo-bis-medium, #whitehall-wrapper .organisation-logo-stacked-bis-medium, #whitehall-wrapper .organisation-logo-so-medium, #whitehall-wrapper .organisation-logo-stacked-so-medium, #whitehall-wrapper .organisation-logo-ho-medium, #whitehall-wrapper .organisation-logo-stacked-ho-medium, #whitehall-wrapper .organisation-logo-mod-medium, #whitehall-wrapper .organisation-logo-stacked-mod-medium, #whitehall-wrapper .organisation-logo-wales-medium, #whitehall-wrapper .organisation-logo-stacked-wales-medium, #whitehall-wrapper .organisation-logo-coastguard-medium, #whitehall-wrapper .organisation-logo-stacked-coastguard-medium, #whitehall-wrapper .organisation-logo-portcullis-medium, #whitehall-wrapper .organisation-logo-stacked-portcullis-medium, #whitehall-wrapper .organisation-logo-ukho-medium, #whitehall-wrapper .organisation-logo-stacked-ukho-medium, #whitehall-wrapper .organisation-logo-hmrc-medium, #whitehall-wrapper .organisation-logo-stacked-hmrc-medium, #whitehall-wrapper .organisation-logo-ukaea-medium, #whitehall-wrapper .organisation-logo-stacked-ukaea-medium, #whitehall-wrapper .organisation-logo-custom-medium {
+    border-left: 2px solid
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-single-identity-medium {
+    padding: 3px 0 2px 44px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px-0d15a5b24181c00d5a39e015b2e894e3.png);
+    background-position: 6px center;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-single-identity-medium {
+    padding: 25px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px-0d15a5b24181c00d5a39e015b2e894e3.png);
+    background-position: 6px top;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-single-identity-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-single-identity-medium, #whitehall-wrapper .organisation-logo-stacked-single-identity-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px_x2-cb179227fd59d45caa667218e3b8309c.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-bis-medium {
+    padding: 3px 0 2px 38px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_18px-e0ad84b8f02a467177eed65775fc9ffa.png);
+    background-position: 6px center;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-bis-medium {
+    padding: 25px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_18px-e0ad84b8f02a467177eed65775fc9ffa.png);
+    background-position: 6px top;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-bis-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-bis-medium, #whitehall-wrapper .organisation-logo-stacked-bis-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_18px_x2-85fdb392929d74f2d12f6ea3f74971c0.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-so-medium {
+    padding: 3px 0 2px 45px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_18px-ce7f42fe4500648a97aa4e412046af1d.png);
+    background-position: 6px center;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-so-medium {
+    padding: 25px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_18px-ce7f42fe4500648a97aa4e412046af1d.png);
+    background-position: 6px top;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-so-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-so-medium, #whitehall-wrapper .organisation-logo-stacked-so-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_18px_x2-e80164fa8d7543557381b1462b369e0d.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-ho-medium {
+    padding: 8px 0 7px 32px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_18px-6607634d62bea5b5bd6c57de6ab9d7d0.png);
+    background-position: 6px center;
+    background-size: auto 35px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ho-medium {
+    padding: 35px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_18px-6607634d62bea5b5bd6c57de6ab9d7d0.png);
+    background-position: 6px top;
+    background-size: auto 35px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ho-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ho-medium, #whitehall-wrapper .organisation-logo-stacked-ho-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_18px_x2-a7d11a3aba0f51a46425c42b214f8cd0.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-mod-medium {
+    padding: 8px 0 7px 36px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_18px-71986a131077516e35c161dc567d773a.png);
+    background-position: 6px center;
+    background-size: auto 35px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-mod-medium {
+    padding: 35px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_18px-71986a131077516e35c161dc567d773a.png);
+    background-position: 6px top;
+    background-size: auto 35px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-mod-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-mod-medium, #whitehall-wrapper .organisation-logo-stacked-mod-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_18px_x2-6414683862940ffdfd2f900bc8827b62.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-wales-medium {
+    padding: 8px 0 7px 35px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_18px-c8437b500a2936bf29650d432aa17749.png);
+    background-position: 6px center;
+    background-size: auto 35px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-wales-medium {
+    padding: 35px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_18px-c8437b500a2936bf29650d432aa17749.png);
+    background-position: 6px top;
+    background-size: auto 35px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-wales-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-wales-medium, #whitehall-wrapper .organisation-logo-stacked-wales-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_18px_x2-de01c4f34be3f17e10a3be6bafa6eb80.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-coastguard-medium {
+    padding: 8px 0 7px 35px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_18px-075591d84d96717e7f9031c37dee91e2.png);
+    background-position: 6px center;
+    background-size: auto 35px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-coastguard-medium {
+    padding: 35px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_18px-075591d84d96717e7f9031c37dee91e2.png);
+    background-position: 6px top;
+    background-size: auto 35px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-coastguard-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-coastguard-medium, #whitehall-wrapper .organisation-logo-stacked-coastguard-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_18px_x2-86db969225e46a7b591cb1cfe5d513ce.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-portcullis-medium {
+    padding: 3px 0 2px 34px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_18px-b19dd7280cbceb29edda3a0f33e26ffb.png);
+    background-position: 6px center;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-portcullis-medium {
+    padding: 25px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_18px-b19dd7280cbceb29edda3a0f33e26ffb.png);
+    background-position: 6px top;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-portcullis-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-portcullis-medium, #whitehall-wrapper .organisation-logo-stacked-portcullis-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_18px_x2-8b5afc0fe52e894a2f3d5a7e75bf5858.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-ukho-medium {
+    padding: 3px 0 2px 38px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_18px-cc1435984102a9cff77e8efd73f26b7e.png);
+    background-position: 6px center;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ukho-medium {
+    padding: 25px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_18px-cc1435984102a9cff77e8efd73f26b7e.png);
+    background-position: 6px top;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ukho-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ukho-medium, #whitehall-wrapper .organisation-logo-stacked-ukho-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_18px_x2-b73c49aafcf076614eb76ef570175e71.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-eo-medium {
+    padding: 3px 0 2px 44px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px-0d15a5b24181c00d5a39e015b2e894e3.png);
+    background-position: 6px center;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-eo-medium {
+    padding: 25px 0 0 1px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px-0d15a5b24181c00d5a39e015b2e894e3.png);
+    background-position: 0 top;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-eo-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-eo-medium, #whitehall-wrapper .organisation-logo-stacked-eo-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_18px_x2-cb179227fd59d45caa667218e3b8309c.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-hmrc-medium {
+    padding: 3px 0 2px 38px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_18px-c4dee9f35dafd7769b8a694a774b49af.png);
+    background-position: 6px center;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-hmrc-medium {
+    padding: 25px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_18px-c4dee9f35dafd7769b8a694a774b49af.png);
+    background-position: 6px top;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-hmrc-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-hmrc-medium, #whitehall-wrapper .organisation-logo-stacked-hmrc-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_18px_x2-f2dd37b9359acb524fd15b237bd50621.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-ukaea-medium {
+    padding: 3px 0 2px 38px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_18px-831c69819819a172fbafcc06e676bda6.png);
+    background-position: 6px center;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ukaea-medium {
+    padding: 25px 0 0 7px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_18px-831c69819819a172fbafcc06e676bda6.png);
+    background-position: 6px top;
+    background-size: auto 25px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ukaea-medium span {
+    display: block;
+    position: relative;
+    top: 3px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ukaea-medium, #whitehall-wrapper .organisation-logo-stacked-ukaea-medium {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_18px_x2-1ece58e4ba5b20399b9269af8573b970.png)
+  }
+}
+
+#whitehall-wrapper .organisation-logo-custom-medium {
+  border-left: none
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-no-identity-large, #whitehall-wrapper .organisation-logo-identity-large, #whitehall-wrapper .organisation-logo-single-identity-large, #whitehall-wrapper .organisation-logo-stacked-single-identity-large, #whitehall-wrapper .organisation-logo-bis-large, #whitehall-wrapper .organisation-logo-stacked-bis-large, #whitehall-wrapper .organisation-logo-so-large, #whitehall-wrapper .organisation-logo-stacked-so-large, #whitehall-wrapper .organisation-logo-ho-large, #whitehall-wrapper .organisation-logo-stacked-ho-large, #whitehall-wrapper .organisation-logo-mod-large, #whitehall-wrapper .organisation-logo-stacked-mod-large, #whitehall-wrapper .organisation-logo-wales-large, #whitehall-wrapper .organisation-logo-stacked-wales-large, #whitehall-wrapper .organisation-logo-coastguard-large, #whitehall-wrapper .organisation-logo-stacked-coastguard-large, #whitehall-wrapper .organisation-logo-portcullis-large, #whitehall-wrapper .organisation-logo-stacked-portcullis-large, #whitehall-wrapper .organisation-logo-ukho-large, #whitehall-wrapper .organisation-logo-stacked-ukho-large, #whitehall-wrapper .organisation-logo-hmrc-large, #whitehall-wrapper .organisation-logo-stacked-hmrc-large, #whitehall-wrapper .organisation-logo-ukaea-large, #whitehall-wrapper .organisation-logo-stacked-ukaea-large, #whitehall-wrapper .organisation-logo-eo-large, #whitehall-wrapper .organisation-logo-stacked-eo-large, #whitehall-wrapper .organisation-logo-stacked-no-identity-large {
+    font-size: 27px;
+    line-height: 30px;
+    padding: 5px 0 5px 0
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-identity-large, #whitehall-wrapper .organisation-logo-single-identity-large, #whitehall-wrapper .organisation-logo-stacked-single-identity-large, #whitehall-wrapper .organisation-logo-bis-large, #whitehall-wrapper .organisation-logo-stacked-bis-large, #whitehall-wrapper .organisation-logo-so-large, #whitehall-wrapper .organisation-logo-stacked-so-large, #whitehall-wrapper .organisation-logo-ho-large, #whitehall-wrapper .organisation-logo-stacked-ho-large, #whitehall-wrapper .organisation-logo-mod-large, #whitehall-wrapper .organisation-logo-stacked-mod-large, #whitehall-wrapper .organisation-logo-wales-large, #whitehall-wrapper .organisation-logo-stacked-wales-large, #whitehall-wrapper .organisation-logo-coastguard-large, #whitehall-wrapper .organisation-logo-stacked-coastguard-large, #whitehall-wrapper .organisation-logo-portcullis-large, #whitehall-wrapper .organisation-logo-stacked-portcullis-large, #whitehall-wrapper .organisation-logo-ukho-large, #whitehall-wrapper .organisation-logo-stacked-ukho-large, #whitehall-wrapper .organisation-logo-hmrc-large, #whitehall-wrapper .organisation-logo-stacked-hmrc-large, #whitehall-wrapper .organisation-logo-ukaea-large, #whitehall-wrapper .organisation-logo-stacked-ukaea-large {
+    border-left: 3px solid
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-single-identity-large {
+    padding: 5px 0 5px 65px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px-84f252bc78de1b6bdca860d1860d2fb4.png);
+    background-position: 9px center;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-single-identity-large {
+    padding: 40px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px-84f252bc78de1b6bdca860d1860d2fb4.png);
+    background-position: 9px top;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-single-identity-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-single-identity-large, #whitehall-wrapper .organisation-logo-stacked-single-identity-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px_x2-123bf2593f000621d75a747943e02778.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-bis-large {
+    padding: 5px 0 5px 56px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_27px-90542747143cc834fbad22288926451d.png);
+    background-position: 9px center;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-bis-large {
+    padding: 40px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_27px-90542747143cc834fbad22288926451d.png);
+    background-position: 9px top;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-bis-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-bis-large, #whitehall-wrapper .organisation-logo-stacked-bis-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/bis_crest_27px_x2-9dff21035fbbf5a3fb49f206a6814309.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-so-large {
+    padding: 5px 0 5px 67px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_27px-902c97ad8830ac5eaac14ac2de4d4d10.png);
+    background-position: 9px center;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-so-large {
+    padding: 40px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_27px-902c97ad8830ac5eaac14ac2de4d4d10.png);
+    background-position: 9px top;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-so-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-so-large, #whitehall-wrapper .organisation-logo-stacked-so-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/so_crest_27px_x2-a9b52ab4ba394e47c0762b6dab22dfcd.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-ho-large {
+    padding: 10px 0 10px 46px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_27px-40d7bcdd5fdb91391da151147c4060c9.png);
+    background-position: 9px center;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ho-large {
+    padding: 50px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_27px-40d7bcdd5fdb91391da151147c4060c9.png);
+    background-position: 9px top;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ho-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ho-large, #whitehall-wrapper .organisation-logo-stacked-ho-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ho_crest_27px_x2-882fddf959906677870dffdee5a8da1a.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-mod-large {
+    padding: 10px 0 10px 53px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_27px-5a552fb4be34ce7c3dfa17177d29f08e.png);
+    background-position: 9px center;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-mod-large {
+    padding: 50px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_27px-5a552fb4be34ce7c3dfa17177d29f08e.png);
+    background-position: 9px top;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-mod-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-mod-large, #whitehall-wrapper .organisation-logo-stacked-mod-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/mod_crest_27px_x2-e0dc30d135443978f8f53f1de2db82d6.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-wales-large {
+    padding: 10px 0 10px 51px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_27px-96e1595b72187b3c6b73472e6c64d0a6.png);
+    background-position: 9px center;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-wales-large {
+    padding: 50px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_27px-96e1595b72187b3c6b73472e6c64d0a6.png);
+    background-position: 9px top;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-wales-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-wales-large, #whitehall-wrapper .organisation-logo-stacked-wales-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/wales_crest_27px_x2-2ce7cf5fff58e6163149c2b14f41c83a.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-coastguard-large {
+    padding: 10px 0 10px 51px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_27px-66dc42d3318ea8932be715e6223307c6.png);
+    background-position: 9px center;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-coastguard-large {
+    padding: 50px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_27px-66dc42d3318ea8932be715e6223307c6.png);
+    background-position: 9px top;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-coastguard-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-coastguard-large, #whitehall-wrapper .organisation-logo-stacked-coastguard-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/coastguard_27px_x2-87f6cb4c26d2a3894e4009a8e07ba677.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-portcullis-large {
+    padding: 5px 0 5px 52px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_27px-dc26af2449a262d43fea2f674017051f.png);
+    background-position: 9px center;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-portcullis-large {
+    padding: 40px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_27px-dc26af2449a262d43fea2f674017051f.png);
+    background-position: 9px top;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-portcullis-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-portcullis-large, #whitehall-wrapper .organisation-logo-stacked-portcullis-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/portcullis_27px_x2-d131bc2e9074438766ed5e9c341f164a.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-ukho-large {
+    padding: 10px 0 10px 53px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_27px-b8b780915df55ce30c7259afb620ed0e.png);
+    background-position: 9px center;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ukho-large {
+    padding: 50px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_27px-b8b780915df55ce30c7259afb620ed0e.png);
+    background-position: 9px top;
+    background-size: auto 50px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ukho-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ukho-large, #whitehall-wrapper .organisation-logo-stacked-ukho-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukho_27px_x2-dd7894dcc2ded380a7cee9107e07fb56.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-eo-large {
+    padding: 5px 0 5px 65px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px-84f252bc78de1b6bdca860d1860d2fb4.png);
+    background-position: 9px center;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-eo-large {
+    padding: 40px 0 0 1px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px-84f252bc78de1b6bdca860d1860d2fb4.png);
+    background-position: 0 top;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-eo-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-eo-large, #whitehall-wrapper .organisation-logo-stacked-eo-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/org_crest_27px_x2-123bf2593f000621d75a747943e02778.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-hmrc-large {
+    padding: 5px 0 5px 56px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_27px-cd5cfbd7c6dc06dd1ab1ca2c5c060514.png);
+    background-position: 9px center;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-hmrc-large {
+    padding: 40px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_27px-cd5cfbd7c6dc06dd1ab1ca2c5c060514.png);
+    background-position: 9px top;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-hmrc-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-hmrc-large, #whitehall-wrapper .organisation-logo-stacked-hmrc-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/hmrc_crest_27px_x2-b6028f15174b8803d334a46bdc5e61b7.png)
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-ukaea-large {
+    padding: 5px 0 5px 56px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_27px-40418c16ad9c568aca5bf843d1b6d90b.png);
+    background-position: 9px center;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ukaea-large {
+    padding: 40px 0 0 10px;
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_27px-40418c16ad9c568aca5bf843d1b6d90b.png);
+    background-position: 9px top;
+    background-size: auto 40px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .organisation-logo-stacked-ukaea-large span {
+    display: block;
+    position: relative;
+    top: 5px
+  }
+}
+
+@media all and (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2) {
+  #whitehall-wrapper .organisation-logo-ukaea-large, #whitehall-wrapper .organisation-logo-stacked-ukaea-large {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/crests/ukaea_crest_27px_x2-905d4d603b8616ee912b0808953b1759.png)
+  }
+}
+
+#whitehall-wrapper .player-container {
+  display: block;
+  overflow: hidden;
+  margin: 30px 0
+}
+
+#whitehall-wrapper .player-container.player-wide {
+  min-width: 580px
+}
+
+#whitehall-wrapper .player-container span {
+  display: block;
+  margin: 0;
+  padding: 0
+}
+
+#whitehall-wrapper .player-container .video {
+  position: relative;
+  z-index: 3000
+}
+
+#whitehall-wrapper .player-container .video iframe {
+  display: block
+}
+
+#whitehall-wrapper .player-container .logo {
+  display: none
+}
+
+#whitehall-wrapper .player-container .control-bar {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #bfc1c3
+}
+
+#whitehall-wrapper .player-container .control-bar button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer
+}
+
+#whitehall-wrapper .player-container .control-bar button:focus, #whitehall-wrapper .player-container .control-bar a:focus {
+  background-color: orange;
+  outline: none
+}
+
+#whitehall-wrapper .player-container .control-bar .player-controls .play, #whitehall-wrapper .player-container .control-bar .player-controls .pause {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  text-indent: -5000%;
+  background-repeat: no-repeat;
+  background-position: center left
+}
+
+#whitehall-wrapper .player-container .control-bar .player-controls .play {
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-play-dd52074278c49a17bf44f57037d6dd20.png)
+}
+
+#whitehall-wrapper .player-container .control-bar .player-controls .pause {
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-pause-1d50967e465f08df8f025dd963759d2b.png)
+}
+
+#whitehall-wrapper .player-container .control-bar .player-controls .rewind, #whitehall-wrapper .player-container .control-bar .player-controls .forward {
+  position: absolute;
+  top: 0;
+  z-index: 30;
+  height: 20px;
+  width: 40px;
+  overflow: hidden;
+  text-indent: -5000%;
+  background-repeat: no-repeat;
+  background-position: center left
+}
+
+#whitehall-wrapper .player-container .control-bar .player-controls .rewind {
+  left: 0;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-rewind-cc1ff4a5b461965512ff9427b6a054bc.png)
+}
+
+#whitehall-wrapper .player-container .control-bar .player-controls .forward {
+  left: 100%;
+  margin-left: -40px;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-forward-3c52a8ef7213b2b282075bfe1a425989.png)
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 180px;
+  overflow: visible
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .mute {
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  height: 40px;
+  width: 50px;
+  padding-top: 1px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .muted {
+  color: #2b8cc4
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .muted::after {
+  content: "d"
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .muted ~ * {
+  opacity: 0.333
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .vol-down, #whitehall-wrapper .player-container .control-bar .volume-controls .vol-up {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 60px;
+  padding-top: 2px;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  z-index: 10
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .vol-down:hover, #whitehall-wrapper .player-container .control-bar .volume-controls .vol-down:focus, #whitehall-wrapper .player-container .control-bar .volume-controls .vol-up:hover, #whitehall-wrapper .player-container .control-bar .volume-controls .vol-up:focus {
+  color: #2b8cc4
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .vol-down {
+  text-align: left;
+  padding-left: 10px;
+  left: 0
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .vol-up {
+  text-align: right;
+  padding-right: 10px;
+  left: 60px
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .vol-display {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  height: 40px;
+  width: 0;
+  padding-left: 35px;
+  overflow: visible;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/player-icon-volume-3a5ab56de8c3d926456e0d3dc9c4875a.png)
+}
+
+#whitehall-wrapper .player-container .control-bar .volume-controls .muted ~ .vol-display {
+  text-decoration: line-through
+}
+
+#whitehall-wrapper .player-container .control-bar .current-time {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: bold
+}
+
+#whitehall-wrapper .player-container .control-bar .duration-time {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold
+}
+
+#whitehall-wrapper .player-container .control-bar .ui-slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  background: #bfc1c3
+}
+
+#whitehall-wrapper .player-container .control-bar .ui-slider .progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-bottom: 1px;
+  background: #2b8cc4
+}
+
+#whitehall-wrapper .player-container .control-bar .ui-slider .ui-slider-handle {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  padding-bottom: 1px;
+  width: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 10
+}
+
+#whitehall-wrapper .player-container .ui-helper-hidden-accessible {
+  position: absolute;
+  left: -5000%
+}
+
+#whitehall-wrapper .govspeak .mc-chart {
+  font-size: 16px;
+  display: table;
+  width: 100%;
+  border-spacing: 0 5px;
+  border: 1px solid #fff;
+  padding: 16px 0;
+  position: relative;
+  margin-bottom: 16px
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-caption {
+  display: table-caption;
+  font-size: 16px;
+  text-align: center;
+  caption-side: top;
+  margin: 16px 0
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead {
+  background-color: #fff;
+  display: table-header-group;
+  padding: 5px;
+  border: 1px solid #fff
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-th {
+  display: none
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-header {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 100%;
+  padding-left: 5px;
+  border-left: 16px solid;
+  text-align: left;
+  font-weight: normal;
+  width: 100%
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-header:last-child {
+  margin-bottom: 0
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-1 {
+  border-left-color: #2b8cc4
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-2 {
+  border-left-color: #28a197
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-3 {
+  border-left-color: #006435
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-4 {
+  border-left-color: #85994b
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-5 {
+  border-left-color: #ffbf47
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-6 {
+  border-left-color: #f47738
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-7 {
+  border-left-color: #b10e1e
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-thead .mc-key-8 {
+  border-left-color: #df3034
+}
+
+#whitehall-wrapper .govspeak .mc-chart.right-key .mc-thead, #whitehall-wrapper .govspeak .mc-chart.left-key .mc-thead {
+  position: absolute;
+  top: 100px
+}
+
+#whitehall-wrapper .govspeak .mc-chart.right-key .mc-thead .mc-key-header, #whitehall-wrapper .govspeak .mc-chart.left-key .mc-thead .mc-key-header {
+  margin-left: 0
+}
+
+#whitehall-wrapper .govspeak .mc-chart.right-key .mc-thead {
+  right: 26px
+}
+
+#whitehall-wrapper .govspeak .mc-chart.left-key .mc-thead {
+  left: 26px
+}
+
+#whitehall-wrapper .govspeak .mc-chart.no-key .mc-thead {
+  display: none
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody {
+  display: table-row-group
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr {
+  display: table-row
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-cell, #whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-key-cell {
+  padding-right: 5px;
+  margin-right: 1px;
+  box-sizing: border-box;
+  border: 0 solid
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-cell {
+  display: block;
+  text-align: left;
+  padding: 8px 0;
+  margin-bottom: 1px;
+  color: #fff;
+  text-indent: 8px
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-1 {
+  background-color: #2b8cc4
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-2 {
+  background-color: #28a197
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-3 {
+  background-color: #006435
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-4 {
+  background-color: #85994b
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-5 {
+  background-color: #ffbf47
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-6 {
+  background-color: #f47738
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-7 {
+  background-color: #b10e1e
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-8 {
+  background-color: #df3034
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-negative {
+  text-align: right;
+  padding-right: 8px
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-value-overflow {
+  text-indent: -99999px !important
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tbody .mc-tr .mc-key-cell {
+  width: 40%;
+  text-indent: 26px;
+  text-align: right;
+  display: table-cell;
+  vertical-align: middle
+}
+
+#whitehall-wrapper .govspeak .mc-chart.mc-stacked .mc-stacked-header {
+  display: none
+}
+
+#whitehall-wrapper .govspeak .mc-chart.mc-stacked .mc-th:nth-last-child(2) {
+  margin-bottom: 0
+}
+
+#whitehall-wrapper .govspeak .mc-chart.mc-stacked .mc-stacked-total {
+  padding: 8px 0;
+  background-color: transparent !important;
+  color: #0b0c0c;
+  display: inline-block;
+  text-indent: 5px
+}
+
+#whitehall-wrapper .govspeak .mc-chart.mc-stacked .mc-tbody .mc-bar-cell {
+  display: inline-block
+}
+
+#whitehall-wrapper .govspeak .mc-chart.compact .mc-td.mc-bar-cell {
+  font-size: 12px;
+  text-indent: 2px;
+  padding: 0
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-1 {
+  background-color: #2b8cc4
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-1 {
+  border-left-color: #2b8cc4
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-2 {
+  background-color: #28a197
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-2 {
+  border-left-color: #28a197
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-3 {
+  background-color: #006435
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-3 {
+  border-left-color: #006435
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-4 {
+  background-color: #85994b
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-4 {
+  border-left-color: #85994b
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-5 {
+  background-color: #ffbf47
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-5 {
+  border-left-color: #ffbf47
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-6 {
+  background-color: #f47738
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-6 {
+  border-left-color: #f47738
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-7 {
+  background-color: #b10e1e
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-7 {
+  border-left-color: #b10e1e
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-8 {
+  background-color: #df3034
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-tr .mc-th.mc-key-8 {
+  border-left-color: #df3034
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-td, #whitehall-wrapper .govspeak .mc-chart .mc-th {
+  padding: 0;
+  padding-right: 5px;
+  margin-right: 1px;
+  border: 0 solid
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-td.mc-bar-cell, #whitehall-wrapper .govspeak .mc-chart .mc-th.mc-bar-cell {
+  display: block;
+  background-color: #ebebeb;
+  text-align: left;
+  padding: 8px 0;
+  margin-bottom: 1px;
+  color: #fff;
+  text-indent: 4px
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-bar-outdented span {
+  color: #111
+}
+
+#whitehall-wrapper .govspeak .mc-chart caption {
+  caption-side: top
+}
+
+#whitehall-wrapper .govspeak .mc-chart .mc-td.mc-key-cell {
+  width: 40%;
+  text-indent: 26px;
+  text-align: right;
+  display: table-cell;
+  vertical-align: middle
+}
+
+#whitehall-wrapper .govspeak .mc-chart.mc-outdented .mc-tbody .mc-tr .mc-bar-cell {
+  color: #111
+}
+
+#whitehall-wrapper .govspeak .mc-chart.mc-outdented .mc-tbody .mc-tr .mc-bar-negative {
+  text-align: left
+}
+
+#whitehall-wrapper .govspeak .mc-chart.mc-negative .mc-td.mc-key-cell {
+  padding-right: 25px
+}
+
+#whitehall-wrapper .govspeak .mc-outdented .mc-bar-cell.mc-bar-negative {
+  text-align: left
+}
+
+#whitehall-wrapper .govspeak .mc-chart.mc-negative .mc-td.mc-key-cell {
+  padding-right: 25px
+}
+
+#whitehall-wrapper .govspeak .mc-toggle-link {
+  display: block;
+  margin-top: 30px
+}
+
+#whitehall-wrapper .govspeak .visually-hidden, #whitehall-wrapper .govspeak .visually-hidden caption {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden
+}
+
+#whitehall-wrapper .attachments-preview .csv-preview {
+  border: 5px solid #dee0e2;
+  margin: 30px 0 30px
+}
+
+#whitehall-wrapper .attachments-preview .csv-preview-inner {
+  border: 1px solid #bfc1c3;
+  padding: 10px 24px;
+  overflow: auto
+}
+
+#whitehall-wrapper .attachments-preview table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+#whitehall-wrapper .attachments-preview table th, #whitehall-wrapper .attachments-preview table td {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: none;
+  background-color: transparent;
+  vertical-align: top;
+  text-align: left;
+  padding: 10px 20px 10px 0;
+  border-bottom: 1px solid #bfc1c3;
+  border-width: 0 0 1px 0
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .attachments-preview table th, #whitehall-wrapper .attachments-preview table td {
+    font-size: 14px;
+    line-height: 1.14286
+  }
+}
+
+#whitehall-wrapper .attachments-preview table tr:last-child td {
+  border-bottom: none
+}
+
+#whitehall-wrapper .attachments-preview table th {
+  font-weight: bold
+}
+
+#whitehall-wrapper .attachments-preview .truncated-message {
+  margin: 30px 0
+}
+
+#whitehall-wrapper .attachments-preview .preview-error {
+  margin: 30px 0 60px
+}
+
+#whitehall-wrapper .attachments-preview .other-organisations {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: none;
+  margin: 15px 0
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .attachments-preview .other-organisations {
+    font-size: 14px;
+    line-height: 1.14286
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .attachments-preview .other-organisations {
+    margin-bottom: 0;
+    width: 50%
+  }
+}
+
+#whitehall-wrapper .attachments-preview .other-organisations .show-other-content {
+  text-decoration: none
+}
+
+#whitehall-wrapper .html-publications-show {
+  padding: 15px 15px 90px
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show {
+    padding: 30px 30px 90px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-external {
+  margin: 0 0 20px;
+  position: relative
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-external .organisations {
+    width: 25%;
+    float: left
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-external .organisations .content {
+  margin-bottom: 15px
+}
+
+#whitehall-wrapper .html-publications-show .publication-external .return {
+  color: #0b0c0c
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-external .return {
+    width: 75%;
+    float: left
+  }
+
+  #whitehall-wrapper .html-publications-show .publication-external .return p {
+    position: absolute;
+    bottom: 2px;
+    right: 0
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-header {
+  background: #2b8cc4;
+  padding: 10px 15px;
+  margin: 0 -15px
+}
+
+#whitehall-wrapper .html-publications-show .publication-header a, #whitehall-wrapper .html-publications-show .publication-header a:visited, #whitehall-wrapper .html-publications-show .publication-header a:hover {
+  color: #fff;
+  text-decoration: underline
+}
+
+#whitehall-wrapper .html-publications-show .publication-header a[rel="external"]:after, #whitehall-wrapper .html-publications-show .publication-header a:visited[rel="external"]:after, #whitehall-wrapper .html-publications-show .publication-header a:hover[rel="external"]:after {
+  background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/external-link-white-12x12-12c5a2eb0b88e0858856b8aca8abe4aa.png);
+  background-repeat: no-repeat
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  #whitehall-wrapper .html-publications-show .publication-header a[rel="external"]:after, #whitehall-wrapper .html-publications-show .publication-header a:visited[rel="external"]:after, #whitehall-wrapper .html-publications-show .publication-header a:hover[rel="external"]:after {
+    background-image: url(https://assets.digital.cabinet-office.gov.uk/government/assets/external-link-white-24x24-897a714f41fbf2bb16188ff78cef0616.png);
+    background-size: 12px 400px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-header a:active {
+  color: #2e8aca
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-header {
+    padding: 0 30px;
+    margin: 0
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-header .headings {
+  overflow: hidden
+}
+
+#whitehall-wrapper .html-publications-show .publication-header .headings h1 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 48px;
+  line-height: 1.04167;
+  font-weight: 400;
+  text-transform: none;
+  font-weight: bold;
+  margin: 5px 0 15px;
+  color: #fff
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-header .headings h1 {
+    font-size: 32px;
+    line-height: 1.09375
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-header .headings h1 {
+    margin-bottom: 60px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-header .headings .document-type {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 27px;
+  line-height: 1.11111;
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+  margin: 20px 0 0
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-header .headings .document-type {
+    font-size: 18px;
+    line-height: 1.11111
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-header .headings .document-type {
+    margin: 75px 0 10px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-header .headings p {
+  margin: 15px 0 20px;
+  color: #fff
+}
+
+#whitehall-wrapper .html-publications-show .publication-header strong {
+  font-weight: bold
+}
+
+#whitehall-wrapper .html-publications-show .in-page-navigation {
+  color: #fff;
+  margin: 0 0 40px;
+  width: 70%
+}
+
+#whitehall-wrapper .html-publications-show .in-page-navigation h2 {
+  font-weight: bold
+}
+
+#whitehall-wrapper .html-publications-show .in-page-navigation ol {
+  padding-left: 30px
+}
+
+#whitehall-wrapper .html-publications-show .in-page-navigation ol li {
+  list-style: decimal;
+  font-weight: bold
+}
+
+#whitehall-wrapper .html-publications-show .in-page-navigation ol.unnumbered {
+  padding-left: 0
+}
+
+#whitehall-wrapper .html-publications-show .in-page-navigation ol.unnumbered li {
+  list-style: none
+}
+
+#whitehall-wrapper .html-publications-show .in-page-navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal
+}
+
+#whitehall-wrapper .html-publications-show .in-page-navigation a:hover, #whitehall-wrapper .html-publications-show .in-page-navigation a:focus, #whitehall-wrapper .html-publications-show .in-page-navigation a:active {
+  text-decoration: underline
+}
+
+#whitehall-wrapper .html-publications-show .publication-content {
+  position: relative;
+  z-index: 2
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak {
+    width: 75%;
+    float: right
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak h2 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.11111;
+  font-weight: 400;
+  text-transform: none;
+  margin: 15px 0 10px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak h2 {
+    font-size: 24px;
+    line-height: 1.04167
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak h2 {
+    margin: 60px 0 15px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak h2 .number {
+  background: #fff;
+  padding-right: 10px;
+  font-weight: bold
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak h2 .number {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: none;
+    font-weight: bold;
+    position: absolute;
+    margin: -30px 0 0 -25%;
+    width: 22%;
+    padding: 35px 0 30px 3%
+  }
+}
+
+@media (min-width: 641px) and (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak h2 .number {
+    font-size: 53px;
+    line-height: 1.03774
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak h3 {
+  z-index: 5;
+  position: relative;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 27px;
+  line-height: 1.11111;
+  font-weight: 400;
+  text-transform: none
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak h3 {
+    font-size: 18px;
+    line-height: 1.11111
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak h3 .number {
+  background: #fff;
+  color: #6f777b;
+  padding-right: 10px
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak h3 .number {
+    padding-right: 0;
+    display: inline-block;
+    width: 75px;
+    margin-left: -75px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak h2, #whitehall-wrapper .html-publications-show .publication-content .govspeak h3 {
+  font-weight: bold;
+  color: black;
+  margin-top: 30px
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak h2, #whitehall-wrapper .html-publications-show .publication-content .govspeak h3 {
+    margin-top: 80px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak h4, #whitehall-wrapper .html-publications-show .publication-content .govspeak h5, #whitehall-wrapper .html-publications-show .publication-content .govspeak h6 {
+  font-weight: bold;
+  color: black;
+  margin-top: 30px
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak h4 + p, #whitehall-wrapper .html-publications-show .publication-content .govspeak h4 + ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak h4 + ol, #whitehall-wrapper .html-publications-show .publication-content .govspeak h5 + p, #whitehall-wrapper .html-publications-show .publication-content .govspeak h5 + ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak h5 + ol, #whitehall-wrapper .html-publications-show .publication-content .govspeak h6 + p, #whitehall-wrapper .html-publications-show .publication-content .govspeak h6 + ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak h6 + ol {
+  margin-top: 0
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak p, #whitehall-wrapper .html-publications-show .publication-content .govspeak ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol {
+  line-height: 1.4736842105;
+  margin: 10px 0
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak p, #whitehall-wrapper .html-publications-show .publication-content .govspeak ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol {
+    margin: 20px 0
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak p a, #whitehall-wrapper .html-publications-show .publication-content .govspeak ul a, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol a {
+  text-decoration: underline
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak p b, #whitehall-wrapper .html-publications-show .publication-content .govspeak p strong, #whitehall-wrapper .html-publications-show .publication-content .govspeak p i, #whitehall-wrapper .html-publications-show .publication-content .govspeak p em, #whitehall-wrapper .html-publications-show .publication-content .govspeak ul b, #whitehall-wrapper .html-publications-show .publication-content .govspeak ul strong, #whitehall-wrapper .html-publications-show .publication-content .govspeak ul i, #whitehall-wrapper .html-publications-show .publication-content .govspeak ul em, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol b, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol strong, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol i, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol em {
+  font-style: normal
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak figcaption {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: none;
+  font-weight: bold;
+  margin: 0 0 10px
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak figcaption {
+    font-size: 14px;
+    line-height: 1.14286
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak figcaption {
+    margin: 0 0 20px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol {
+  margin-left: 1.3em
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak ul li ol, #whitehall-wrapper .html-publications-show .publication-content .govspeak ul li ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol li ol, #whitehall-wrapper .html-publications-show .publication-content .govspeak ol li ul {
+  margin: 0 20px
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak ol {
+  list-style-type: decimal
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak ol.legislative-list {
+  list-style: none;
+  margin-left: 0
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak ol.legislative-list ol {
+  list-style: none
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak table, #whitehall-wrapper .html-publications-show .publication-content .govspeak img {
+  margin: 15px 0;
+  width: 100%;
+  height: auto
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 60px
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak table th, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 400;
+  text-transform: none;
+  background-color: transparent;
+  vertical-align: top;
+  text-align: left;
+  padding: 10px 20px 10px 0;
+  border-bottom: 1px solid #bfc1c3;
+  border-width: 0 0 1px 0
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak table th, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td {
+    font-size: 12px;
+    line-height: 1.25
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak table th {
+  font-weight: bold
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak table td p, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td ol {
+  margin: 0
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak table td p + p, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td p + ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td p + ol, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td ul + p, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td ul + ol, #whitehall-wrapper .html-publications-show .publication-content .govspeak table td ol + p {
+  margin-top: 10px
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact {
+  background: #dee0e2;
+  margin: 30px -15px;
+  padding: 10px 15px;
+  position: relative
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact h4 {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  font-weight: bold;
+  margin: 10px 0 0
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak .contact h4 {
+    font-size: 16px;
+    line-height: 1.25
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact p {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 2px;
+  padding-bottom: 8px;
+  margin: 0
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak .contact p {
+    font-size: 16px;
+    line-height: 1.25
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak .contact p {
+    padding-top: 0;
+    padding-bottom: 5px
+  }
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .adr, #whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .email-url-number, #whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .comments {
+    width: 50%;
+    float: left
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .email-url-number p {
+  margin: 0
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .email-url-number span {
+  display: block
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .comments {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: none
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak .contact .comments {
+    font-size: 14px;
+    line-height: 1.14286
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action {
+  margin: 30px 0 30px;
+  background: #dee0e2 none no-repeat 98% 20px;
+  padding: 10px 60px 10px 15px;
+  position: relative
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action h4 {
+  margin-top: 0
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action p {
+  margin: 0;
+  padding: 0
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action ul, #whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action ol {
+  margin-left: 20px;
+  list-style-position: outside
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action h3 {
+  padding: 5px 0;
+  margin-top: 0px
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action h3 .number {
+  background: none
+}
+
+@media (min-width: 641px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak .call-to-action h3 .number {
+    width: 90px;
+    margin-left: -90px
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction sup, #whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction sub {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 400;
+  text-transform: none
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction sup, #whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction sub {
+    font-size: 12px;
+    line-height: 1.25
+  }
+}
+
+#whitehall-wrapper .html-publications-show .publication-content .govspeak .fraction img {
+  display: inline-block;
+  width: auto;
+  margin: 0 0 -5px 0
+}
+
+#whitehall-wrapper .html-publications-show .back-to-content {
+  position: fixed;
+  bottom: 15px
+}
+
+#whitehall-wrapper .html-publications-show .back-to-content a {
+  display: block
+}
+
+#whitehall-wrapper .html-publications-show .back-to-content a:before {
+  content: "\2191 "
+}
+
+#whitehall-wrapper .html-publications-show .js-back-to-content-stop {
+  clear: both
+}
+
+#whitehall-wrapper .html-publications-show p.report-a-problem-toggle a {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: none;
+  color: #6f777b;
+  text-decoration: underline
+}
+
+@media (max-width: 640px) {
+  #whitehall-wrapper .html-publications-show p.report-a-problem-toggle a {
+    font-size: 14px;
+    line-height: 1.14286
+  }
+}
+
+#whitehall-wrapper .html-publications-show .report-a-problem-container {
+  margin-left: 0
+}
+
+.html-publication {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  color: #292929;
+  -webkit-font-smoothing: antialiased
+}
+
+@media (max-width: 640px) {
+  .html-publication {
+    font-size: 16px;
+    line-height: 1.25
+  }
+}
+
+#whitehall-wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 0
+}
+
+#whitehall-wrapper .whitehall-content {
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+  max-width: 1020px
+}
+
+#footer {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: none
+}
+
+@media (max-width: 640px) {
+  #footer {
+    font-size: 14px;
+    line-height: 1.14286
+  }
+}
+
+#footer .footer-meta {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0
+}
