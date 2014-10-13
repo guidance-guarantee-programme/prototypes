@@ -1,4 +1,11 @@
-article h1 {
-  font-size: 48px;
-  margin-top:0;
+#wrapper {
+  text-align:left;
+}
+
+.data-capture {
+  input[type="text"] {
+    margin:0;
+    font-size: 19px;
+    padding:4px;
+  }
 }
