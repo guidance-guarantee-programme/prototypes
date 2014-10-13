@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACP,UAAU,EAAC,IAAI;;AAIf,gCAAmB;EACjB,MAAM,EAAC,CAAC;EACR,SAAS,EAAE,IAAI;EACf,OAAO,EAAC,GAAG",
+"sources": ["sass/prototypes.scss"],
+"names": [],
+"file": "prototypes.css"
+}
