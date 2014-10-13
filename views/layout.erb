@@ -2,30 +2,60 @@
 <html>
 <head>
   <title><%= yield_content :page_title %>- GOV.UK</title>
-  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/html-publication.css">
   <link rel="stylesheet" href="stylesheets/prototypes.css">
 </head>
 <body>
 <div id="wrapper" class="guide">
-  <main id="content" role="main" class="group">
-    <header class="page-header group">
-      <div>
-        <h1><%= yield_content :page_title %></h1>
-      </div>
-    </header>
+  <div id="whitehall-wrapper">
 
-    <div class="article-container group">
-      <article role="article" class="group">
-        <div class="inner">
+    <main id="content" role="main" class="whitehall-content"><div id="page" class="html-publications-show">
+
+      <div class="block publication-external">
+        <div class="inner-block floated-children">
+          <ul class="organisations-icon-list organisations">
+            <li class="organisation cabinet-office-brand-colour" id="organisation_2">
+              <a href="/government/organisations/cabinet-office" class="organisation-logo organisation-logo-stacked-single-identity organisation-logo-stacked-single-identity-medium">
+                <span>HM Treasury</span>
+              </a>
+            </li>        <li class="organisation" id="organisation_1056">
+            <a href="/government/organisations/government-digital-service" class="organisation-logo organisation-logo-stacked-single-identity organisation-logo-stacked-single-identity-medium">
+              <span>Government Digital Service</span>
+            </a>
+          </li>    </ul>
+          <div class="return">
+            <p><a href="/government/publications/introducing-govuk-verify">See more information about this Guidance</a></p>
+          </div>
+        </div>
+      </div>
+      <header class="publication-header" id="contents"><div class="inner-block floated-children">
+        <div class="headings">
+          <p class="document-type">Guidance</p>
+          <h1>Introducing the Guidance Guarantee</h1>
+          <p>Published <abbr class="published-at date" title="2014-09-17T12:00:00+01:00">13 October 2014</abbr></p>
+        </div>
+        <nav class="in-page-navigation"><h2>Contents</h2>
+          <ol>
+            <li><a href="#new-pensions-rules">New pensions rules</a></li>
+            <li><a href="#the-guidance-guarantee-service">The Guidance Guarantee service</a></li>
+            <li><a href="#in-development">In development</a></li>
+          </ol></nav>
+      </div>
+      </header><div class="block publication-content">
+      <div class="inner-block floated-children">
+        <div class="govspeak">
           <%= yield %>
         </div>
-      </article>
+      </div>
     </div>
+      <div class="js-back-to-content back-to-content visuallyhidden">
+        <a href="#contents">Contents</a>
+      </div>
+      <div class="js-back-to-content-stop"></div>
 
-    <div class="meta-data group">
-      <p class="modified-date">Last updated: 16 September 2014</p>
     </div>
-  </main>
+    </main>
+  </div>
 </div>
 </body>
 </html>

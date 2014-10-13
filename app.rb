@@ -27,5 +27,10 @@ configure do
 end
 
 get '/' do
-  markdown :index
+  erb :index
+end
+
+
+get '/govspeak' do
+  markdown :govspeak, {:layout => :'layout_basic'}
 end
