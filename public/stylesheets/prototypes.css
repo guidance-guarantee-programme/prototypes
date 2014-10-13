@@ -6,4 +6,13 @@
   font-size: 19px;
   padding: 4px; }
 
+.meta-data {
+  clear:both;
+}
+
+input#age {
+  width:50px;
+  min-width:50px;
+}
+
 /*# sourceMappingURL=prototypes.css.map */
