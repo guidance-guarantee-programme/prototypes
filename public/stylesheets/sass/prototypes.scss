@@ -1,9 +1,5 @@
-@import '_grid_layout';
-
-.outer-block {
-  @include outer-block;
-}
-
-.inner-block {
-  @include inner-block;
+fieldset.group {
+  border: 1px solid #ddd;
+  padding:10px;
+  margin:20px 0;
 }
