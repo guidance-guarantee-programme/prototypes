@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAe;EACb,MAAM,EAAE,cAAc;EACtB,OAAO,EAAC,IAAI;EACZ,MAAM,EAAC,MAAM",
+"sources": ["sass/prototypes.scss"],
+"names": [],
+"file": "prototypes.css"
+}
