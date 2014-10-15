@@ -33,27 +33,27 @@
 
 <div class="form-group">
   <fieldset class="">
-    <legend class="form-label-bold">Marital Status</legend>
+    <legend class="form-label-bold">Marital status</legend>
 
     <label for="radio-inline-1-married" class="block-label">
-      <input id="radio-inline-1-married" type="radio" name="marital" value="Married">
+      <input id="radio-inline-1-married" type="radio" name="marital" value="1">
       Married
     </label>
-    <label for="radio-inline-2-married" class="block-label">
-      <input id="radio-inline-2-married" type="radio" name="marital" value="Widowed">
-      Widowed
-    </label>
-    <label for="radio-inline-3-married" class="block-label">
-      <input id="radio-inline-3-married" type="radio" name="marital" value="Separated">
-      Separated
-    </label>
-    <label for="radio-inline-4-married" class="block-label">
-      <input id="radio-inline-4-married" type="radio" name="marital" value="Divorced">
-      Divorced
+    <label for="radio-inline-1-married" class="block-label">
+      <input id="radio-inline-1-married" type="radio" name="marital" value="2">
+      Civil partnered
     </label>
     <label for="radio-inline-5-married" class="block-label">
-      <input id="radio-inline-5-married" type="radio" name="marital" value="Single">
+      <input id="radio-inline-5-married" type="radio" name="marital" value="3">
       Single
+    </label>
+    <label for="radio-inline-4-married" class="block-label">
+      <input id="radio-inline-4-married" type="radio" name="marital" value="4">
+      Divorced
+    </label>
+    <label for="radio-inline-2-married" class="block-label">
+      <input id="radio-inline-2-married" type="radio" name="marital" value="5">
+      Widowed
     </label>
   </fieldset>
 </div>
@@ -61,18 +61,18 @@
 
 <div class="form-group">
   <fieldset class="">
-    <legend class="form-label-bold">dependants</legend>
+    <legend class="form-label-bold">Financial dependants</legend>
 
     <label for="radio-inline-1-dependants" class="block-label">
-      <input id="radio-inline-1-dependants" type="checkbox" name="radio-dependants-group" value="Spouse">
-      Spouse
+      <input id="radio-inline-1-dependants" type="checkbox" name="radio-dependants-group" value="1">
+      Spouse or partner
     </label>
     <label for="radio-inline-2-dependants" class="block-label">
-      <input id="radio-inline-2-dependants" type="checkbox" name="radio-dependants-group" value="Children">
+      <input id="radio-inline-2-dependants" type="checkbox" name="radio-dependants-group" value="2">
       Children
     </label>
     <label for="radio-inline-3-dependants" class="block-label">
-      <input id="radio-inline-3-dependants" type="checkbox" name="radio-dependants-group" value="Parents">
+      <input id="radio-inline-3-dependants" type="checkbox" name="radio-dependants-group" value="3">
       Parents
     </label>
   </fieldset>
@@ -81,7 +81,7 @@
 
 <div class="form-group">
   <fieldset class="">
-    <legend class="form-label-bold">Employment Status</legend>
+    <legend class="form-label-bold">Employment status</legend>
 
     <label for="radio-inline-1-employment" class="block-label">
       <input id="radio-inline-1-employment" type="radio" name="radio-employment-group" value="1">
@@ -89,45 +89,49 @@
     </label>
     <label for="radio-inline-2-employment" class="block-label">
       <input id="radio-inline-2-employment" type="radio" name="radio-employment-group" value="2">
-      Self Employed
+      Self-employed
     </label>
     <label for="radio-inline-3-employment" class="block-label">
       <input id="radio-inline-3-employment" type="radio" name="radio-employment-group" value="3">
-      Un-employed
+      Unemployed
+    </label>
+    <label for="radio-inline-3-employment" class="block-label">
+      <input id="radio-inline-3-employment" type="radio" name="radio-employment-group" value="4">
+      Retired
     </label>
   </fieldset>
 </div>
 
 <div class="form-group">
-  <label class="form-label-bold" for="income">Current Income</label>
+  <label class="form-label-bold" for="income">Current income</label>
   £ <input type="text" class="form-control" id="income">
 </div>
 
 <div class="form-group">
   <fieldset>
-    <legend class="form-label-bold">Tax Status</legend>
+    <legend class="form-label-bold">Income Tax status</legend>
 
     <label for="radio-inline-1-tax" class="block-label">
       <input id="radio-inline-1-tax" type="radio" name="radio-tax-group" value="1">
-      Non-tax payer
+      Non-taxpayer
     </label>
     <label for="radio-inline-2-tax" class="block-label">
       <input id="radio-inline-2-tax" type="radio" name="radio-tax-group" value="2">
-      Basic rate tax payer
+      Basic rate taxpayer
     </label>
     <label for="radio-inline-3-tax" class="block-label">
       <input id="radio-inline-3-tax" type="radio" name="radio-tax-group" value="3">
-      Higher rate tax payer
+      Higher rate taxpayer
     </label>
     <label for="radio-inline-4-tax" class="block-label">
       <input id="radio-inline-4-tax" type="radio" name="radio-tax-group" value="4">
-      Additional Higher rate tax payer
+      Additional rate taxpayer
     </label>
   </fieldset>
 </div>
 
 <fieldset class="group">
-  <legend class="form-label-bold">Savings and Assets</legend>
+  <legend class="form-label-bold">Savings and investments</legend>
 
   <div class="form-group">
     <label class="form-label-bold" for="savings">Savings
@@ -164,7 +168,7 @@
 </div>
 
   <div class="form-group">
-    <label class="form-label-bold" for="cc">Credit Cards</label>
+    <label class="form-label-bold" for="cc">Credit cards</label>
     £ <input type="text" class="form-control" id="cc">
   </div>
 
@@ -184,10 +188,12 @@
 <h2 class="heading-large">Pension details</h2>
 
 <fieldset class="group">
-  <legend class="form-label-bold">Defined Contribution 1</legend>
+  <legend class="form-label-bold">Defined contribution</legend>
+
+  <p class="form-hint">A pension based on how much has been paid into your pot</p>
 
   <div class="form-group">
-    <label class="form-label-bold" for="dc-1-value">Value</label>
+    <label class="form-label-bold" for="dc-1-value">Pension value</label>
     £ <input type="text" class="form-control" id="dc-1-value">
   </div>
 
@@ -210,7 +216,7 @@
   </div>
 
   <fieldset class="inline">
-    <legend class="form-label-bold">Surrender penalty?</legend>
+    <legend class="form-label-bold">Surrender penalty</legend>
 
     <label for="radio-1-1-penalty" class="block-label">
       <input id="radio-1-1-penalty" type="radio" name="radio-inline-group" value="1">
@@ -223,133 +229,84 @@
   </fieldset>
 </fieldset>
 
-<fieldset class="group">
-  <legend class="form-label-bold">Defined Contribution 2</legend>
-
-  <div class="form-group">
-    <label class="form-label-bold" for="value-2">Value</label>
-    £ <input type="text" class="form-control" id="value-2">
-  </div>
-
-  <fieldset class="inline">
-    <legend class="form-label-bold">Guaranteed annuity</legend>
-
-    <label for="radio-2-1-ga" class="block-label">
-      <input id="radio-2-1-ga" type="radio" name="radio-inline-group" value="Male">
-      Yes
-    </label>
-    <label for="radio-2-2-ga" class="block-label">
-      <input id="radio-2-2-ga" type="radio" name="radio-inline-group" value="Male">
-      No
-    </label>
-  </fieldset>
-
-  <div class="form-group">
-    <label class="form-label-bold" for="rate-2">Guaranteed annuity rate</label>
-    % <input type="text" class="form-control" id="rate-2">
-  </div>
-
-  <fieldset class="inline">
-    <legend class="form-label-bold">Surrender penalty?</legend>
-
-    <label for="radio-2-1-penalty" class="block-label">
-      <input id="radio-2-1-penalty" type="radio" name="radio-inline-group" value="1">
-      Yes
-    </label>
-    <label for="radio-2-2-penalty" class="block-label">
-      <input id="radio-2-2-penalty" type="radio" name="radio-inline-group" value="2">
-      No
-    </label>
-  </fieldset>
-</fieldset>
-
-<fieldset class="group">
-  <legend class="form-label-bold">Defined Contribution 3</legend>
-
-  <div class="form-group">
-    <label class="form-label-bold" for="value-3">Value</label>
-    £ <input type="text" class="form-control" id="value-3">
-  </div>
-
-  <fieldset class="inline">
-    <legend class="form-label-bold">Guaranteed annuity</legend>
-
-    <label for="radio-3-1" class="block-label">
-      <input id="radio-3-1" type="radio" name="radio-inline-group" value="Male">
-      Yes
-    </label>
-    <label for="radio-3-2" class="block-label">
-      <input id="radio-3-2" type="radio" name="radio-inline-group" value="Male">
-      No
-    </label>
-  </fieldset>
-
-  <div class="form-group">
-    <label class="form-label-bold" for="insert">Guaranteed annuity rate</label>
-    % <input type="text" class="form-control" id="insert">
-  </div>
-
-  <fieldset class="inline">
-    <legend class="form-label-bold">Surrender penalty?</legend>
-
-    <label for="radio-3-1-penalty" class="block-label">
-      <input id="radio-3-1-penalty" type="radio" name="radio-inline-group" value="Male">
-      Yes
-    </label>
-    <label for="radio-3-2-penalty" class="block-label">
-      <input id="radio-3-2-penalty" type="radio" name="radio-inline-group" value="Male">
-      No
-    </label>
-  </fieldset>
-</fieldset>
-
-<fieldset class="group">
-  <legend class="form-label-bold">Defined Benefit</legend>
-
-  <div class="form-group">
-    <label class="form-label-bold" for="dc-sum">Pension Lump Sum</label>
-    £ <input type="text" class="form-control" id="dc-sum">
-  </div>
-
-  <div class="form-group">
-    <label class="form-label-bold" for="dc-annum">Pension Per Annum</label>
-    £ <input type="text" class="form-control" id="dc-annum">
-  </div>
-</fieldset>
+<button class="button">Add another defined contribution</button>
 
 <div class="form-group">
-  <label class="form-label-bold" for="partners">Outline of partners pension provision</label>
+<fieldset class="group">
+  <legend class="form-label-bold">Defined benefit</legend>
+
+  <p class="form-hint">A pension based on your salary</p>
+
+  <div class="form-group">
+    <label class="form-label-bold" for="dc-annum">Pension per year</label>
+    £ <input type="text" class="form-control" id="dc-annum">
+  </div>
+
+  <fieldset class="inline">
+    <legend class="form-label-bold">Are you taking a tax-free lump sum?</legend>
+
+    <label for="radio-1-1-penalty" class="block-label">
+      <input id="radio-1-1-penalty" type="radio" name="radio-inline-group" value="1">
+      Yes
+    </label>
+    <label for="radio-1-2-penalty" class="block-label">
+      <input id="radio-1-2-penalty" type="radio" name="radio-inline-group" value="2">
+      No
+    </label>
+  </fieldset>
+
+  <div class="form-group">
+    <label class="form-label-bold" for="dc-sum">Tax-free lump sum</label>
+    £ <input type="text" class="form-control" id="dc-sum">
+  </div>
+</fieldset>
+</div>
+
+<div class="form-group">
+  <label class="form-label-bold" for="partners">Partner's pension status</label>
+  <p class="form-hint">General details of your spouse of partner's pension arrangements</p>
   <textarea name="input-feedback" id="partners" class="form-control"></textarea>
 </div>
 
 <div class="form-group">
-  <label class="form-label-bold" for="state">State Pension Estimate</label>
+  <label class="form-label-bold" for="state">Estimated State Pension amount</label>
   £ <input type="text" class="form-control" id="state">
 </div>
 
+<h2 class="heading-large">Further details</h2>
 
 <div class="form-group">
-  <label class="form-label-bold" for="health">Health</label>
+  <label class="form-label-bold" for="plans">Retirement plans</label>
+  <p class="form-hint">General details about what you plan to do in retirement.</p>
+  <textarea name="input-feedback" id="plans" class="form-control"></textarea>
+</div>
+
+<div class="form-group">
+  <label class="form-label-bold" for="health">Health status</label>
   <span class="form-hint">
-   Do you have any health issues or lifestyle choices that may affect your pension decision?
+   Do you have any medical conditions that may affect your pension decision?
             </span>
   <textarea name="input-feedback" id="health" class="form-control"></textarea>
 </div>
 
 <div class="form-group">
-  <label class="form-label-bold" for="requirements">Income requirements during
-    retirement</label>
-  £ <input type="text" class="form-control" id="requirements">
-</div>
+<fieldset class="inline">
+  <legend class="form-label-bold">Do you smoke?</legend>
 
-<div class="form-group">
-  <label class="form-label-bold" for="plans">Retirement Plans</label>
-  <textarea name="input-feedback" id="plans" class="form-control"></textarea>
+  <label for="radio-1-1-penalty" class="block-label">
+    <input id="radio-1-1-penalty" type="radio" name="radio-inline-group" value="1">
+    Yes
+  </label>
+  <label for="radio-1-2-penalty" class="block-label">
+    <input id="radio-1-2-penalty" type="radio" name="radio-inline-group" value="2">
+    No
+  </label>
+</fieldset>
 </div>
 
 <div class="form-group">
   <fieldset class="inline">
-    <legend class="form-label-bold">Contact Preferences</legend>
+    <legend class="form-label-bold">Contact preferences</legend>
 
     <label for="radio-inline-1-pref" class="block-label">
       <input id="radio-inline-1-pref" type="radio" name="radio-inline-group" value="1">
@@ -361,3 +318,9 @@
     </label>
   </fieldset>
 </div>
+
+<div class="form-group">
+  <label class="form-label-bold" for="health">Address</label>
+  <textarea name="input-feedback" id="health" class="form-control"></textarea>
+</div>
+
