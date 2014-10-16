@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,UAAW;EACT,SAAS,EAAE,IAAI;EACf,UAAU,EAAC,CAAC",
+"mappings": "AAAA,UAAW;EACT,SAAS,EAAE,IAAI;EACf,UAAU,EAAC,CAAC;;AAGd,kEAAmE;EACjE,YAAY,EAAE,OAAO",
 "sources": ["sass/prototypes.scss"],
 "names": [],
 "file": "prototypes.css"

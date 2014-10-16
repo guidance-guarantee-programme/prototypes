@@ -3,7 +3,7 @@
 
 ##New pension rules
 
-From April 2015, new pension rules mean you’ll be able to take money from your pension pot however you wish.
+Pensions will change in April 2015. If you’re over 55 and have a pension based on how much has been paid into your pot, you’ll be able to take money from your pension however you wish.
 
 How you receive your money in retirement will be your decision.
 
@@ -27,7 +27,5 @@ This service is coming soon. Check back to keep up to date with our progress.
 
 In the meantime, you can get information about pensions from the organisations below:
 
-* [The Pensions Advisory Service](http://www.pensionsadvisoryservice.org.uk) -
-an independent service which provides free information and guidance on all pension matters
-* [The Money Advice Service](https://www.moneyadviceservice.org.uk/en) -
-an independent service set up by government to help people manage their money better
+* [The Pensions Advisory Service](http://www.pensionsadvisoryservice.org.uk) - an independent service which provides free information and guidance on all pension matters
+* [The Money Advice Service](https://www.moneyadviceservice.org.uk/en) - an independent service set up by government to help people manage their money better
