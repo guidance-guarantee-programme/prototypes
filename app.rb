@@ -63,6 +63,17 @@ get '/local-branch-results' do
   erb :local_branch_results
 end
 
+get '/book-a-session' do
+  @hide_session_promo = true
+  erb :book_a_session
+end
+
+post '/book-a-session' do
+  session[:slots] = params[:slots]
+
+  redirect to('/contact-details')
+end
+
 get '/contact-details' do
   @hide_session_promo = true
   @name    = session[:name]
@@ -78,17 +89,6 @@ post '/contact-details' do
   session[:surname] = params[:surname]
   session[:email]   = params[:email]
   session[:phone]   = params[:phone]
-
-  redirect to('/book-a-session')
-end
-
-get '/book-a-session' do
-  @hide_session_promo = true
-  erb :book_a_session
-end
-
-post '/book-a-session' do
-  session[:slots] = params[:slots]
 
   redirect to('/check-your-booking')
 end
