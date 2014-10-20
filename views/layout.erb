@@ -13,6 +13,9 @@
   <main id="content" role="main" class="group <%= yield_content :page_type %>">
     <header class="page-header group">
       <div>
+        <% if @current_step %>
+        <div class="steps font-medium">Step <%= @current_step %> of 3</div>
+        <% end %>
         <h1><%= yield_content :page_title %></h1>
       </div>
     </header>

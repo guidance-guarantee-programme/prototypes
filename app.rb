@@ -65,6 +65,7 @@ end
 
 get '/book-a-session' do
   @hide_session_promo = true
+  @current_step    = 1
   erb :book_a_session
 end
 
@@ -80,6 +81,7 @@ get '/contact-details' do
   @surname = session[:surname]
   @email   = session[:email]
   @phone   = session[:phone]
+  @current_step    = 2
 
   erb :contact_details
 end
@@ -101,7 +103,7 @@ get '/check-your-booking' do
   @phone   = session[:phone]
   @slots   = session[:slots]
   @number  = Phonelib.parse(ENV['TWILIO_FROM_NUMBER']).national
-
+  @current_step    = 3
   @sessions = []
 
   # Slots are ['2014-11-12-1000-1100', '2014-11-12-1200-1300']
