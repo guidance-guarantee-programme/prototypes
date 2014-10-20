@@ -174,6 +174,7 @@ get '/booking-confirmation' do
   @phone    = session[:phone]
   @email    = session[:email]
   @sessions = session[:sessions] || []
+  @number  = Phonelib.parse(ENV['TWILIO_FROM_NUMBER']).national
 
   erb :booking_confirmation
 end
