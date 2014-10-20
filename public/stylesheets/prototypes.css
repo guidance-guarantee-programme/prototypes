@@ -17,12 +17,10 @@ header.page-header {
   header.page-header div.steps {
     margin: 0;
     padding: 0;
-    top: 0px;
     color: #6F777B; }
   header.page-header div h1 {
     padding-top: 2px; }
 
-header.page-header
 .info-notice {
   background: none;
   border-left: 10px solid #bfc1c3;
