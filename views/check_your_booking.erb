@@ -49,11 +49,13 @@
       <div class="grid-wrapper">
         <div class="grid grid-2-3">
           <div class="inner-block">
-            <h2>Date and time of your session</h2>
+            <h2>Your session</h2>
 
-            <p>One of our pension experts will phone you on:</p>
+            <p>
+              <span class="info-label">Date and time:</span>
+              <span class="info-data"><%= @sessions.first.strftime('%A, %e %B at %l%P') %></span>
+            </p>
 
-            <h3><%= @sessions.first.strftime('%A, %e %B at %l%P') %></h3>
           </div>
         </div>
         <div class="grid grid-1-3">
