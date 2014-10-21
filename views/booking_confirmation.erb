@@ -22,12 +22,6 @@
       <div class="inner-block">
         <h2 class="heading-medium">Your pension guidance session</h2>
 
-        <div class="session-ticket__reference">
-          <h3 class="heading-small">Reference</h3>
-
-          <div class="bold-medium">PG1234</div>
-        </div>
-
         <div class="grid-wrapper grid-demo">
           <div class="grid grid-1-2">
             <div class="inner-block">
@@ -57,18 +51,18 @@
                 </div>
               </div>
 
-
               <h3 class="heading-small">We'll call you on</h3>
 
               <div class="session-ticket__highlight bold-large">
                 <%= @phone %>
               </div>
 
-              <h3 class="heading-small">The number will come up as</h3>
+              <h3 class="heading-small">How to cancel</h3>
 
-              <div class="session-ticket__highlight bold-large">
-                <%= @number %>
-              </div>
+              <p>Send an email with your name and the date and time of your
+                session to:
+                <a href="mailto:cancel-pension-session@hmt.gov.uk">cancel-pension-session@hmt.gov.uk</a>
+              </p>
 
             </div>
           </div>
@@ -84,40 +78,30 @@
                 <li>your pension statements</li>
               </ul>
 
-
-
               <p>This will help our experts to prepare for your call.</p>
 
-            </div>
-          </div>
-        </div>
+              <h3 class="heading-small">The number will come up as</h3>
 
-        <div class="grid-wrapper grid-demo">
-          <div class="grid grid-1-2">
-            <div class="inner-block">
+              <div class="bold-medium">
+                <%= @number %>
+              </div>
+
+              <h3 class="heading-small">Security code</h3>
+
+              <div class="bold-medium">PG1234</div>
+
+
               <h3 class="heading-small">If you do not answer the call</h3>
 
               <p>We won't call you back. You'll need to book another
                 session.</p>
 
-            </div>
-          </div>
-          <div class="grid grid-1-2">
-            <div class="inner-block">
-              <h3 class="heading-small">How to cancel</h3>
 
-              <p>Send an email with your name and the date and time of your
-                session to:
-                <a href="mailto:cancel-pension-session@hmt.gov.uk">cancel-pension-session@hmt.gov.uk</a>
-              </p>
+
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
-
-
   </div>
 </article>
