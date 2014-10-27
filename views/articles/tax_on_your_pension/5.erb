@@ -24,28 +24,22 @@
     <div class="inner">
 
       <header>
-        <h1>3. <%= @page_title_3 %></h1>
+        <h1>5. <%= @page_title_5 %></h1>
       </header>
 
       <div id="govspeak">
-        <p>You pay tax on all of the following pension income:</p>
+        <h2 id="tax-on-your-pension-income">Tax on your pension income</h2>
+        <p>Any money you you get from a pension provider will be paid to you with the tax already taken off. This goes for income drawdown, annuity, or cash payments.</p>
 
-        <ul>
-          <li>cash payments above your tax-free lump sum of 25%, eg when you take your whole pot</li>
-          <li>any money you take while you leave your pension pot invested (income drawdown payments)</li>
-          <li>payments you get from arranging a regular income (annuity)</li>
-          <li>payments from the State Pension</li>
-        </ul>
+        <p>The pension provider will also pay the tax on your State Pension.</p>
 
-        <p>You also pay tax on income from working, investments etc:</p>
+        <h2 id="if-you-continue-to-work">If you continue to work</h2>
+        <p>Your employer will pay the tax on your salary and your State Pension.</p>
 
-        <ul>
-          <li>anything you earn if you carry on working (even if part-time)</li>
-          <li>any other income, eg money from investments, property, savings</li>
-          <li>any benefits that you need to pay tax on (eg Carer’s Allowance, Jobseeker’s Allowance)</li>
-        </ul>
+        <p>If you’re self-employed you have to fill in a <a href="www.gov.uk/self-assessment-tax-returns">Self-Assessment tax return</a>, declaring all your income.</p>
 
-        <p>If you leave your pension pot untouched and don’t take any money out, you don’t pay tax on it.</p>
+        <h2 id="if-you-have-other-income">If you have other income</h2>
+        <p>You’re responsible for paying tax on other income you have, eg from property or investments. You might have to fill in a  <a href="www.gov.uk/self-assessment-tax-returns">Self-Assessment tax return</a>.</p>
 
       </div>
 
@@ -53,13 +47,8 @@
         <nav class="pagination" role="navigation" aria-label="Pagination">
           <ul class="group">
             <li class="previous">
-              <a href="2" rel="prev" title="Navigate to previous part">
+              <a href="4" rel="prev" title="Navigate to previous part">
                 <span class="pagination-label">Previous </span>
-                <span class="pagination-part-title"><%= @page_title_2 %></span>
-              </a></li>
-            <li class="next">
-              <a href="4" rel="next" title="Navigate to next part">
-                <span class="pagination-label">Next</span>
                 <span class="pagination-part-title"><%= @page_title_4 %></span>
               </a></li>
           </ul>
