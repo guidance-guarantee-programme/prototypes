@@ -3,11 +3,11 @@
     <a href="#proposition-links" class="js-header-toggle menu">Menu</a>
     <nav id="proposition-menu" class="no-proposition-name">
       <ul id="proposition-links">
-        <li><a href="#insert" <% if @current_category == 'pension-pot' %> class="active"<% end %>>Your pension pot</a></li>
-        <li><a href="#insert" <% if @current_category == 'pension-options' %> class="active"<% end %>>Your pension options</a></li>
-        <li><a href="#insert" <% if @current_category == 'retirement-income' %> class="active"<% end %>>Your retirement income</a></li>
+        <li><a href="/browse/your-pension-pot" <% if @current_category == 'pension-pot' %> class="active"<% end %>>Your pension pot</a></li>
+        <li><a href="/browse/your-pension-options" <% if @current_category == 'pension-options' %> class="active"<% end %>>Your pension options</a></li>
+        <li><a href="/browse/your-retirement-income" <% if @current_category == 'retirement-income' %> class="active"<% end %>>Your retirement income</a></li>
         <li class="clear-child">
-          <a href="#insert" <% if @current_category == 'scams' %> class="active"<% end %>>Pension scams and complaints</a>
+          <a href="/browse/pension-scams-and-complaints" <% if @current_category == 'scams' %> class="active"<% end %>>Pension scams and complaints</a>
         </li>
         <li><a href="/guidance-session" <% if @current_category == 'book-a-session' %> class="active"<% end %>>Book a guidance session</a></li>
       </ul>

@@ -239,4 +239,26 @@ get '/understanding-pensions/:option' do
   erb :"articles/#{@folder}/#{params[:option]}"
 end
 
+get '/browse/your-pension-pot' do
+  @hide_session_promo = false
+  @current_category = 'pension-pot'
+  erb :'categories/your_pension_pot'
+end
 
+get '/browse/your-pension-options' do
+  @hide_session_promo = false
+  @current_category = 'pension-options'
+  erb :'categories/your_pension_options'
+end
+
+get '/browse/your-retirement-income' do
+  @hide_session_promo = false
+  @current_category = 'retirement-income'
+  erb :'categories/your_retirement_income'
+end
+
+get '/browse/pension-scams-and-complaints' do
+  @hide_session_promo = false
+  @current_category = 'scams'
+  erb :'categories/pension_scams_and_complaints'
+end
