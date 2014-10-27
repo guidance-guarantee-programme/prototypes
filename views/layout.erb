@@ -31,7 +31,10 @@
           <div class="inner group related-subsection">
             <%= erb :"partials/guidance_session" %>
           </div>
+
+          <%= yield_content :related_link %>
         </div>
+
       </div>
     </div>
   <% end %>
