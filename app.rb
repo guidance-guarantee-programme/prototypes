@@ -190,9 +190,9 @@ get '/how-much-in-your-pot' do
   erb :'articles/how_much_in_pot'
 end
 
-get '/pension-tool' do
+get '/pension-tax-calculator' do
   @hide_session_promo = false
-  erb :'pension-tool'
+  erb :'pension_tax_calculator'
 end
 
 get '/your-options/:option' do
