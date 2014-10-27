@@ -198,13 +198,13 @@ end
 get '/your-options/:option' do
   @hide_session_promo = false
   @page = params[:option]
-  @page_title = "Deciding how you want your pension to be paid"
+  @page_title = "Ways to take money from your pension pot"
   @your_option_page_title_1 = "Overview"
-  @your_option_page_title_2 = "Taking cash"
-  @your_option_page_title_3 = "Taking money out when you need it"
-  @your_option_page_title_4 = "Buying a regular income"
-  @your_option_page_title_5 = "Mixing your options"
-
+  @your_option_page_title_2 = "Taking a tax-free lump sum"
+  @your_option_page_title_3 = "Taking the whole pot as cash"
+  @your_option_page_title_4 = "Taking money out when you need it"
+  @your_option_page_title_5 = "Buying a regular income"
+  @your_option_page_title_6 = "Mixing your pension options"
   erb :"articles/your_options/#{params[:option]}"
 end
 
