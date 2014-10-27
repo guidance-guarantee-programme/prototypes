@@ -144,7 +144,7 @@ post '/send-request' do
         call = {
           from: ENV['TWILIO_FROM_NUMBER'],
           to: phone.international.gsub(/[[:space:]]/, ''),
-          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint4-endtoend-b.herokuapp.com/reminder-call?name=#{name}&slot='#{slot}'",
+          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint4-endtoend-a.herokuapp.com/reminder-call?name=#{name}&slot='#{slot}'",
           method: 'GET'
         }
 
