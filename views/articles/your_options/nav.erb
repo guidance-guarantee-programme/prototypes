@@ -61,4 +61,16 @@
       </a>
     <% end %>
   </li>
+  <li<% if @page == '6' %> class="active"<% end %>>
+    <span class="part-number">6.</span>
+    <% if @page == '6' %>
+      <span>
+        <%= @your_option_page_title_6 %>
+      </span>
+    <% else %>
+      <a href="6">
+        <%= @your_option_page_title_6 %>
+      </a>
+    <% end %>
+  </li>
 </ol>
