@@ -67,22 +67,6 @@ input[type="text"] {
 .your-options__more {
   clear: both; }
 
-#footer.fat-footer {
-  text-align: left;
-  border-top: 10px solid #005ea5;
-  margin-top: 20px; }
-  #footer.fat-footer .footer-categories {
-    padding-bottom: 0; }
-
-#footer.group {
-  border-top: none; }
-
-#footer.group .footer-categories {
-  display: none; }
-
-#wrapper {
-  border-bottom: none; }
-
 .divider {
   position: relative;
   margin: 1em 0;
