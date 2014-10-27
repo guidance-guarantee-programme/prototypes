@@ -190,6 +190,11 @@ get '/how-much-in-your-pot' do
   erb :'articles/how_much_in_pot'
 end
 
+get '/pension-tool' do
+  @hide_session_promo = false
+  erb :'pension-tool'
+end
+
 get '/your-options/:option' do
   @hide_session_promo = false
   @page = params[:option]

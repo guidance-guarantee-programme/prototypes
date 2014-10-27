@@ -132,4 +132,19 @@ input[type="text"] {
   .pension-tool button {
     padding: 0.3em 0.6em 0.2em 0.6em; }
 
+/* pension-tax-calculator */
+.pension-tax-calculator__label {
+  display: inline-block;
+  width: 15em; }
+
+.pension-tax-calculator__result {
+  margin-bottom: 0; }
+
+.pension-tax-calculator__result--total {
+  margin: 1em 0; }
+
+.pension-tax-calculator__input.is-hidden,
+.pension-tax-calculator__results.is-hidden {
+  display: none; }
+
 /*# sourceMappingURL=prototypes.css.map */
