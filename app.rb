@@ -45,6 +45,7 @@ end
 
 get '/guidance-session' do
   @hide_session_promo = true
+  @current_category = 'book-a-session'
   erb :guidance_session
 end
 
@@ -187,16 +188,19 @@ end
 
 get '/how-much-in-your-pot' do
   @hide_session_promo = false
+  @current_category = 'pension-pot'
   erb :'articles/how_much_in_pot'
 end
 
 get '/pension-tax-calculator' do
   @hide_session_promo = false
+  @current_category = 'pension-options'
   erb :'pension_tax_calculator'
 end
 
 get '/your-options/:option' do
   @hide_session_promo = false
+  @current_category = 'pension-options'
   @page = params[:option]
   @page_title = "Ways to take money from your pension pot"
   @your_option_page_title_1 = "Overview"
@@ -210,6 +214,7 @@ end
 
 get '/tax-on-your-pension/:option' do
   @hide_session_promo = false
+  @current_category = 'pension-options'
   @page = params[:option]
   @page_title = "Tax you pay on your pension"
   @page_title_1 = "Overview"
@@ -223,6 +228,7 @@ end
 get '/understanding-pensions/:option' do
   @hide_session_promo = false
   @folder = 'understanding_pensions'
+  @current_category = 'pension-pot'
   @page = params[:option]
   @page_title = "Understand your pension type"
   @page_title_1 = "Overview"

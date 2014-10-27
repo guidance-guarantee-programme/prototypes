@@ -2,7 +2,7 @@
 .SlotPicker-input,
 .SlotPicker-choices,
 .report-a-problem-toggle-wrapper,
-.with-proposition #search {
+.hide-search .with-proposition #search {
   display: none; }
 
 header.page-header {
