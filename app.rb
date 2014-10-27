@@ -38,9 +38,9 @@ end
 
 Phonelib.default_country = 'GB'
 
+
 get '/' do
-  @hide_session_promo = false
-  erb :index
+  erb :index, {:layout => :layout_homepage}
 end
 
 get '/guidance-session' do

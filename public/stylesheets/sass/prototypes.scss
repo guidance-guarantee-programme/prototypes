@@ -200,3 +200,46 @@ input[type="text"] {
 .pension-tax-calculator__results.is-hidden {
   display:none;
 }
+
+.homepage-b {
+  header.banner {
+    margin-top:2em;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+  }
+}
+
+.border-bottom {
+  border-bottom:1px solid #ddd;
+}
+.border-bottom--last {
+  margin-bottom: 2em;
+}
+
+.grey-text {
+  color:#6F777B;
+}
+
+.grey-bg {
+  background:#DEE0E2;
+}
+
+.input-single {
+  width:2em;
+}
+.input-double {
+  width:2em;
+}
+.input-pot {
+  width:7em;
+}
+
+.alpha-label {
+  @media (min-width: 641px) {
+    margin: 0 30px;
+  }
+}
