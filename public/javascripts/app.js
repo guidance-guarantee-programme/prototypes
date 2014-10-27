@@ -2,6 +2,10 @@ $(function() {
 
   $('#js-calculate').click(function(){
 
+    if ($('#income:text').is(":empty")) {
+      $('#income').val('0')
+    }
+
     var calc = new Calculator($('#pension').val(), $('#income').val());
 
     $("#js-lump-sum").text('#js-lump-sum-2').text(numeral(calc.tax_free_lump_sum).format('$0,0'));
