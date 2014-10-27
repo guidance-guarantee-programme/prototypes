@@ -161,9 +161,11 @@ class Prototype < Sinatra::Base
     @hide_session_promo = false
     @page = params[:option]
     @page_title = "Income Tax and your pension"
-    @page_title_1 = "What’s tax-free"
-    @page_title_2 = "What’s taxed and how much you pay"
-    @page_title_3 = "How your tax is paid "
+    @page_title_1 = "Overview"
+    @page_title_2 = "What’s tax-free"
+    @page_title_3 = "What you pay tax on"
+    @page_title_4 = "How much tax you pay"
+    @page_title_5 = "How your tax is paid"
     erb :"articles/tax_on_your_pension/#{params[:option]}"
   end
 
