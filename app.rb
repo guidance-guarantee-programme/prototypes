@@ -211,7 +211,7 @@ end
 get '/tax-on-your-pension/:option' do
   @hide_session_promo = false
   @page = params[:option]
-  @page_title = "Income Tax and your pension"
+  @page_title = "Tax you pay on your pension"
   @page_title_1 = "Overview"
   @page_title_2 = "What’s tax-free"
   @page_title_3 = "What you pay tax on"
@@ -224,7 +224,7 @@ get '/understanding-pensions/:option' do
   @hide_session_promo = false
   @folder = 'understanding_pensions'
   @page = params[:option]
-  @page_title = "Understanding pensions"
+  @page_title = "Understand your pension type"
   @page_title_1 = "Overview"
   @page_title_2 = "Pensions from the government"
   @page_title_3 = "Pension types"
