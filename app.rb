@@ -51,6 +51,7 @@ end
 
 get '/session-type' do
   @hide_session_promo = true
+  @current_category = 'book-a-session'
   erb :session_type
 end
 
