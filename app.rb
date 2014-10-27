@@ -157,6 +157,11 @@ class Prototype < Sinatra::Base
     erb :"articles/your_options/#{params[:option]}"
   end
 
+  get '/pension-tool' do
+    @hide_session_promo = false
+    erb :'pension-tool'
+  end
+
   get '/tax-on-your-pension/:option' do
     @hide_session_promo = false
     @page = params[:option]

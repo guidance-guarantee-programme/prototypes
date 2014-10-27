@@ -1,0 +1,56 @@
+<% content_for :page_title do %>
+  Pension tax calculator
+<% end %>
+
+<script type="text/javascript" src="/javascripts/numerals.js"></script>
+<script type="text/javascript" src="/javascripts/Calculator.js"></script>
+<script type="text/javascript" src="/javascripts/app.js"></script>
+
+<div class="inner-block">
+
+  <div class="pension-tax-calculator">
+
+    <div class="pension-tax-calculator__input">
+      <p>Calculate the tax if you cash in your whole pot in one go. </p>
+
+      <div class="form-group">
+        <label class="form-label-bold" for="pension">Value of your pension pot(s)</label>
+        £ <input type="text" class="form-control-1-8" id="pension">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label-bold" for="income">Annual income from work before tax
+          <span class="form-hint">Enter 0 if you don’t work.</span>
+        </label>
+        £ <input type="text" class="form-control-1-8" id="income">
+      </div>
+
+      <div class="form-group">
+        <input type="submit" class="button" value="Calculate" id="js-calculate">
+      </div>
+    </div>
+
+    <div class="pension-tax-calculator__results text is-hidden">
+
+      <p class="pension-tax-calculator__result">
+        <span class="pension-tax-calculator__label">Tax-free lump sum:</span>
+        <span class="pension-tax-calculator__value" id="js-lump-sum"></span>
+      </p>
+
+      <p class="pension-tax-calculator__result">
+        <span class="pension-tax-calculator__label">Tax on your remaining pot:</span>
+        <span class="pension-tax-calculator__value" id="js-pension-lost"></span>
+      </p>
+
+      <p class="pension-tax-calculator__result pension-tax-calculator__result--total">
+        <span class="pension-tax-calculator__label">Total amount you get after tax: </span>
+        <span class="pension-tax-calculator__value" id="js-pension-income"></span>
+      </p>
+
+      <p><a href="#pension-tool-calculation">How this is calculated</a></p>
+
+    </div>
+
+  </div>
+
+</div>
