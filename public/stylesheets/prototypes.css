@@ -181,5 +181,7 @@ input[type="text"] {
 
 .category-articles {
   margin-bottom: 12em; }
+.hide-govuk-footer-links .footer-categories {
+  display: none; }
 
 /*# sourceMappingURL=prototypes.css.map */
