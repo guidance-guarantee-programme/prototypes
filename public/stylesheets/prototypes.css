@@ -179,4 +179,7 @@ input[type="text"] {
   .alpha-label {
     margin: 0 30px; } }
 
+.hide-govuk-footer-links .footer-categories {
+  display: none; }
+
 /*# sourceMappingURL=prototypes.css.map */

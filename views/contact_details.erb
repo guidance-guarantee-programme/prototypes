@@ -6,6 +6,10 @@
   Your contact details
 <% end %>
 
+<% content_for :body_class do %>
+  hide-govuk-footer-links
+<% end %>
+
 <div class="inner-block">
   <form action="/contact-details" method="post" class="form">
     <div class="form-group">
