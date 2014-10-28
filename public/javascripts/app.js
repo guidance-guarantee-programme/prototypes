@@ -2,7 +2,7 @@ $(function() {
 
   $('#js-calculate').click(function(){
 
-    if ($('#income:text').is(":empty")) {
+    if (!$('#income').val()) {
       $('#income').val('0')
     }
 
