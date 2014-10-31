@@ -53,11 +53,6 @@ get '/session-type' do
   erb :session_type
 end
 
-get '/find-a-local-branch' do
-  @hide_session_promo = true
-  erb :find_a_local_branch
-end
-
 get '/local-branch-results' do
   @hide_session_promo = true
   erb :local_branch_results
