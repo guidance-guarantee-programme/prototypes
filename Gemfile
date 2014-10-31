@@ -13,6 +13,10 @@ gem 'slimmer'
 gem 'tilt-govspeak'
 gem 'twilio-ruby'
 
+group :development, :test do
+  gem 'pry'
+end
+
 group :development do
   gem 'foreman'
 end
