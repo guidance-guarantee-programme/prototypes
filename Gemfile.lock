@@ -135,6 +135,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activemodel
   foreman
   govuk_frontend_toolkit
   phonelib
