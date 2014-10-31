@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 gem 'activemodel'
-gem 'foreman'
 gem 'govuk_frontend_toolkit'
 gem 'phonelib'
 gem 'puma'
@@ -13,3 +12,7 @@ gem 'sinatra'
 gem 'slimmer'
 gem 'tilt-govspeak'
 gem 'twilio-ruby'
+
+group :development do
+  gem 'foreman'
+end
