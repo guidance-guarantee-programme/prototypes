@@ -1,23 +1,3 @@
-require 'bundler'
-require 'bundler/setup'
-
-require 'sinatra'
-require 'sinatra/content_for'
-require 'sinatra/reloader' if development?
-
-require 'phonelib'
-require 'slimmer'
-require 'sass/plugin/rack'
-require 'tilt/govspeak'
-require 'twilio-ruby'
-
-
-
-Sass.load_paths << Gem.loaded_specs['govuk_frontend_toolkit'].full_gem_path + '/app/assets/stylesheets'
-Sass::Plugin.add_template_location('bower_components/govuk_elements/public/sass')
-
-Tilt.prefer Tilt::GovspeakTemplate
-
 use Rack::Auth::Basic, 'Prototype' do |username, password|
   [username, password] == [ENV['AUTH_USERNAME'], ENV['AUTH_PASSWORD']]
 end if production?
@@ -26,17 +6,11 @@ use Sass::Plugin::Rack
 use Slimmer::App
 
 configure do
+  set :app_file, __FILE__
   set :markdown, layout_engine: :erb
   set :server, :puma
   set :sessions, true
 end
-
-Twilio.configure do |config|
-  config.account_sid = ENV['TWILIO_ACCOUNT_SID']
-  config.auth_token = ENV['TWILIO_AUTH_TOKEN']
-end
-
-Phonelib.default_country = 'GB'
 
 get '/' do
   @hide_session_promo = false
