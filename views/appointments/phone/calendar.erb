@@ -6,8 +6,8 @@
   Pick a date and time
 <% end %>
 
-<link rel="stylesheet" href="stylesheets/moj.slot-picker.css" />
-<link rel="stylesheet" href="stylesheets/moj.date-slider.css" />
+<link rel="stylesheet" href="/stylesheets/moj.slot-picker.css" />
+<link rel="stylesheet" href="/stylesheets/moj.date-slider.css" />
 
 <div class="inner-block">
   <div class="text">
@@ -196,7 +196,7 @@
   </div>
 
   <div class="inner-block">
-    <form action="/book-a-session" method="post" class="form">
+    <form action="/appointments/phone/book" method="post" class="form">
         <select name="slots[]" class="SlotPicker-input">
           <option value="">none</option>
           <option value="2014-11-03-1000-1045">Monday, 3 November -  10:00am</option>
@@ -254,13 +254,13 @@
   </div>
 </div>
 
-<script src="../vendor/modernizr.custom.85598.js"></script>
-<script src="../vendor/jquery-1.11.0.js"></script>
-<script src="../vendor/handlebars-v1.3.0.js"></script>
+<script src="/vendor/modernizr.custom.85598.js"></script>
+<script src="/vendor/jquery-1.11.0.js"></script>
+<script src="/vendor/handlebars-v1.3.0.js"></script>
 
 <script>var moj = moj || { Modules: {}, Helpers: {} };</script>
-<script src="javascripts/moj.slot-picker.js"></script>
-<script src="javascripts/moj.date-slider.js"></script>
+<script src="/javascripts/moj.slot-picker.js"></script>
+<script src="/javascripts/moj.date-slider.js"></script>
 <script>moj.Modules.SlotPicker.init();</script>
 <script>moj.Modules.DateSlider.init();</script>
 

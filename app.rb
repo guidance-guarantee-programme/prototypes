@@ -17,72 +17,75 @@ get '/' do
   erb :index
 end
 
-get '/guidance-session' do
+get '/appointments' do
   @hide_session_promo = true
-  erb :guidance_session
+
+  erb :'appointments/index'
 end
 
-get '/session-type' do
+get '/appointments/overview' do
   @hide_session_promo = true
-  erb :session_type
+
+  erb :'appointments/overview'
 end
 
-get '/local-branch-results' do
+get '/appointments/face-to-face/search' do
   @hide_session_promo = true
-  erb :local_branch_results
+
+  erb :'appointments/f2f/results'
 end
 
-get '/book-a-session' do
+get '/appointments/phone/availability' do
   @hide_session_promo = true
   @current_step = 1
 
-  erb :book_a_session
+  erb :'appointments/phone/calendar'
 end
 
-post '/book-a-session' do
+post '/appointments/phone/book' do
   appointment = Appointment.new(slot: params[:slots].first)
 
   session[:appointment] = appointment
 
   if appointment.valid?
-    redirect to('/contact-details')
+    redirect to('/appointments/phone/contact-details')
   else
-    redirect to('/book-a-session')
+    redirect to('/appointments/phone/availability')
   end
 end
 
-get '/contact-details' do
+get '/appointments/phone/contact-details' do
   @hide_session_promo = true
   @current_step = 2
 
   @user = session[:user] || User.new
 
-  erb :contact_details
+  erb :'appointments/phone/contact_details'
 end
 
-post '/contact-details' do
+post '/appointments/phone/contact-details' do
   user = User.new(params[:user])
 
   session[:user] = user
 
   if user.valid?
-    redirect to('/check-your-booking')
+    redirect to('/appointments/phone/preview')
   else
-    redirect to('/contact-details')
+    redirect to('/appointments/phone/contact-details')
   end
 end
 
-get '/check-your-booking' do
+get '/appointments/phone/preview' do
   @hide_session_promo = true
   @current_step = 3
 
   @user = UserPresenter.new(session[:user])
   @appointment = AppointmentPresenter.new(session[:appointment])
 
-  erb :check_your_booking
+  erb :'appointments/phone/preview'
 end
 
-post '/send-request' do
+post '/appointments/phone/confirm' do
   name  = session[:name]
   phone = Phonelib.parse(session[:phone])
   slot = session[:sessions].first if session[:sessions]
@@ -115,7 +118,7 @@ post '/send-request' do
     end
   end
 
-  redirect to('/booking-confirmation')
+  redirect to('/appointments/phone/confirmation')
 end
 
 get '/reminder-call', provides: ['xml'] do
@@ -129,14 +132,14 @@ get '/reminder-call', provides: ['xml'] do
   builder :'appointments/reminder_call'
 end
 
-get '/booking-confirmation' do
+get '/appointments/phone/confirmation' do
   @hide_session_promo = true
   @phone    = session[:phone]
   @email    = session[:email]
   @sessions = session[:sessions] || []
   @number  = Phonelib.parse(ENV['TWILIO_FROM_NUMBER']).national
 
-  erb :booking_confirmation
+  erb :'appointments/phone/confirmation'
 end
 
 get '/govspeak' do
