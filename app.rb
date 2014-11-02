@@ -134,9 +134,9 @@ end
 
 get '/appointments/phone/confirmation' do
   @hide_session_promo = true
-  @phone    = session[:phone]
-  @email    = session[:email]
-  @sessions = session[:sessions] || []
+
+  @user = UserPresenter.new(session[:user])
+  @appointment = AppointmentPresenter.new(session[:appointment])
   @number  = Phonelib.parse(ENV['TWILIO_FROM_NUMBER']).national
 
   erb :'appointments/phone/confirmation'

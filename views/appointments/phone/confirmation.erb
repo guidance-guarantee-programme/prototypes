@@ -15,7 +15,7 @@
       <div class="print-link">
         <a href="#" rel="nofollow">Print</a>
       </div>
-      <p class="lede">An email has been sent to <%= @email %></p>
+      <p class="lede">An email has been sent to <%= @user.email %></p>
     </div>
 
     <div class="session-ticket">
@@ -29,7 +29,7 @@
               <h3 class="heading-small">Date</h3>
 
               <div class="session-ticket__highlight bold-large">
-                <%= @sessions.first.strftime('%e %B %Y') %>
+                <%= @appointment.date %>
               </div>
 
 
@@ -39,7 +39,7 @@
                   <h3 class="heading-small">Time</h3>
 
                   <div class="session-ticket__highlight bold-large">
-                    <%= @sessions.first.strftime('%l%P') %>
+                    <%= @appointment.time %>
                   </div>
                 </div>
 
@@ -54,7 +54,7 @@
               <h3 class="heading-small">We'll call you on</h3>
 
               <div class="session-ticket__highlight bold-large">
-                <%= @phone %>
+                <%= @user.phone %>
               </div>
 
               <h3 class="heading-small">How to cancel</h3>
