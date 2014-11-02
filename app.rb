@@ -108,7 +108,6 @@ class Prototype < Sinatra::Base
     if phone.valid?
       reminder = Reminder.new(user, appointment)
       reminder.deliver
-      session.clear
 
       redirect to('/appointments/phone/confirmation')
     else
