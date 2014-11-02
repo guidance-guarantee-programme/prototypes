@@ -76,8 +76,8 @@ get '/check-your-booking' do
   @hide_session_promo = true
   @current_step = 3
 
-  @user = session[:user]
-  @appointment = session[:appointment]
+  @user = UserPresenter.new(session[:user])
+  @appointment = AppointmentPresenter.new(session[:appointment])
 
   erb :check_your_booking
 end
