@@ -20,3 +20,8 @@ end
 group :development do
   gem 'foreman'
 end
+
+group :test do
+  gem 'capybara'
+  gem 'minitest'
+end
