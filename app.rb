@@ -119,19 +119,14 @@ post '/send-request' do
 end
 
 get '/reminder-call', provides: ['xml'] do
-  name = params[:name]
+  @name = params[:name]
 
   if params[:slot]
     slot = DateTime.parse(params[:slot])
-    time = slot.strftime('%e %B at %l%P')
+    @time = slot.strftime('%e %B at %l%P')
   end
 
-  builder do |xml|
-    xml.instruct!
-    xml.Response do
-      xml.Say "Hi #{name}, you’re booked for a pensions guidance session on #{time}. A pensions expert will call you on this number.", voice: 'alice', language: 'en-GB'
-    end
-  end
+  builder :'appointments/reminder_call'
 end
 
 get '/booking-confirmation' do
