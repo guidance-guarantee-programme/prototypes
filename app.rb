@@ -86,39 +86,19 @@ get '/appointments/phone/preview' do
 end
 
 post '/appointments/phone/confirm' do
-  name  = session[:name]
-  phone = Phonelib.parse(session[:phone])
-  slot = session[:sessions].first if session[:sessions]
+  user = session[:user]
+  appointment = session[:appointment]
+  phone = Phonelib.parse(user.phone)
 
-  if phone.valid? && slot
-    twilio = Twilio::REST::Client.new
+  if phone.valid?
+    reminder = Reminder.new(user, appointment)
+    reminder.deliver
+    session.clear
 
-    case phone.type
-      when :mobile
-        # SMS
-        time = slot.strftime('%e %B at %l%P')
-        sms = {
-          from: ENV['TWILIO_FROM_NUMBER'],
-          to: phone.international.gsub(/[[:space:]]/, ''),
-          body: "Hi #{name}, you’re booked for a pensions guidance session on #{time}. A pensions expert will call you on this number."
-        }
-
-        twilio.account.messages.create sms
-
-      when :fixed_line
-        # Call
-        call = {
-          from: ENV['TWILIO_FROM_NUMBER'],
-          to: phone.international.gsub(/[[:space:]]/, ''),
-          url: "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-sprint2-endtoend.herokuapp.com/reminder-call?name=#{name}&slot='#{slot}'",
-          method: 'GET'
-        }
-
-        twilio.account.calls.create call
-    end
+    redirect to('/appointments/phone/confirmation')
+  else
+    redirect to('/appointments/phone/preview')
   end
-
-  redirect to('/appointments/phone/confirmation')
 end
 
 get '/reminder-call', provides: ['xml'] do
