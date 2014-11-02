@@ -10,24 +10,24 @@
   <form action="/contact-details" method="post" class="form">
     <div class="form-group">
       <label class="form-label-bold" for="name">First name</label>
-      <input type="text" class="form-control-1-4" id="name" name="name" value="<%= @name %>">
+      <input type="text" class="form-control-1-4" id="name" name="user[name]" value="<%= @user.name %>">
     </div>
 
     <div class="form-group">
       <label class="form-label-bold" for="surname">Last name</label>
-      <input type="text" class="form-control-1-4" id="surname" name="surname" value="<%= @surname %>">
+      <input type="text" class="form-control-1-4" id="surname" name="user[surname]" value="<%= @user.surname %>">
     </div>
 
     <div class="form-group">
-      <label class="form-label-bold" for="full-name">Email</label>
       <p class="form-hint">We'll send you a reminder of your session details.</p>
-      <input type="text" class="form-control" id="email" name="email" value="<%= @email %>">
+      <label class="form-label-bold" for="email">Email</label>
+      <input type="text" class="form-control" id="email" name="user[email]" value="<%= @user.email %>">
     </div>
 
     <div class="form-group">
-      <label class="form-label-bold" for="full-name">Phone</label>
       <p class="form-hint">This is the phone number we'll call you on.</p>
-      <input type="text" class="form-control-1-4" id="phone" name="phone" value="<%= @phone %>">
+      <label class="form-label-bold" for="phone">Phone</label>
+      <input type="text" class="form-control-1-4" id="phone" name="user[phone]" value="<%= @user.phone %>">
     </div>
 
     <div class="form-group">

@@ -18,22 +18,22 @@
             <h2>Your details</h2>
             <p>
               <span class="info-label">First name:</span>
-              <span class="info-data"><%= @name %></span>
+              <span class="info-data"><%= @user.name %></span>
             </p>
 
             <p>
               <span class="info-label">Last name:</span>
-              <span class="info-data"><%= @surname %></span>
+              <span class="info-data"><%= @user.surname %></span>
             </p>
 
             <p>
               <span class="info-label">Email:</span>
-              <span class="info-data"><%= @email %></span>
+              <span class="info-data"><%= @user.email %></span>
             </p>
 
             <p>
               <span class="info-label">Phone:</span>
-              <span class="info-data"><%= @phone %></span>
+              <span class="info-data"><%= @user.phone %></span>
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@
 
             <p>
               <span class="info-label">Date and time:</span>
-              <span class="info-data"><%= @sessions.first.strftime('%A, %e %B at %l%P') %></span>
+              <span class="info-data"><%= @appointment.slot %></span>
             </p>
 
           </div>

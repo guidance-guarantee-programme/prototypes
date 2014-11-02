@@ -39,51 +39,44 @@ get '/book-a-session' do
 end
 
 post '/book-a-session' do
-  session[:slots] = params[:slots]
+  appointment = Appointment.new(slot: params[:slots].first)
 
-  redirect to('/contact-details')
+  session[:appointment] = appointment
+
+  if appointment.valid?
+    redirect to('/contact-details')
+  else
+    redirect to('/book-a-session')
+  end
 end
 
 get '/contact-details' do
   @hide_session_promo = true
-  @name    = session[:name]
-  @surname = session[:surname]
-  @email   = session[:email]
-  @phone   = session[:phone]
   @current_step    = 2
+
+  @user = session[:user] || User.new
 
   erb :contact_details
 end
 
 post '/contact-details' do
-  session[:name]    = params[:name]
-  session[:surname] = params[:surname]
-  session[:email]   = params[:email]
-  session[:phone]   = params[:phone]
+  user = User.new(params[:user])
 
-  redirect to('/check-your-booking')
+  session[:user] = user
+
+  if user.valid?
+    redirect to('/check-your-booking')
+  else
+    redirect to('/contact-details')
+  end
 end
 
 get '/check-your-booking' do
   @hide_session_promo = true
-  @name    = session[:name]
-  @surname = session[:surname]
-  @email   = session[:email]
-  @phone   = session[:phone]
-  @slots   = session[:slots]
-  @number  = Phonelib.parse(ENV['TWILIO_FROM_NUMBER']).national
   @current_step    = 3
-  @sessions = []
 
-  # Slots are ['2014-11-12-1000-1100', '2014-11-12-1200-1300']
-  @slots.reject(&:empty?).each do |slot|
-    slot = slot.split('-').map(&:to_i)
-    time = slot[3].to_s.scan(/.{2}/).map(&:to_i)
-
-    @sessions << DateTime.new(slot[0], slot[1], slot[2], time[0], time[1])
-  end
-
-  session[:sessions] = @sessions
+  @user = session[:user]
+  @appointment = session[:appointment]
 
   erb :check_your_booking
 end
