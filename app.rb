@@ -34,7 +34,8 @@ end
 
 get '/book-a-session' do
   @hide_session_promo = true
-  @current_step    = 1
+  @current_step = 1
+
   erb :book_a_session
 end
 
@@ -52,7 +53,7 @@ end
 
 get '/contact-details' do
   @hide_session_promo = true
-  @current_step    = 2
+  @current_step = 2
 
   @user = session[:user] || User.new
 
@@ -73,7 +74,7 @@ end
 
 get '/check-your-booking' do
   @hide_session_promo = true
-  @current_step    = 3
+  @current_step = 3
 
   @user = session[:user]
   @appointment = session[:appointment]
