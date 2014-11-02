@@ -137,7 +137,6 @@ get '/appointments/phone/confirmation' do
 
   @user = UserPresenter.new(session[:user])
   @appointment = AppointmentPresenter.new(session[:appointment])
-  @number  = Phonelib.parse(ENV['TWILIO_FROM_NUMBER']).national
 
   erb :'appointments/phone/confirmation'
 end
