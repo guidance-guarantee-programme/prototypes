@@ -181,4 +181,10 @@ class Prototype < Sinatra::Base
     @page_title_5 = "Shopping around"
     erb :"articles/#{@folder}/#{params[:option]}"
   end
+
+  get '/edge' do
+    @hide_session_promo = true
+
+    erb :edge
+  end
 end
