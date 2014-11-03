@@ -152,6 +152,7 @@ PLATFORMS
 DEPENDENCIES
   activemodel
   capybara
+  dotenv
   foreman
   govuk_frontend_toolkit
   minitest

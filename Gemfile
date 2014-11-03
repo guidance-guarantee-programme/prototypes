@@ -23,5 +23,6 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'dotenv'
   gem 'minitest'
 end

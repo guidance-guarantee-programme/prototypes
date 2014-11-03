@@ -3,9 +3,9 @@ ENV['RACK_ENV'] = 'test'
 require_relative 'config/application'
 require_relative 'app'
 
-require 'capybara'
-require 'capybara/dsl'
 require 'minitest/autorun'
+
+Dotenv.load
 
 class SmokeTest <  Minitest::Test
   include Capybara::DSL
