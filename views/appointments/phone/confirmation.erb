@@ -13,14 +13,16 @@
 
     <div class="session-intro">
       <div class="print-link">
-        <a href="#" rel="nofollow">Print</a>
+        <a href="#" rel="nofollow">Print your confirmation</a>
       </div>
       <p class="lede">An email has been sent to <%= @user.email %></p>
     </div>
 
     <div class="session-ticket">
       <div class="inner-block">
-        <h2 class="heading-medium">Your pension guidance session</h2>
+        <h2 class="heading-medium">Confirmation for your pension guidance session</h2>
+
+        <h3 class="heading-medium">Your details</h3>
 
         <div class="grid-wrapper grid-demo">
           <div class="grid grid-1-2">
@@ -51,16 +53,16 @@
                 </div>
               </div>
 
-              <h3 class="heading-small">We'll call you on</h3>
+              <h3 class="heading-small">Phone number you told us to call you on</h3>
 
               <div class="session-ticket__highlight bold-large">
                 <%= @user.phone %>
               </div>
 
-              <h3 class="heading-small">How to cancel</h3>
+              <h2 class="heading-medium">How to cancel</h2>
 
-              <p>Send an email with your name and the date and time of your
-                session to:
+              <p>
+                Send an email with your name and the date and time of your session to:
                 <a href="mailto:cancel-pension-session@hmt.gov.uk">cancel-pension-session@hmt.gov.uk</a>
               </p>
 
@@ -68,6 +70,15 @@
           </div>
           <div class="grid grid-1-2">
             <div class="inner-block">
+              <h3 class="heading-small">For your security</h3>
+
+              <p>Your memorable word: <%= @user.secret %></p>
+
+              <p>
+                Our pension expert will repeat this at the beginning of the call so you know it’s us.
+                We’ll never ask you for your bank details or to buy a product.
+              </p>
+
               <h3 class="heading-small">What you need for your session</h3>
 
               <p>You'll need to have ready:</p>
@@ -80,19 +91,17 @@
 
               <p>This will help our experts to prepare for your call.</p>
 
-              <h3 class="heading-small">Reference number</h3>
-
-              <div class="bold-medium">PG1234</div>
-
-
-              <h3 class="heading-small">If you do not answer the call</h3>
+              <h3 class="heading-small">If you don’t answer the call</h3>
 
               <p>
-                We won't call you back. <mark>You'll need to book another session.</mark>
+                We can’t call you back. You’ll need to book another session.
               </p>
 
+              <h3 class="heading-small">What to do next</h3>
+
               <p>
-                <mark>In the meantime have a look around the website...</mark>
+                We recommend you <a href="/">read our pension guides</a> before the session.
+                It will help you understand your pensions options.
               </p>
 
             </div>

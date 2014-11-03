@@ -25,14 +25,14 @@
     </div>
 
     <div class="form-group">
-      <label class="form-label-bold" for="phone">Phone</label>
-      <p class="form-hint">This is the phone number we'll call you on. Must be a UK phone number.</p>
+      <label class="form-label-bold" for="phone">Phone number to call you on</label>
+      <p class="form-hint">If you don’t answer you’ll need to book another appointment.</p>
       <input type="text" class="form-control-1-4" id="phone" name="user[phone]" value="<%= @user.phone %>">
     </div>
 
     <div class="form-group">
       <label class="form-label-bold" for="secret">Memorable word</label>
-      <p class="form-hint">A memorable word we can use to prove it's us when we call you.</p>
+      <p class="form-hint">Our pensions expert will repeat this word when they call so you know it’s us.</p>
       <input type="text" class="form-control-1-4" id="secret" name="user[secret]" value="<%= @user.secret %>">
     </div>
 
