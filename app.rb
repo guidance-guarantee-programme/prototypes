@@ -28,8 +28,7 @@ class Prototype < Sinatra::Base
   end
 
   get '/' do
-    @hide_session_promo = false
-    erb :index
+    erb :index, {:layout => :layout_homepage}
   end
 
   get '/appointments' do
