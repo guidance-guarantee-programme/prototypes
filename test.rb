@@ -11,7 +11,7 @@ class SmokeTest <  Minitest::Test
   include Capybara::DSL
 
   def setup
-    Capybara.app = Sinatra::Application.new
+    Capybara.app = Prototype.new
   end
 
   def teardown
