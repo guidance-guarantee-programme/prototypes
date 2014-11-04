@@ -76,6 +76,6 @@ class SmokeTest <  Minitest::Test
 
     click_on('Calculate')
 
-    assert page.has_content? 'Total amount you may get after tax'
+    assert page.has_content? 'Total you get from your pot after tax'
   end
 end
