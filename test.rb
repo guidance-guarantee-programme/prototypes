@@ -22,7 +22,7 @@ class SmokeTest <  Minitest::Test
   def test_homepage
     visit '/'
 
-    assert page.has_content? 'The Pensions Guidance Service'
+    assert page.has_content? 'The Pension Guidance Service'
   end
 
   def test_book_appointment
