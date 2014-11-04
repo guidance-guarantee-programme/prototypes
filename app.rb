@@ -127,6 +127,7 @@ class Prototype < Sinatra::Base
 
   get '/appointments/phone/confirmation' do
     @hide_session_promo = true
+    @current_step = 4
 
     @user = UserPresenter.new(session[:user])
     @appointment = AppointmentPresenter.new(session[:appointment])
