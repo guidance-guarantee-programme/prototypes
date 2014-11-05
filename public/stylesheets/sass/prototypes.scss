@@ -116,20 +116,40 @@ input[type="text"] {
 
 .session-ticket {
   position:relative;
-  border: 2px solid #f0f0f0;
-  border-radius: 5px;
-  padding-bottom:40px;
+  border: 2px solid #e9e9e9;
+  border-radius: 8px;
 
   h2 {
     margin:1em 0 0 0;
   }
+
+  .font-medium {
+    margin-top:0;
+    padding-top:1em;
+  }
+}
+
+.session-ticket__left {
+  margin-left: 40px;
+}
+
+.session-ticket__right {
+  padding-left: 10px;
+  margin-right:15px;
+  background: #f2f2f2;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-bottom:6em;
 }
 
 .session-ticket__highlight {
   background: #e7f2f8;
-  border:1px solid #c5e3f5;
   padding:4px;
   display:inline-block;
+}
+
+.session-ticket__highlight--dark {
+  background: #c6e8f7;
 }
 
 .session-ticket__reference {
@@ -166,6 +186,11 @@ input[type="text"] {
     float:right;
     margin-top:0;
   }
+}
+
+.session-next {
+  margin-top:2em;
+  margin-bottom:4em;
 }
 
 .pension-tool {
@@ -275,7 +300,8 @@ input[type="text"] {
   cursor: help;
 }
 
-strong {
+strong,
+.bold {
   font-weight: bold;
 }
 
