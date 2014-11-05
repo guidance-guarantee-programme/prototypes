@@ -3,17 +3,17 @@
 <% end %>
 
 <% content_for :page_title do %>
-  Branches offering pensions guidance near you
+  Locations offering pensions guidance near you
 <% end %>
 
 
 <div class="inner-block">
 
-  <p>Contact one of the branches directly to book an appointment.</p>
+  <p>Contact one of the Citizens Advice Bureaux directly to book an appointment.</p>
 
   <p>
-    If these branches are too far away you can
-    <a href="/appointments/phone/availability">book a phone appointment</a> instead.
+    If these are too far away you can
+    <a href="/appointments/overview">book a phone appointment</a> instead.
   </p>
 
   <ol class="list-number">
@@ -35,14 +35,10 @@
 
   <form action="/appointments/face-to-face/search" method="get" class="form">
     <div class="form-group">
-      <!--<label class="form-label-bold" for="postcode">Postcode</label>-->
       <p class="form-hint"><strong>Search for another postcode</strong></p>
       <input type="text" class="form-control-1-8" id="postcode" name="postcode">
     </div>
-
-    <div class="form-group">
-      <input type="submit" class="button" value="Search">
-    </div>
+    <input type="submit" class="button" value="Search">
   </form>
 
 </div>
