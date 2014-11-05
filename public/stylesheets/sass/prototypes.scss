@@ -234,16 +234,16 @@ input[type="text"] {
     margin-top:2em;
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
-    -ms-interpolation-mode: bicubic;
-    display:block;
-  }
-
   .lede {
     margin-top:1em;
   }
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  display:block;
 }
 
 .margin-top-none {
