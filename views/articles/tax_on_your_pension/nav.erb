@@ -24,7 +24,19 @@
     <% end %>
   </li>
 </ol>
-<ol start="4">
+<ol start="3">
+  <li<% if @page == '3' %> class="active"<% end %>>
+    <span class="part-number">3.</span>
+    <% if @page == '3' %>
+      <span>
+        <%= @page_title_3 %>
+      </span>
+    <% else %>
+      <a href="3">
+        <%= @page_title_3 %>
+      </a>
+    <% end %>
+  </li>
   <li<% if @page == '4' %> class="active"<% end %>>
     <span class="part-number">4.</span>
     <% if @page == '4' %>
@@ -34,18 +46,6 @@
     <% else %>
       <a href="4">
         <%= @page_title_4 %>
-      </a>
-    <% end %>
-  </li>
-  <li<% if @page == '5' %> class="active"<% end %>>
-    <span class="part-number">5.</span>
-    <% if @page == '5' %>
-      <span>
-        <%= @page_title_5 %>
-      </span>
-    <% else %>
-      <a href="5">
-        <%= @page_title_5 %>
       </a>
     <% end %>
   </li>

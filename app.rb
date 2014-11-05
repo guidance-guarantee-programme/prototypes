@@ -168,9 +168,8 @@ class Prototype < Sinatra::Base
     @page_title = "Tax you pay on your pension"
     @page_title_1 = "What you pay tax on"
     @page_title_2 = "What’s tax free"
-    @page_title_3 = "What you pay tax on"
-    @page_title_4 = "How much tax you pay"
-    @page_title_5 = "How your tax is paid"
+    @page_title_3 = "How much tax you pay"
+    @page_title_4 = "How your tax is paid"
     erb :"articles/tax_on_your_pension/#{params[:option]}"
   end
 
