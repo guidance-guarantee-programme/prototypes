@@ -149,11 +149,11 @@ class Prototype < Sinatra::Base
     @page = params[:option]
     @page_title = "Ways to take money from your pension pot"
     @your_option_page_title_1 = "Options you have"
-    @your_option_page_title_2 = "Taking a tax-free lump sum"
-    @your_option_page_title_3 = "Taking the whole pot as cash"
-    @your_option_page_title_4 = "Taking money out when you need it (income drawdown)"
-    @your_option_page_title_5 = "Getting a guaranteed income (annuity)"
-    @your_option_page_title_6 = "Mixing your pension options"
+    @your_option_page_title_2 = "Take 25% tax free"
+    @your_option_page_title_3 = "Take your whole pot as cash"
+    @your_option_page_title_4 = "Take money out when you need it (income drawdown)"
+    @your_option_page_title_5 = "Get a guaranteed income (annuity)"
+    @your_option_page_title_6 = "Mix your pension options"
     erb :"articles/your_options/#{params[:option]}"
   end
 
