@@ -169,13 +169,14 @@ input[type="text"] {
 /* pension-tax-calculator */
 .homepage header.banner {
   margin-top: 2em; }
-.homepage img {
+.homepage .lede {
+  margin-top: 1em; }
+
+.responsive-image {
   max-width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
   display: block; }
-.homepage .lede {
-  margin-top: 1em; }
 
 .margin-top-none {
   margin-top: 0; }
