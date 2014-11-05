@@ -27,7 +27,7 @@ class Reminder
     sms = {
         from: FROM_NUMBER,
         to: phone.international.gsub(/[[:space:]]/, ''),
-        body: "Hi #{@user.name}, you’re booked for a pensions guidance session on #{time}. A pensions expert will call you on this number."
+        body: "Hi #{@user.name}, you’re booked for a pensions guidance appointment on #{time}. A pensions expert will call you on this number."
     }
 
     @twilio.account.messages.create sms
