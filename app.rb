@@ -182,8 +182,12 @@ class Prototype < Sinatra::Base
     @page_title_2 = "The State Pension"
     @page_title_3 = "Pension types"
     @page_title_4 = "How much you get"
-    @page_title_5 = "Shopping around"
     erb :"articles/#{@folder}/#{params[:option]}"
+  end
+
+  get '/shop-around' do
+    @hide_session_promo = false
+    erb :'articles/shop_around'
   end
 
   get '/edge', '/search' do
