@@ -10,7 +10,9 @@
   <div class="pensions-are-changing">
     <div class="grid grid-2-3">
       <div class="inner-block">
-          <img src="/images/placeholder.png" alt="">
+        <div class="media-player">
+          <a href="https://www.youtube.com/watch?v=RS3krZ1paB4">Watch our video about the Digital by Default Service Standard</a>
+        </div>
       </div>
     </div>
     <div class="grid grid-1-3">
@@ -20,18 +22,21 @@
         <p>From April 2015 you'll have more freedom over how you take money from
           your pension pot.</p>
 
-        <p>These changes affect you <strong>if you're 55 or over</strong> and have a pension
+        <p>These changes affect you <strong>if you're 55 or over</strong> and
+          have a pension
           based on how much has been paid into your pot (a
-          <span class="tooltip" title="A pension based on how much has been paid into your pot"> <strong>defined contribution</strong> pension</span>).</p>
+          <span class="tooltip" title="A pension based on how much has been paid into your pot"> <strong>defined
+            contribution</strong> pension</span>).</p>
 
-        <p>This service explains what your options are, what's tax-free and what's not.</p>
+        <p>This service explains what your options are, what's tax-free and
+          what's not.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="inner-block text margin-top-extra">
-  <h2 class="heading-medium">1. Read about your options</h2>
+  <h2 class="heading-medium" id="guides">1. Read about your options</h2>
 </div>
 
 <!-- category 1 -->
@@ -47,7 +52,9 @@
       <ul>
         <li><a href="/understanding-pensions/1">Understand your pension type</a>
         </li>
-        <li><a href="how-much-in-your-pot">Check the value of your pension pot</a></li>
+        <li>
+          <a href="how-much-in-your-pot">Check the value of your pension pot</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -120,19 +127,27 @@
     <div class="inner-block">
       <h3 class="heading-small"><a href="/pension-tax-calculator">Tax calculator
         for taking your whole pension pot as cash</a></h3>
-      <p>Find out how much tax you pay if you take your whole pension pot in one go</p>
+
+      <p>Find out how much tax you pay if you take your whole pension pot in one
+        go</p>
     </div>
   </div>
   <div class="grid grid-1-3">
     <div class="inner-block">
       <h3 class="heading-small"><a href="/edge">Compare annuities</a></h3>
-      <p>Shop around for the best <span class="tooltip" title="Gives you a regular income in your retirement">annuity</span> rates and compare providers</p>
+
+      <p>Shop around for the best
+        <span class="tooltip" title="Gives you a regular income in your retirement">annuity</span>
+        rates and compare providers</p>
     </div>
   </div>
   <div class="grid grid-1-3">
     <div class="inner-block">
-      <h3 class="heading-small"><a href="/edge">Find a financial adviser</a></h3>
-      <p>Find a financial adviser registered with the Financial Conduct Authority</p>
+      <h3 class="heading-small"><a href="/edge">Find a financial adviser</a>
+      </h3>
+
+      <p>Find a financial adviser registered with the Financial Conduct
+        Authority</p>
     </div>
   </div>
 </div>
@@ -154,9 +169,37 @@
         or face to face. Phone guidance is with the Pensions Advisory Service.
         Face-to-face guidance is from the Citizens Advice Bureau.</p>
 
-      <p>The Pension Guidance Service experts don’t recommend any products or companies and won’t
-        tell you how to invest your money. At the end of a guidance appointment you’ll
+      <p>The Pension Guidance Service experts don’t recommend any products or
+        companies and won’t
+        tell you how to invest your money. At the end of a guidance appointment
+        you’ll
         get a summary of your details and next steps you need to take. </p>
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    // Find all links to videos on youtube
+    var $yt_links = $("a[href*='https://www.youtube.com/watch']");
+
+    // Create players for our youtube links
+    $.each($yt_links, function (i) {
+      var $holder = $('<span />');
+      $(this).parent().replaceWith($holder);
+      // Find the captions file if it exists
+      var $mycaptions = $(this).siblings('.captions');
+      // Work out if we have captions or not
+      var captionsf = $($mycaptions).length > 0 ? $($mycaptions).attr('href') : null;
+      // Ensure that we extract the last part of the youtube link (the video id)
+      // and pass it to the player() method
+      var link = $(this).attr('href').split("=")[1];
+      // Initialise the player
+      $holder.player({
+        id: 'yt' + i,
+        media: link,
+        captions: captionsf
+      });
+    });
+  });
+</script>

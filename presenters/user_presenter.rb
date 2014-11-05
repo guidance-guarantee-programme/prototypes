@@ -1,7 +1,7 @@
 class UserPresenter < SimpleDelegator
 
   def secret
-    model.secret[0] + '*' * model.secret[1...-1].length + model.secret[-1]
+    model.secret
   end
 
   private

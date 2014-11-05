@@ -84,17 +84,32 @@ input[type="text"] {
 
 .session-ticket {
   position: relative;
-  border: 2px solid #f0f0f0;
-  border-radius: 5px;
-  padding-bottom: 40px; }
+  border: 2px solid #e9e9e9;
+  border-radius: 8px; }
   .session-ticket h2 {
     margin: 1em 0 0 0; }
+  .session-ticket .font-medium {
+    margin-top: 0;
+    padding-top: 1em; }
+
+.session-ticket__left {
+  margin-left: 40px; }
+
+.session-ticket__right {
+  padding-left: 10px;
+  margin-right: 15px;
+  background: #f2f2f2;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-bottom: 6em; }
 
 .session-ticket__highlight {
   background: #e7f2f8;
-  border: 1px solid #c5e3f5;
   padding: 4px;
   display: inline-block; }
+
+.session-ticket__highlight--dark {
+  background: #c6e8f7; }
 
 .session-ticket__reference {
   position: absolute;
@@ -120,6 +135,10 @@ input[type="text"] {
 .session-intro .print-link {
   float: right;
   margin-top: 0; }
+
+.session-next {
+  margin-top: 2em;
+  margin-bottom: 4em; }
 
 .pension-tool {
   margin-top: 40px;
@@ -204,7 +223,173 @@ input[type="text"] {
 .tooltip {
   cursor: help; }
 
-strong {
+strong,
+.bold {
   font-weight: bold; }
+
+.player-container {
+  display: block;
+  overflow: hidden;
+  margin: 30px 0;
+  margin: 0; }
+  .player-container.player-wide {
+    min-width: 580px; }
+  .player-container span {
+    display: block;
+    margin: 0;
+    padding: 0; }
+  .player-container .video {
+    position: relative;
+    z-index: 3000; }
+    .player-container .video iframe {
+      display: block; }
+  .player-container .logo {
+    display: none; }
+  .player-container .control-bar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #bfc1c3; }
+    .player-container .control-bar button {
+      background: transparent;
+      border: none;
+      padding: 0;
+      cursor: pointer; }
+    .player-container .control-bar button:focus, .player-container .control-bar a:focus {
+      background-color: orange;
+      outline: none; }
+    .player-container .control-bar .player-controls .play, .player-container .control-bar .player-controls .pause {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 40px;
+      overflow: hidden;
+      text-indent: -5000%;
+      background-repeat: no-repeat;
+      background-position: center left; }
+    .player-container .control-bar .player-controls .play {
+      background-image: image-url("player-icon-play.png"); }
+    .player-container .control-bar .player-controls .pause {
+      background-image: image-url("player-icon-pause.png"); }
+    .player-container .control-bar .player-controls .rewind, .player-container .control-bar .player-controls .forward {
+      position: absolute;
+      top: 0;
+      z-index: 30;
+      height: 20px;
+      width: 40px;
+      overflow: hidden;
+      text-indent: -5000%;
+      background-repeat: no-repeat;
+      background-position: center left; }
+    .player-container .control-bar .player-controls .rewind {
+      left: 0;
+      background-image: image-url("player-icon-rewind.png"); }
+    .player-container .control-bar .player-controls .forward {
+      left: 100%;
+      margin-left: -40px;
+      background-image: image-url("player-icon-forward.png"); }
+    .player-container .control-bar .volume-controls {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 40px;
+      width: 180px;
+      overflow: visible; }
+      .player-container .control-bar .volume-controls .mute {
+        position: absolute;
+        bottom: 0;
+        left: 120px;
+        height: 40px;
+        width: 50px;
+        padding-top: 1px;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center; }
+      .player-container .control-bar .volume-controls .muted {
+        color: #2b8cc4; }
+      .player-container .control-bar .volume-controls .muted::after {
+        content: "d"; }
+      .player-container .control-bar .volume-controls .muted ~ * {
+        opacity: 0.333; }
+      .player-container .control-bar .volume-controls .vol-down, .player-container .control-bar .volume-controls .vol-up {
+        position: absolute;
+        bottom: 0;
+        height: 40px;
+        width: 60px;
+        padding-top: 2px;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+        z-index: 10; }
+        .player-container .control-bar .volume-controls .vol-down:hover, .player-container .control-bar .volume-controls .vol-down:focus, .player-container .control-bar .volume-controls .vol-up:hover, .player-container .control-bar .volume-controls .vol-up:focus {
+          color: #2b8cc4; }
+      .player-container .control-bar .volume-controls .vol-down {
+        text-align: left;
+        padding-left: 10px;
+        left: 0; }
+      .player-container .control-bar .volume-controls .vol-up {
+        text-align: right;
+        padding-right: 10px;
+        left: 60px; }
+      .player-container .control-bar .volume-controls .vol-display {
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        height: 40px;
+        width: 0;
+        padding-left: 35px;
+        overflow: visible;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 40px;
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-image: image-url("player-icon-volume.png"); }
+      .player-container .control-bar .volume-controls .muted ~ .vol-display {
+        text-decoration: line-through; }
+    .player-container .control-bar .current-time {
+      position: absolute;
+      bottom: 0;
+      left: 50px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 40px;
+      font-weight: bold; }
+    .player-container .control-bar .duration-time {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      right: 10px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+      font-weight: bold; }
+    .player-container .control-bar .ui-slider {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 20px;
+      overflow: hidden;
+      background: #bfc1c3; }
+      .player-container .control-bar .ui-slider .progress-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding-bottom: 1px;
+        background: #2b8cc4; }
+      .player-container .control-bar .ui-slider .ui-slider-handle {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        padding-bottom: 1px;
+        width: 20px;
+        color: rgba(0, 0, 0, 0.5);
+        z-index: 10; }
+  .player-container .ui-helper-hidden-accessible {
+    position: absolute;
+    left: -5000%; }
 
 /*# sourceMappingURL=prototypes.css.map */
