@@ -187,7 +187,7 @@ class Prototype < Sinatra::Base
     erb :"articles/#{@folder}/#{params[:option]}"
   end
 
-  get '/edge' do
+  get '/edge', '/search' do
     @hide_session_promo = true
 
     erb :edge
