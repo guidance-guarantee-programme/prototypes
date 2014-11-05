@@ -3,7 +3,7 @@
 <% end %>
 
 <% content_for :page_title do %>
-  Pick a date and time
+  Pick a date and time for your call
 <% end %>
 
 <link rel="stylesheet" href="/stylesheets/moj.slot-picker.css" />
@@ -11,9 +11,9 @@
 
 <div class="inner-block">
   <div class="text">
-    <mark>Not clear if booking a phone or face-to-face session</mark>
     <p>
-      Sessions last up to 45 minutes. You can book a session between 9am and 5pm where available.
+      You can book an appointment between 9am and 5pm where available.
+      Calls last up to 45 minutes.
     </p>
   </div>
 </div>
@@ -173,25 +173,25 @@
           <ul class="SlotPicker-days">
             <li class="SlotPicker-day SlotPicker-day--past">
               <h2 class="SlotPicker-dayTitle"></h2>
-              <p>It is not possible to book a session in the past.</p>
+              <p>It is not possible to book an appointment in the past.</p>
             </li>
             <li class="SlotPicker-day SlotPicker-day--unavailable">
               <h2 class="SlotPicker-dayTitle"></h2>
-              <p>All sessions for this day are booked.</p>
+              <p>All appointments for this day are booked.</p>
             </li>
             <li class="SlotPicker-day SlotPicker-day--beyond">
               <h2 class="SlotPicker-dayTitle"></h2>
-              <p>You can only book a session in the next {{ daysInRange }} days.</p>
+              <p>You can only book an appointment in the next {{ daysInRange }} days.</p>
             </li>
             <li class="SlotPicker-day SlotPicker-day--leadtime">
               <h2 class="SlotPicker-dayTitle"></h2>
-              <p>You can only book a session 3 days in advance.</p>
+              <p>You can only book an appointment 3 days in advance.</p>
             </li>
           </ul>
         </div>
 
         <div class="SlotPicker-choices">
-          <p class="SlotPicker-promoteHelp">Use the arrows to put your session choices in the order that suits you best.</p>
+          <p class="SlotPicker-promoteHelp">Use the arrows to put your appointment choices in the order that suits you best.</p>
         </div>
       </div>
     </div>

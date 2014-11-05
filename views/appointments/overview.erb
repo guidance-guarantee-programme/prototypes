@@ -1,47 +1,41 @@
 <% content_for :page_title do %>
-  Pick a session
+  Pick a phone or face-to-face appointment
 <% end %>
 
 <article role="article" class="group">
   <div class="inner-block text">
     <p>
-      You can book one session per person. It can either be on the phone or face-to-face.
-      All sessions give the same standard of guidance.
+      You can book one appointment per person. It can either be on the phone or face to face.
+      The standard of guidance is the same for both.
     </p>
 
     <h2>Phone</h2>
 
-    <p>You’ll speak to an expert from the Pensions Advisory Service.</p>
+    <p>
+      You’ll speak to an expert from the Pensions Advisory Service at the date and time you book.
+    </p>
+
+    <p>Calls last up to 45 minutes.</p>
 
     <p>Current waiting time: 3 weeks</p>
 
-    <p><mark>You book a session and we will call you on the appointed date and time</mark></p>
-    <p><mark>You will receive an email or SMS reminder</mark></p>
-    <p><mark>You will need to pick up</mark></p>
-    <p><mark>The session will last upto 45 minutes</mark></p>
-
     <p class="get-started">
-      <a rel="nofollow" href="/appointments/phone/availability" class="big button">Book a phone session</a>
+      <a rel="nofollow" href="/appointments/phone/availability" class="big button">Book a phone appointment</a>
     </p>
 
     <h2>Face to face</h2>
 
     <p>
-      You’ll speak to a pensions expert from the Citizens Advice Bureau.
-      Not all branches offer guidance sessions.
+      You’ll meet with a pensions expert at a branch of the Citizens Advice Bureau.
+      Not all branches offer appointments.
     </p>
 
     <p>Current waiting time: 6 weeks</p>
 
-    <p><mark>You book an appointment and then visit that office</mark></p>
-    <p><mark>You will receive an email or SMS reminder</mark></p>
-    <p><mark>You will need to be there</mark></p>
-    <p><mark>The appointment will last upto 45 minutes</mark></p>
-
     <form action="/appointments/face-to-face/search" method="get" class="form">
       <div class="form-group">
-        <label class="form-label-bold" for="postcode">Postcode</label>
-        <p class="form-hint">Enter your postcode to check if there’s a branch near you offering pensions guidance.</p>
+        <!--<label class="form-label-bold" for="postcode">Find a branch near you</label>-->
+        <p class="form-hint"><strong>Search for a postcode</strong></p>
         <input type="text" class="form-control-1-8" id="postcode" name="postcode">
       </div>
 
@@ -49,21 +43,7 @@
         <input type="submit" class="big button" value="Find a local branch">
       </div>
     </form>
+
   </div>
 
-
-  <div class="inner-block text">
-    <h2>What you’ll need for your session</h2>
-    <p>To get the most out of your session you'll need some information
-      beforehand. This will help our experts to prepare and it will save time
-      during the session. </p>
-
-    <p>You'll need to have ready:</p>
-
-    <ul class="list-bullet">
-      <li>the value of your pension pots</li>
-      <li>other income you have, eg from work, property, investments</li>
-      <li>your pension statements</li>
-    </ul>
-  </div>
 </article>

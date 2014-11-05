@@ -3,34 +3,29 @@
 <% end %>
 
 <% content_for :page_title do %>
-  Citizens Advice guidance branches near you
+  Branches offering pensions guidance near you
 <% end %>
 
 
 <div class="inner-block">
 
-  <p>Max distance 20 miles</p>
+  <p>Contact one of the branches directly to book an appointment.</p>
 
   <p>
     If these branches are too far away you can
-    <a href="/appointments/overview">book a phone session</a> instead.
-    <mark>You will get the same level of service.</mark>
+    <a href="/appointments/overview">book a phone appointment</a> instead.
   </p>
-
-  <p><mark>Not all CitA offices provide this service</mark></p>
-
-  <p>Contact the branch directly to book a session.</p>
 
   <ol class="list-number">
     <li>
-      <strong class="bold-medium">Earlsfield</strong><br/>
+      <strong class="bold-medium">Earlsfield Citizens Advice Bureau</strong><br/>
       591 Garratt Lane<br />
       London SW18 4ST<br/>
       Phone: 020 7562 7912<br/>
       Distance: 2 miles
     </li>
     <li>
-      <strong class="bold-medium">Tooting</strong><br/>
+      <strong class="bold-medium">Tooting Citizens Advice Bureau</strong><br/>
       2/4 Gatton Road<br />
       London SW20 7TB<br/>
       Phone: 020 7571 4050<br/>
@@ -38,13 +33,10 @@
     </li>
   </ol>
 
-  <p>
-    Search for another postcode
-  </p>
-
   <form action="/appointments/face-to-face/search" method="get" class="form">
     <div class="form-group">
-      <label class="form-label-bold" for="postcode">Postcode</label>
+      <!--<label class="form-label-bold" for="postcode">Postcode</label>-->
+      <p class="form-hint"><strong>Search for another postcode</strong></p>
       <input type="text" class="form-control-1-8" id="postcode" name="postcode">
     </div>
 
