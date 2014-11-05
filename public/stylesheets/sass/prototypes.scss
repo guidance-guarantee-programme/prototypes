@@ -186,6 +186,99 @@ input[type="text"] {
   }
 }
 
+/* pension-tax-calculator */
+.pension-tax-calculator__label {
+  display:inline-block;
+  width:20em;
+}
+.pension-tax-calculator__result {
+  margin-bottom:0;
+}
+.pension-tax-calculator__result--total {
+  margin:1em 0;
+}
+
+.pension-tax-calculator__input.is-hidden,
+.pension-tax-calculator__results.is-hidden {
+  display:none;
+}
+
+/* pension-tax-calculator */
+.homepage {
+  header.banner {
+    margin-top:2em;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display:block;
+  }
+
+  .lede {
+    margin-top:1em;
+  }
+}
+
+.margin-top-none {
+  margin-top:0;
+}
+.margin-top-extra {
+  margin-top:1em;
+}
+.margin-top-section {
+  margin-top:3em;
+}
+.space-bottom-section {
+  padding-bottom:2em;
+}
+.border-bottom {
+  border-bottom:1px solid #ddd;
+}
+.border-bottom--treasury {
+  border-bottom:3px solid #005ea5;
+}
+.border-bottom--last {
+  margin-bottom: 2em;
+}
+
+.grey-text {
+  color:#6F777B;
+}
+
+.grey-bg {
+  background:#DEE0E2;
+}
+
+.input-single {
+  width:2em;
+}
+.input-double {
+  width:2em;
+}
+.input-pot {
+  width:7em;
+}
+
+.alpha-label {
+  @media (min-width: 641px) {
+    margin: 0 30px;
+  }
+}
+
+.pensions-are-changing {
+  margin-top: 1em;
+}
+
+.tooltip {
+  cursor: help;
+}
+
+strong {
+  font-weight: bold;
+}
+
 .player-container {
   @include media-player;
 }
