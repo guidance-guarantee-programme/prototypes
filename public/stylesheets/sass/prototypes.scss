@@ -309,4 +309,35 @@ strong,
   @include media-player;
 
   margin:0;
+
+  .video {
+    clear: both;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.player-container .control-bar .player-controls .play {
+  background-image: url("/stylesheets/images/player-icon-play.png");
+}
+
+.player-container .control-bar .player-controls .pause {
+  background-image: url("/stylesheets/images/player-icon-pause.png");
+}
+
+.player-container .control-bar .player-controls .rewind {
+  background-image: url("/stylesheets/images/player-icon-rewind.png");
+}
+
+.player-container .control-bar .player-controls .forward {
+  background-image: url("/stylesheets/images/player-icon-forward.png");
 }
