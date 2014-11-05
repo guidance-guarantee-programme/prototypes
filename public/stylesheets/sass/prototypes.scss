@@ -281,4 +281,6 @@ strong {
 
 .player-container {
   @include media-player;
+
+  margin:0;
 }
