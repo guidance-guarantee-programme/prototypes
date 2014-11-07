@@ -29,7 +29,7 @@ class SmokeTest <  Minitest::Test
     visit '/'
     click_on('speak to a pension expert')
     click_on('Start now')
-    click_on('Book a phone session')
+    click_on('Book a phone appointment')
 
     # Pick a date and time
     select('Wednesday, 17 December - 4:00pm', from: 'slots[]')
@@ -49,7 +49,7 @@ class SmokeTest <  Minitest::Test
     # Confirm booking
     click_on('Confirm booking')
 
-    assert page.has_content? 'You’ve successfully booked a pension guidance session'
+    assert page.has_content? 'You’ve successfully booked a pension guidance appointment'
   end
 
   def test_find_local_branch
@@ -59,12 +59,12 @@ class SmokeTest <  Minitest::Test
 
     # Fill in postcode
     within('.form') do
-      fill_in('Postcode', with: 'SW18 4XP')
+      fill_in('postcode', with: 'SW18 4XP')
     end
 
-    click_on('Find a local branch')
+    click_on('Find a face-to-face location')
 
-    assert page.has_content? 'Tooting'
+    assert page.has_content? 'Tooting Citizens Advice Bureau'
   end
 
   def test_tax_calculator
