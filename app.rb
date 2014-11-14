@@ -185,9 +185,16 @@ class Prototype < Sinatra::Base
     erb :"articles/#{@folder}/#{params[:option]}"
   end
 
-  get '/shop-around' do
+  get '/shop-around/:option' do
     @hide_session_promo = false
-    erb :'articles/shop_around'
+    @folder = 'shop_around'
+    @page = params[:option]
+    @page_title = "Shopping around for the best deal"
+    @page_title_1 = "Overview"
+    @page_title_2 = "Comparing annuities"
+    @page_title_3 = "Comparing income drawdown products"
+    @page_title_4 = "Getting financial advice"
+    erb :"articles/#{@folder}/#{params[:option]}"
   end
 
   get '/edge', '/search' do
