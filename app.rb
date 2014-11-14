@@ -147,7 +147,7 @@ class Prototype < Sinatra::Base
   get '/your-options/:option' do
     @hide_session_promo = false
     @page = params[:option]
-    @page_title = "Ways to take money from your pension pot"
+    @page_title = "What you can do with your pension pot"
     @your_option_page_title_1 = "Options you have"
     @your_option_page_title_2 = "Take 25% tax free"
     @your_option_page_title_3 = "Take your whole pot as cash"
