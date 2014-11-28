@@ -144,18 +144,9 @@ class Prototype < Sinatra::Base
     erb :'articles/how_much_in_pot'
   end
 
-  get '/your-options/:option' do
-    @hide_session_promo = false
-    @page = params[:option]
-    @page_title = "What you can do with your pension pot"
-    @your_option_page_title_1 = "Options you have"
-    @your_option_page_title_2 = "Do nothing"
-    @your_option_page_title_3 = "Take 25% tax free"
-    @your_option_page_title_4 = "Take your whole pot as cash"
-    @your_option_page_title_5 = "Take money out when you need it (income drawdown)"
-    @your_option_page_title_6 = "Get a guaranteed income (annuity)"
-    @your_option_page_title_7 = "Mix your pension options"
-    erb :"articles/your_options/#{params[:option]}"
+  get '/what-you-can-do-with-your-pension-pot' do
+    @hide_session_promo = true
+    erb :'articles/what_you_can_do_with_your_pension_pot'
   end
 
   get '/pension-tax-calculator' do
