@@ -154,15 +154,9 @@ class Prototype < Sinatra::Base
     erb :'pension_tax_calculator'
   end
 
-  get '/tax-on-your-pension/:option' do
-    @hide_session_promo = false
-    @page = params[:option]
-    @page_title = "Tax you pay on your pension"
-    @page_title_1 = "What you pay tax on"
-    @page_title_2 = "What’s tax free"
-    @page_title_3 = "How much tax you pay"
-    @page_title_4 = "How your tax is paid"
-    erb :"articles/tax_on_your_pension/#{params[:option]}"
+  get '/tax-you-pay-on-your-pension' do
+    @hide_session_promo = true
+    erb :'articles/tax_you_pay_on_your_pension'
   end
 
   get '/understand-your-pension-type' do
