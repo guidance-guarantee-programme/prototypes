@@ -170,6 +170,11 @@ class Prototype < Sinatra::Base
     erb :"articles/shopping_around_for_the_best_deal"
   end
 
+  get '/how-to-avoid-pension-scams' do
+    @hide_session_promo = true
+    erb :"articles/how_to_avoid_pension_scams"
+  end
+
   get '/edge', '/search' do
     @hide_session_promo = true
 
