@@ -139,9 +139,9 @@ class Prototype < Sinatra::Base
     markdown :govspeak, {:layout => :layout_govspeak}
   end
 
-  get '/how-much-in-your-pot' do
-    @hide_session_promo = false
-    erb :'articles/how_much_in_pot'
+  get '/check-the-value-of-your-pension-pot' do
+    @hide_session_promo = true
+    erb :'articles/check_the_value_of_your_pension_pot'
   end
 
   get '/what-you-can-do-with-your-pension-pot' do
