@@ -165,16 +165,9 @@ class Prototype < Sinatra::Base
     erb :'articles/understand_your_pension_type'
   end
 
-  get '/shop-around/:option' do
-    @hide_session_promo = false
-    @folder = 'shop_around'
-    @page = params[:option]
-    @page_title = "Shopping around for the best deal"
-    @page_title_1 = "Overview"
-    @page_title_2 = "Comparing annuities"
-    @page_title_3 = "Comparing income drawdown products"
-    @page_title_4 = "Getting financial advice"
-    erb :"articles/#{@folder}/#{params[:option]}"
+  get '/shopping-around-for-the-best-deal' do
+    @hide_session_promo = true
+    erb :"articles/shopping_around_for_the_best_deal"
   end
 
   get '/edge', '/search' do
