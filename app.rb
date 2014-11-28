@@ -174,16 +174,10 @@ class Prototype < Sinatra::Base
     erb :"articles/tax_on_your_pension/#{params[:option]}"
   end
 
-  get '/understanding-pensions/:option' do
-    @hide_session_promo = false
-    @folder = 'understanding_pensions'
-    @page = params[:option]
-    @page_title = "Understand your pension type"
-    @page_title_1 = "Overview"
-    @page_title_2 = "The State Pension"
-    @page_title_3 = "Pension types"
-    @page_title_4 = "How much you get"
-    erb :"articles/#{@folder}/#{params[:option]}"
+  get '/understand-your-pension-type' do
+    @hide_session_promo = true
+
+    erb :'articles/understand_your_pension_type'
   end
 
   get '/shop-around/:option' do
