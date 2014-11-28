@@ -141,43 +141,49 @@ class Prototype < Sinatra::Base
 
   get '/check-the-value-of-your-pension-pot' do
     @hide_session_promo = true
+    @display_guide_link = true
     erb :'articles/check_the_value_of_your_pension_pot'
   end
 
   get '/what-you-can-do-with-your-pension-pot' do
     @hide_session_promo = true
+    @display_guide_link = true
     erb :'articles/what_you_can_do_with_your_pension_pot'
   end
 
   get '/pension-tax-calculator' do
     @hide_session_promo = false
+    @display_guide_link = true
     erb :'pension_tax_calculator'
   end
 
   get '/tax-you-pay-on-your-pension' do
     @hide_session_promo = true
+    @display_guide_link = true
     erb :'articles/tax_you_pay_on_your_pension'
   end
 
   get '/understand-your-pension-type' do
     @hide_session_promo = true
-
+    @display_guide_link = true
     erb :'articles/understand_your_pension_type'
   end
 
   get '/shopping-around-for-the-best-deal' do
     @hide_session_promo = true
+    @display_guide_link = true
     erb :"articles/shopping_around_for_the_best_deal"
   end
 
   get '/how-to-avoid-pension-scams' do
     @hide_session_promo = true
+    @display_guide_link = true
     erb :"articles/how_to_avoid_pension_scams"
   end
 
   get '/edge', '/search' do
     @hide_session_promo = true
-
+    @display_guide_link = true
     erb :edge
   end
 end

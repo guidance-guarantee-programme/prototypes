@@ -416,4 +416,8 @@ strong,
 .player-container .control-bar .player-controls .forward {
   background-image: url("/stylesheets/images/player-icon-forward.png"); }
 
+.link-to-guides {
+  display: inline-block;
+  margin: 0 30px; }
+
 /*# sourceMappingURL=prototypes.css.map */
