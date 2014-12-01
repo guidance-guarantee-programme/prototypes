@@ -181,6 +181,12 @@ class Prototype < Sinatra::Base
     erb :"articles/how_to_avoid_pension_scams"
   end
 
+  get '/six-things-you-need-to-know-about-your-pension' do
+    @hide_session_promo = true
+    @display_guide_link = true
+    erb :"articles/six_things_you_need_to_know_about_your_pension"
+  end
+
   get '/edge', '/search' do
     @hide_session_promo = true
     @display_guide_link = true
