@@ -1,10 +1,10 @@
-##Before you start
-
 Follow these steps to understand what your pension options are. They explain the most important things you need to know about your income in retirement.
 
-^You can also download [your pension profile](/your-pension-profile.pdf) and fill it in on screen as you go through the steps. The profile will show you estimates of how much you might get from different options.^
+^You can also download [your pension profile](/your-pension-profile.pdf) and fill it in on screen as you go through the steps. The profile will show you estimates of how much you might get from different options.
 
-You can save the information you fill in - only you can see it.
+You can save the information you fill in - only you can see it. ^
+
+##Before you start
 
 You need to have a [defined contribution pension](/understand-your-pension-type#pension-types) for these steps to work. This is a pension based on how much has been paid into your pension pot.
 
