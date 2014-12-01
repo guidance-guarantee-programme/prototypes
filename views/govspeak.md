@@ -1,27 +1,65 @@
-##If you’re divorced
+Contact your pension provider first if you need to complain. Most people get things resolved this way. As every pension is different, your pension provider will usually be best placed to give you the right answer as quickly as possible.
 
-The way a pension is split between you and your ex-partner is set out as part of the court settlement at the end of your marriage or civil partnership.
+^Contact the Pension Service if you have a [complaint about the State Pension.](https://www.gov.uk/complain-pension-service)^
 
-Pensions are split in three ways:
+###Making a complaint
 
-* your ex-partner is given a percentage share of one or more of your pension pots - this is known as [pension sharing](http://www.pensionsadvisoryservice.org.uk/about-pensions/when-things-change/when-relationships-end/pension-sharing)
-* the value of a pension is offset against other assets, eg you keep all your pension money while your ex-partner keeps the home - this known as [pension offsetting](http://www.pensionsadvisoryservice.org.uk/about-pensions/when-things-change/when-relationships-end/pension-offsetting)
-* once you start taking your pension money, your pension provider pays part of your payment to your ex-partner - this is known as [pension attachment or pension earmarking](http://www.pensionsadvisoryservice.org.uk/about-pensions/when-things-change/when-relationships-end/pension-earmarking)
+You should first ask your pension provider for details of their complaints process. This process will be different depending on your provider and your type of pension.
 
-^Under pension attachment your ex-partner will need to wait until you start taking your pension before they can get their payments.^
+[Help with making your complaint effectively](http://www.adviceguide.org.uk/england/consumer_e/consumer_taking_action_e/consumer_making_a_complaint_e.htm)
 
-^In Scotland, money that your ex-partner gets from pension attachment can only be from your tax-free lump sum, not from the rest of your pension.^
+Follow their complaints process before taking more action.
 
-The Money Advice Service website has more guidance on [splitting pensions during divorce.]( https://www.moneyadviceservice.org.uk/en/articles/splitting-pensions-during-divorce)
+It’s best to make your complaint in writing (a letter or email) and to get a written response. This helps if you need to take your complaint further.
 
-##The State Pension
+##If you need to take things further
 
-Like a private pension, the [State Pension](/state-pension) paid to you by the government is legally treated as a financial asset that could end up split once a marriage or civil partnership ends.
+If you’ve already followed your pension provider’s complaints process, there are different ways to take things further.
 
-If your marriage or civil partnership has ended, the court can order your ex-partner to share their State Pension with you. However, if you remarry or have another civil partnership you lose this right.
+###If your complaint is about how your pension has been run
 
-The National Insurance contributions paid by your ex-partner before your marriage or civil partnership ended can boost the State Pension that you get.
+The Pensions Advisory Service (TPAS) can give you free and independent advice if you have a complaint about how your pension has been run. For example, if your provider:
 
-A [new State Pension](/new-state-pension) from 6 April 2016 may affect how much pension you get after the end of your marriage or civil partnership.
+* has given you the wrong information
+* has taken too long to do something
 
-Read about [divorce and the State Pension on The Pensions Advisory Service website.]( http://www.pensionsadvisoryservice.org.uk/about-pensions/the-state-pension/state-pension-and-divorce-dissolution)
+TPAS can work with you and your pension provider to find a solution. However:
+
+* it can’t make any legal decisions about whether your complaint is justified
+* it can’t help you if you’ve already started legal action about your complaint
+
+If TPAS can’t resolve your complaint, you can contact the Pensions Ombudsman Service if your complaint is about how your pension has been run. This is a free and independent organisation. Like a court, it has legal powers to uphold or reject complaints.[Find out more about how the Pensions Ombudsman Service can help.](https://www.pensions-ombudsman.org.uk/about-us/)
+
+###If you have a complaint about financial advice
+
+The Financial Ombudsman Service can help if think you got the wrong financial advice that led you to take out the wrong pension. It can also help with other types of complaint about how a pension is sold or marketed.
+
+The Financial Ombudsman Service is free and independent. It has legal powers to uphold or reject complaints. [Find out more about how the Financial Ombudsman Service can help.](http://www.financial-ombudsman.org.uk/publications/technical_notes/pension-complaints-our-jurisdiction.html)
+
+^Once an Ombudsman is dealing with your complaint, you won’t usually get more help with your complaint from another Ombudsman or organisation.^
+
+##Contacts
+
+$C
+**The Pensions Advisory Service (TPAS)**
+[Online enquiry form](http://www.pensionsadvisoryservice.org.uk/contacting-us/online-enquiry-form)
+Telephone: 0300 123 1047
+Monday to Friday, 9am to 5pm
+[Find out about call charges](/call-charges)
+$C
+
+$C
+**Pensions Ombudsman Service**
+<enquiries@pensions-ombudsman.org.uk>
+Telephone: 020 7630 2200
+Monday to Friday, 9am to 5pm
+[Find out about call charges](/call-charges)
+$C
+
+$C
+**Financial Ombudsman Service**
+<complaint.info@pensions-ombudsman.org.uk>
+Telephone: 0800 023 4 567
+Monday to Friday, 8am to 8pm
+[Find out about call charges](/call-charges)
+$C

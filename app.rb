@@ -193,6 +193,12 @@ class Prototype < Sinatra::Base
     erb :"articles/calculate_your_retirement_income"
   end
 
+  get '/complaining-about-your-pension' do
+    @hide_session_promo = true
+    @display_guide_link = true
+    erb :"articles/complaining_about_your_pension"
+  end
+
   get '/pensions-and-divorce' do
     @hide_session_promo = true
     @display_guide_link = true
