@@ -210,4 +210,10 @@ class Prototype < Sinatra::Base
     @display_guide_link = true
     erb :edge
   end
+
+  get '/your-pension-profile.pdf' do
+    file = 'your-pension-profile.pdf'
+    send_file(file, :disposition => 'attachment', :filename => File.basename(file))
+  end
+
 end
