@@ -1,7 +1,7 @@
 class Reminder
 
   FROM_NUMBER = ENV['TWILIO_FROM_NUMBER']
-  CALLBACK_URL = "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-20141106-alpha.herokuapp.com/reminder-call"
+  CALLBACK_URL = "http://#{ENV['AUTH_USERNAME']}:#{ENV['AUTH_PASSWORD']}@ggp-20141202-alpha.herokuapp.com/reminder-call"
 
   def initialize(user, appointment)
     @user = user
