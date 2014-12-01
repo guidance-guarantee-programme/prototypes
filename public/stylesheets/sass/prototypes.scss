@@ -346,3 +346,40 @@ strong,
   display:inline-block;
   margin: 0 30px;
 }
+
+
+@mixin device-pixel-ratio($ratio: 2) {
+  @media only screen and (-webkit-min-device-pixel-ratio: $ratio),
+  only screen and (min--moz-device-pixel-ratio: $ratio),
+  only screen and (  -o-min-device-pixel-ratio: #{($ratio*10)}/10),
+  only screen and (     min-device-pixel-ratio: $ratio),
+  only screen and (             min-resolution: #{($ratio*96)}dpi),
+  only screen and (             min-resolution: #{$ratio}dppx) {
+    @content;
+  }
+}
+
+.form-download {
+  padding: .25em 0;
+
+  p {
+    padding-right: 3em;
+  }
+
+  a {
+    display: block;
+    font-weight: 600;
+    background: url("/images/icon-file-download.png") no-repeat scroll 0 0;
+    min-height: 2.5em;
+    padding: 0 0 0 2.5em;
+
+    @include device-pixel-ratio() {
+      background-image: url("/images/icon-file-download-2x.png");
+      background-size: 25px 25px;
+    }
+  }
+
+  a[rel="external"]:after {
+    content: none;
+  }
+}
