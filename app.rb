@@ -187,6 +187,12 @@ class Prototype < Sinatra::Base
     erb :"articles/six_things_you_need_to_know_about_your_pension"
   end
 
+  get '/calculate-your-retirement-income' do
+    @hide_session_promo = true
+    @display_guide_link = true
+    erb :"articles/calculate_your_retirement_income"
+  end
+
   get '/edge', '/search' do
     @hide_session_promo = true
     @display_guide_link = true
