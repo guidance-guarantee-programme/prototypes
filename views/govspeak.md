@@ -1,65 +1,53 @@
-Contact your pension provider first if you need to complain. Most people get things resolved this way. As every pension is different, your pension provider will usually be best placed to give you the right answer as quickly as possible.
+Pension scams, in which criminals cheat people out of their pension pots, are increasing.
 
-^Contact the Pension Service if you have a [complaint about the State Pension.](https://www.gov.uk/complain-pension-service)^
+There are different types of pension scams. They often begin by someone contacting you unexpectedly about taking your pension money before you’re 55 or about the ways you can invest it. This type of unexpected contact is known as a cold call.
 
-###Making a complaint
+^You can only [take your pension money before you’re 55](www.gov.uk/early-retirement-pension/personal-and-workplace-pensions) in rare cases, eg if you’re very ill.^
 
-You should first ask your pension provider for details of their complaints process. This process will be different depending on your provider and your type of pension.
+Scammers may offer you tempting ways to invest your pension pot, eg investing it in a new hotel being built in an exotic location.
 
-[Help with making your complaint effectively](http://www.adviceguide.org.uk/england/consumer_e/consumer_taking_action_e/consumer_making_a_complaint_e.htm)
+Most of these offers are fake. Once you’ve transferred your money into a scam, it’s too late. You could lose all your pension money as well as face [tax of up to 55%](www.gov.uk/tax-on-pension/higher-tax-on-unauthorised-payments) or huge additional fees.
 
-Follow their complaints process before taking more action.
+[More on the dangers of pension scams.](http://www.thepensionsregulator.gov.uk/pension-scams.aspx)
 
-It’s best to make your complaint in writing (a letter or email) and to get a written response. This helps if you need to take your complaint further.
+##How to tell if it’s a scam
 
-##If you need to take things further
+Watch out if an individual or company:
 
-If you’ve already followed your pension provider’s complaints process, there are different ways to take things further.
+* contacts you unexpectedly about your pension money through a phone call, a text message, visiting you in person, or in other ways
+* says you can access your pension money before 55
+* asks you to transfer your money quickly - never make a rush decision about your pension money
+* uses words like ‘loan’, ‘loophole’, ‘free pension review’ or ‘one-off investment’
+* offers you an investment described as ‘unique’, ‘overseas’, ‘environmentally friendly’, ‘ethical’ or in a ‘new’ industry
 
-###If your complaint is about how your pension has been run
+[Examples of real pension scams.](http://www.pensionsadvisoryservice.org.uk/publications-files/uploads/pension-scam-booklet_7_page.pdf)
+
+##How to protect yourself
 
-The Pensions Advisory Service (TPAS) can give you free and independent advice if you have a complaint about how your pension has been run. For example, if your provider:
+You may be approached by someone claiming to be a pension provider, a financial adviser or from the government. Remember that the government won’t:
 
-* has given you the wrong information
-* has taken too long to do something
+*encourage you to take your pension money before you’re 55
+*approach you with recommendations about how to invest or spend your pension money
+*cold call you for specific information about your pension or finances, eg how much is in your pension pot, who your pension provider is or what your bank details are
 
-TPAS can work with you and your pension provider to find a solution. However:
+%If anyone cold calls you claiming to be from the government and asks for your personal or financial details, don’t reveal them.%
 
-* it can’t make any legal decisions about whether your complaint is justified
-* it can’t help you if you’ve already started legal action about your complaint
+You can also check whether they’re legitimate by seeing if they’re on the [Financial Conduct Authority Register.](http://www.fca.org.uk/register)
 
-If TPAS can’t resolve your complaint, you can contact the Pensions Ombudsman Service if your complaint is about how your pension has been run. This is a free and independent organisation. Like a court, it has legal powers to uphold or reject complaints.[Find out more about how the Pensions Ombudsman Service can help.](https://www.pensions-ombudsman.org.uk/about-us/)
+##If you’ve been targeted
 
-###If you have a complaint about financial advice
+If you think you've been the victim of a pension scam, call Action Fraud on 0300 123 1047 or use the [Action Fraud online reporting tool.](http://www.actionfraud.police.uk/report-a-fraud-including-online-crime)
 
-The Financial Ombudsman Service can help if think you got the wrong financial advice that led you to take out the wrong pension. It can also help with other types of complaint about how a pension is sold or marketed.
+###Further information
 
-The Financial Ombudsman Service is free and independent. It has legal powers to uphold or reject complaints. [Find out more about how the Financial Ombudsman Service can help.](http://www.financial-ombudsman.org.uk/publications/technical_notes/pension-complaints-our-jurisdiction.html)
-
-^Once an Ombudsman is dealing with your complaint, you won’t usually get more help with your complaint from another Ombudsman or organisation.^
-
-##Contacts
+You can contact The Pensions Advisory Service for free and impartial information if you’re
+concerned about a pension scam.
 
 $C
-**The Pensions Advisory Service (TPAS)**
-[Online enquiry form](http://www.pensionsadvisoryservice.org.uk/contacting-us/online-enquiry-form)
+**The Pensions Advisory Service**
 Telephone: 0300 123 1047
 Monday to Friday, 9am to 5pm
-[Find out about call charges](/call-charges)
+[Find out about call charges](https://www.gov.uk/call-charges)
 $C
 
-$C
-**Pensions Ombudsman Service**
-<enquiries@pensions-ombudsman.org.uk>
-Telephone: 020 7630 2200
-Monday to Friday, 9am to 5pm
-[Find out about call charges](/call-charges)
-$C
-
-$C
-**Financial Ombudsman Service**
-<complaint.info@pensions-ombudsman.org.uk>
-Telephone: 0800 023 4 567
-Monday to Friday, 8am to 8pm
-[Find out about call charges](/call-charges)
-$C
+You can ask a financial adviser about the best ways to use your pension pot and when to take money from it. [Find a registered financial adviser.](http://www.fsa.gov.uk/register/home.do) Charges usually apply.
