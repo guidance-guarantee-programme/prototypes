@@ -1,0 +1,59 @@
+<% content_for :page_title do %>
+  Interest calculator
+<% end %>
+
+<script type="text/javascript" src="/javascripts/numerals.js"></script>
+<script type="text/javascript" src="/javascripts/InterestCalculatorModel.js"></script>
+<script type="text/javascript" src="/javascripts/interestCalculatorApp.js"></script>
+
+<article role="article" class="group">
+  <div class="calculator">
+
+    <div class="calculator__input">
+
+      <div class="form-group">
+        <label class="form-label-bold" for="pension">
+          Total value of your pension pot(s)
+        </label>
+        £ <input type="text" class="form-control" id="pension">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label-bold" for="years">
+          Number of years to leave your pot(s)
+        </label>
+        <input type="text" class="form-control-1-8" id="years">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label-bold" for="payment">
+          Amount per month you want to pay in
+        </label>
+        £ <input type="text" class="form-control" id="payment">
+      </div>
+
+      <div class="form-group">
+        <input type="submit" class="button" value="Calculate" id="js-calculate">
+      </div>
+    </div>
+
+    <div class="calculator__results text is-hidden">
+
+      <p class="calculator__result">
+        <span class="calculator__label">You total will grow by:</span>
+        <span class="calculator__value" id="js-interest"></span>
+      </p>
+
+      <p class="calculator__result">
+        <span class="calculator__label">You total pot will be:</span>
+        <span class="calculator__value" id="js-total"></span>
+      </p>
+
+      <div class="application-notice help-notice">
+        <p>This is an estimate. We assume growth rate of 5%. We don't take into
+        account any inflation or charges.
+      </div>
+    </div>
+  </div>
+</article>
+

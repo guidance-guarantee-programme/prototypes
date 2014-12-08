@@ -1,0 +1,66 @@
+<% content_for :page_title do %>
+  Income drawdown calculator
+<% end %>
+
+<script type="text/javascript" src="/javascripts/decimalYearToString.js"></script>
+<script type="text/javascript" src="/javascripts/DrawdownCalculatorModel.js"></script>
+<script type="text/javascript" src="/javascripts/drawdownCalculatorApp.js"></script>
+
+<article role="article" class="group">
+  <div class="calculator">
+
+    <div class="calculator__input">
+
+      <div class="form-group">
+        <label class="form-label-bold" for="pension">
+          Total value of your pension pot(s)
+        </label>
+        £ <input type="text" class="form-control-1-8" id="pension">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label-bold" for="payment">
+          Amount you want to take out
+        </label>
+
+        <div class="grid-wrapper grid-demo">
+          <div class="grid grid-1-2">
+            £ <input type="text" class="form-control-1-8" id="payment">
+          </div>
+          <div class="grid grid-1-2">
+            <fieldset class="inline">
+              <legend class="form-label-bold visuallyhidden">Widthdrawl frequency</legend>
+
+              <label for="radio-inline-1">
+                <input id="radio-inline-1" type="radio" name="withdrawl-frequency" value="Monthly" checked="true">
+                Monthly
+              </label>
+              <label for="radio-inline-2">
+                <input id="radio-inline-2" type="radio" name="withdrawl-frequency" value="Yearly">
+                Yearly
+              </label>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" class="button" value="Calculate" id="js-calculate">
+      </div>
+    </div>
+
+    <div class="calculator__results text is-hidden">
+
+      <p class="calculator__result">
+        <span class="calculator__label">Your money will last you:</span>
+        <span class="calculator__value" id="js-duration"></span>
+      </p>
+
+
+      <div class="application-notice help-notice">
+        <p>This is an estimate. We assume growth rate is 5%. We don't take into
+          account any inflation or charges.
+      </div>
+    </div>
+  </div>
+</article>

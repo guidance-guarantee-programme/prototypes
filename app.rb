@@ -29,3 +29,15 @@ end
 get '/' do
   erb :index
 end
+
+get '/tax' do
+  erb :tax
+end
+
+get '/interest' do
+  erb :interest
+end
+
+get '/drawdown' do
+  erb :drawdown
+end
