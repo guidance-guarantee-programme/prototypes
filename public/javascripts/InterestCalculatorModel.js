@@ -12,19 +12,15 @@
   }
 
   InterestCalculatorModel.prototype.growthValue = function () {
+    var pensionPot =  this.presentValue,
+        yearsOfGrowth = this.yearsOfGrowth;
 
-    function _recur(presentValue, yearsOfGrowth, annualPayment, interestRate) {
-      var endOfYearAmount =  (presentValue + annualPayment) * (1 + interestRate/100);
+    while (yearsOfGrowth > 0) {
+      pensionPot = (pensionPot + this.annualPayment) * (1 + this.interestRate/100);
       yearsOfGrowth--;
-
-      if (yearsOfGrowth < 1) {
-        return Math.round(endOfYearAmount);
-      } else {
-        return _recur(endOfYearAmount, yearsOfGrowth, annualPayment, interestRate);
-      }
     }
 
-    return _recur(this.presentValue, this.yearsOfGrowth, this.annualPayment, this.interestRate);
+    return Math.round(pensionPot);
   };
 
   InterestCalculatorModel.prototype.interest = function () {
