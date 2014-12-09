@@ -11,24 +11,17 @@
   }
 
   DrawdownCalculatorModel.prototype.howLongMoneyWillLast = function () {
-    var years = 0;
+    var pensionPot =  this.presentValue,
+        annualWithdrawl = this.annualWithdrawl,
+        interestRate = this.interestRate,
+        years = 0;
 
-    function _recur(presentValue, annualWithdrawl, interestRate) {
-      var endOfYearAmount =  (presentValue - annualWithdrawl) * (1 + interestRate/100);
+    while (pensionPot > annualWithdrawl) {
+      pensionPot = (pensionPot - annualWithdrawl) * (1 + interestRate/100);
       years++;
-
-      if (endOfYearAmount < annualWithdrawl) {
-        return years + Math.round((endOfYearAmount/annualWithdrawl) * 10)/10;
-      } else {
-        return _recur(endOfYearAmount, annualWithdrawl, interestRate);
-      }
     }
 
-    return _recur(this.presentValue, this.annualWithdrawl, this.interestRate);
-  };
-
-  DrawdownCalculatorModel.prototype.decimalToString = function () {
-    return '1 month';
+    return years + Math.round((pensionPot/annualWithdrawl) * 10)/10;
   };
 
   global.DrawdownCalculatorModel = DrawdownCalculatorModel;
