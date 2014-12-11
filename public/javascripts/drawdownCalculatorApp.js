@@ -18,8 +18,12 @@ $(function() {
     var annualWithdrawl = (withdrawlFrequency == 'Yearly')? payment: payment * MONTHS_IN_A_YEAR;
 
     var calc = new DrawdownCalculatorModel(presentValue, annualWithdrawl);
+    var timeMoneyWillLast = calc.howLongMoneyWillLast();
+    if (typeof timeMoneyWillLast != 'string') {
+      timeMoneyWillLast = decimalYearToString(timeMoneyWillLast);
+    }
 
-    $("#js-duration").text(decimalYearToString(calc.howLongMoneyWillLast()));
+    $("#js-duration").text(timeMoneyWillLast);
 
     $('.calculator__results').removeClass('is-hidden');
 
